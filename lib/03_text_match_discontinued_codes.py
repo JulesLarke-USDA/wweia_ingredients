@@ -1,5 +1,4 @@
-#Load modules
-import os
+# Import packages
 import pandas as pd
 import string
 import re
@@ -9,8 +8,8 @@ import nltk
 wn = nltk.WordNetLemmatizer()
 
 #Load data
-discont = pd.read_csv('../data/05/wweia_discontinued_foodcodes.csv')
-current = pd.read_csv('../data/04/fndds_16_18_all.csv')
+discont = pd.read_csv('../data/03/wweia_discontinued_foodcodes.csv')
+current = pd.read_csv('../data/02/fndds_16_18_all.csv')
 
 punct = string.punctuation[0:11] + string.punctuation[13:] # remove '-' from the list of punctuation. This is needed for the text cleaner in the following cell
 
@@ -37,4 +36,4 @@ match_str.rename(columns={'From':'DRXFCLD_clean', 'To':'parent_desc_clean'},inpl
 fndds_matched = match_str.merge(discont, on='DRXFCLD_clean', how='left')
 fndds_matched_ = fndds_matched.merge(current, on='parent_desc_clean', how='left').drop_duplicates(subset='DRXFDCD')
 
-fndds_matched_[['DRXFDCD', 'DRXFCLD', 'parent_foodcode', 'parent_desc', 'Similarity']].sort_values('Similarity', ascending=False).to_csv('../data/05/string_match.csv', index=None)
+fndds_matched_[['DRXFDCD', 'DRXFCLD', 'parent_foodcode', 'parent_desc', 'Similarity']].sort_values('Similarity', ascending=False).to_csv('../data/03/string_match.csv', index=None)

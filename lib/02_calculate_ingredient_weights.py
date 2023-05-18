@@ -8,7 +8,7 @@ Created on Sat Apr  1 20:21:57 2023
 @author: Trevor Chan
 """
 
-FILENAME = '../data/02/fndds_16_wts_to_correct_050523.csv'
+FILENAME = '../data/01/fndds_16_all_ingredients.csv'
 
 def preprocessing(df):
     df = df[['parent_foodcode', 'parent_desc', 'ingred_code1', 'ingred_desc1', 'ingred_code2', 'ingred_desc2', 'ingred_wt2', 'ingred_wt1']].copy()
@@ -72,14 +72,14 @@ def main():
     
     # Convert the list of dictionaries to a dataframe
     aggregated_16 = pd.DataFrame(aggregated_data)
-    aggregated_16.to_csv('../data/04/fndds_16_wts_to_correct_ingredients_final_050523.csv', sep=',', encoding='utf-8', index=False)
+    aggregated_16.to_csv('../data/02/fndds_16_ingredient_wt_corrected.csv', sep=',', encoding='utf-8', index=False)
 
 
 main()
 
-aggregated_16 = pd.read_csv('../data/04/fndds_16_wts_to_correct_ingredients_final_050523.csv')
+aggregated_16 = pd.read_csv('../data/02/fndds_16_ingredient_wt_corrected.csv')
 
-fndds16 = pd.read_csv('../data/01/fndds_16_consolidated_ingredient_codes_050523.csv', usecols=['Food code', 'Main food description', 'Ingredient code', 'Ingredient description', 'Ingredient weight'])
+fndds16 = pd.read_csv('../data/01/fndds_16_consolidated_ingredient_codes.csv', usecols=['Food code', 'Main food description', 'Ingredient code', 'Ingredient description', 'Ingredient weight'])
 fndds16.rename(columns={'Food code': 'parent_foodcode', 'Main food description': 'parent_desc', 'Ingredient code': 'ingred_code', 'Ingredient description': 'ingred_desc', 'Ingredient weight': 'ingred_wt'}, inplace=True)
 fndds16 = fndds16[fndds16['ingred_code']<10000000]
 fndds16_combined = pd.concat([aggregated_16, fndds16], ignore_index=True).drop_duplicates(keep='first')
@@ -92,7 +92,7 @@ Created on Sat Apr  1 20:21:57 2023
 @author: Trevor Chan
 """
 
-FILENAME = '../data/02/fndds_18_wts_to_correct_050523.csv'
+FILENAME = '../data/01/fndds_18_all_ingredients.csv'
 
 def main():   
     df = pd.read_csv(FILENAME)  # Replace with the appropriate file path
@@ -119,14 +119,14 @@ def main():
     
     # Convert the list of dictionaries to a dataframe
     aggregated_18 = pd.DataFrame(aggregated_data)
-    aggregated_18.to_csv('../data/04/fndds_18_wts_to_correct_ingredients_final_050523.csv', sep=',', encoding='utf-8', index=False)
+    aggregated_18.to_csv('../data/02/fndds_18_ingredient_wt_corrected.csv', sep=',', encoding='utf-8', index=False)
 
 
 main()
 
-aggregated_18 = pd.read_csv('../data/04/fndds_18_wts_to_correct_ingredients_final_050523.csv')
+aggregated_18 = pd.read_csv('../data/02/fndds_18_ingredient_wt_corrected.csv')
 
-fndds18 = pd.read_csv('../data/01/fndds_18_consolidated_ingredient_codes_050523.csv', usecols=['Food code', 'Main food description', 'Ingredient code', 'Ingredient description', 'Ingredient weight (g)'])
+fndds18 = pd.read_csv('../data/01/fndds_18_consolidated_ingredient_codes.csv', usecols=['Food code', 'Main food description', 'Ingredient code', 'Ingredient description', 'Ingredient weight (g)'])
 fndds18.rename(columns={'Food code': 'parent_foodcode', 'Main food description': 'parent_desc', 'Ingredient code': 'ingred_code', 'Ingredient description': 'ingred_desc', 'Ingredient weight (g)': 'ingred_wt'}, inplace=True)
 fndds18 = fndds18[fndds18['ingred_code']<10000000]
 fndds18_combined = pd.concat([aggregated_18, fndds18], ignore_index=True).drop_duplicates(keep='first')
@@ -140,4 +140,4 @@ fndds_16_18_all = pd.concat([fndds16_diff, fndds18_combined])
 
 fndds_16_18_all.loc[-1] = [83208000, 'Coleslaw dressing, light', 42230, 'Salad Dressing, coleslaw, reduced fat', 100] # code missing from data added in
 
-fndds_16_18_all.to_csv('../data/04/fndds_16_18_all.csv', index=None)
+fndds_16_18_all.to_csv('../data/02/fndds_16_18_all.csv', index=None)

@@ -338,10 +338,10 @@ WWEIA_ALL_DIET = WWEIA_ALL.dropna(subset='DR1IGRMS')
 
 # for FNDDS 09-18 we need to use a crosswalk to account for changes in food codes across cycles
 # apply, combine for each cycle to correctly crosswalk codes
-xwalk_FG = pd.read_csv('../data/06/fndds_crosswalk/fndds_0910_1112_crosswalk.csv')
-xwalk_GH = pd.read_csv('../data/06/fndds_crosswalk/fndds_1112_1314_crosswalk.csv')
-xwalk_HI = pd.read_csv('../data/06/fndds_crosswalk/fndds_1314_1516_crosswalk.csv')
-xwalk_IJ = pd.read_csv('../data/06/fndds_crosswalk/fndds_1516_1718_crosswalk.csv')
+xwalk_FG = pd.read_csv('../data/04/fndds_crosswalk/fndds_0910_1112_crosswalk.csv')
+xwalk_GH = pd.read_csv('../data/04/fndds_crosswalk/fndds_1112_1314_crosswalk.csv')
+xwalk_HI = pd.read_csv('../data/04/fndds_crosswalk/fndds_1314_1516_crosswalk.csv')
+xwalk_IJ = pd.read_csv('../data/04/fndds_crosswalk/fndds_1516_1718_crosswalk.csv')
 
 xwalk_F_J = pd.concat([xwalk_FG, xwalk_GH, xwalk_HI, xwalk_IJ])
 
@@ -354,11 +354,11 @@ wweia_xwalk.drop(columns=['foodcode', 'food_description', 'DRXFCLD'],inplace=Tru
 
 wweia_xwalk.rename(columns={'DRXFDCD': 'foodcode'},inplace=True)
 
-fndds_ingredients = pd.read_csv('../data/05/manually_curated/fndds_16_18_all_added_codes_for_discontinued.csv')
+fndds_ingredients = pd.read_csv('../data/03/manually_curated/fndds_16_18_all_added_codes_for_discontinued.csv')
 fndds_ingredients.rename(columns={'parent_foodcode': 'foodcode', 'parent_desc': 'food_description'}, inplace=True)
 
 # string matched / manually updated discontined foodcodes
-discon_update = pd.read_csv('../data/05/manually_curated/string_match_discontinued_complete.csv')
+discon_update = pd.read_csv('../data/03/manually_curated/string_match_discontinued_complete.csv')
 discon_update = discon_update[['DRXFDCD', 'parent_foodcode']]
 discon_update.rename(columns={'DRXFDCD': 'foodcode'},inplace=True)
 
@@ -375,7 +375,7 @@ missing_update_2 = pd.merge(missing_update, fndds_ingredients, on = 'foodcode')
 wweia_complete = pd.concat([wweia_ingredients, missing_update_2])
 
 # Load ingredient nutrient value data
-ingred_nutrients = pd.read_csv('../data/03/fndds_15_18_all_ingredient_nutrient_vals_050523.csv')
+ingred_nutrients = pd.read_csv('../data/01/fndds_all_ingredient_nutrient_values.csv')
 
 ingred_nutrients.rename(columns={'Ingredient code': 'ingred_code'}, inplace=True)
 
@@ -390,4 +390,4 @@ wweia_all_recalls = (wweia_complete_nutrients
 wweia_all_recalls.iloc[:,27:92] = wweia_all_recalls.iloc[:,27:92].multiply(wweia_all_recalls['Ingred_consumed_g'], axis=0) / 100
 
 # Save dataset
-wweia_all_recalls.to_csv('../data/06/wweia_all_recalls.txt', sep = '\t', index=None)
+#wweia_all_recalls.to_csv('../data/06/wweia_all_recalls.txt', sep = '\t', index=None)
