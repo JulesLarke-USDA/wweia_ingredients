@@ -82,3 +82,11 @@ This script prepares combines data for each of the WWEIA cycles (01 - 18), updat
 
 __Output__
   - **wweia_all_recalls.txt** - The complete ingredientized dataset for WWEIA cycles 01-18. Approximately 2.3M rows of diet intake with 65 nutrient estimates for each ingredient across 80275 individuals.
+
+### Use and Requirements
+
+This program uses a bash script to execute each Python3 script (src/pipeline.sh) with the following package versions:
+- python==3.8.8
+- pandas==1.4.4
+- polyfuzz==0.3.3
+- nltk==3.7
