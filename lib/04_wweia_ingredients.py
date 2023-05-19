@@ -390,4 +390,4 @@ wweia_all_recalls = (wweia_complete_nutrients
 wweia_all_recalls.iloc[:,27:92] = wweia_all_recalls.iloc[:,27:92].multiply(wweia_all_recalls['Ingred_consumed_g'], axis=0) / 100
 
 # Save dataset
-#wweia_all_recalls.to_csv('../data/06/wweia_all_recalls.txt', sep = '\t', index=None)
+wweia_all_recalls.to_csv('../data/04/wweia_all_recalls.txt', sep = '\t', index=None)
