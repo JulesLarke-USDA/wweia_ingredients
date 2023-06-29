@@ -90,3 +90,6 @@ This program uses a bash script to execute each Python3 script (src/pipeline.sh)
 - pandas==1.4.4
 - polyfuzz==0.3.3
 - nltk==3.7
+
+Create a conda env from src/wweia_ingredients.yml: conda env create -f wweia_ingredients.yml
+- **03: Matching Discontinued FNDDS (WWEIA 01-13) Food Codes and Descriptions** will prompt download of nltk package data; follow defualt (all) and close window to resume.
