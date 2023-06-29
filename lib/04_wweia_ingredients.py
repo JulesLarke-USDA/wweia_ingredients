@@ -1,5 +1,6 @@
 # Import packages
 import pandas as pd
+import dask.dataframe as dd
 
 # Download & Read SAS Transport Files from web
 # Demographic, Dietary day 1, and Food description data for cycles 01 through 18
@@ -382,10 +383,16 @@ ingred_nutrients.rename(columns={'Ingredient code': 'ingred_code'}, inplace=True
 wweia_complete_nutrients = pd.merge(wweia_complete, ingred_nutrients, on = 'ingred_code')
 
 # calculate the amount of each ingredient consumed and the quantity of each nutrient consumed per ingredient
-wweia_all_recalls = (wweia_complete_nutrients
-  .groupby(['SEQN', 'foodcode', 'DR1ILINE'])
-  .apply(lambda grp: grp.assign(Ingred_consumed_g = lambda x: x.DR1IGRMS * (x.ingred_wt / x.ingred_wt.sum())))
-)
+# Convert the pandas dataframe to Dask dataframe
+wweia_complete_nutrients_dd = dd.from_pandas(wweia_complete_nutrients, npartitions=10)
+# Perform the same operations as before but in Dask
+grouped_wt_sum_dd = wweia_complete_nutrients_dd.groupby(['SEQN', 'foodcode', 'DR1ILINE'])['ingred_wt'].sum().reset_index().rename(columns={'ingred_wt': 'ingred_wt_sum'})
+# Merge this with the original dataframe.
+merged_dd = dd.merge(wweia_complete_nutrients_dd, grouped_wt_sum_dd, on=['SEQN', 'foodcode', 'DR1ILINE'])
+# Calculate the 'Ingred_consumed_g' using vectorized operations.
+merged_dd['Ingred_consumed_g'] = merged_dd['DR1IGRMS'] * (merged_dd['ingred_wt'] / merged_dd['ingred_wt_sum'])
+# Convert Dask dataframe back to pandas dataframe
+wweia_all_recalls = merged_dd.compute()
 
 wweia_all_recalls.iloc[:,27:92] = wweia_all_recalls.iloc[:,27:92].multiply(wweia_all_recalls['Ingred_consumed_g'], axis=0) / 100
 
