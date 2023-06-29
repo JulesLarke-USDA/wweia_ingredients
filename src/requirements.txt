@@ -1,5 +1,0 @@
-python==3.8.8
-pandas==1.4.4
-polyfuzz==0.3.3
-nltk==3.7
-dask==2.1
