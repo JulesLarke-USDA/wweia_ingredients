@@ -5,7 +5,7 @@ import re
 from polyfuzz.models import TFIDF
 from polyfuzz import PolyFuzz
 import nltk
-nltk.download()
+nltk.download(['wordnet', 'omw-1.4'])
 wn = nltk.WordNetLemmatizer()
 
 #Load data
