@@ -92,4 +92,4 @@ This program uses a bash script to execute each Python3 script (src/pipeline.sh)
 - nltk==3.7
 
 Create a conda env from src/wweia_ingredients.yml: conda env create -f wweia_ingredients.yml
-- **03: Matching Discontinued FNDDS (WWEIA 01-13) Food Codes and Descriptions** will prompt download of nltk package data; follow defualt (all) and close window to resume.
+- **03: Matching Discontinued FNDDS (WWEIA 01-13) Food Codes and Descriptions** will prompt download of nltk package data; the packages required are **wordnet** and **omw-1.4**
