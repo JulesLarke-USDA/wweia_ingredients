@@ -50,7 +50,6 @@ __Output__
 ### 03: Matching Discontinued FNDDS (WWEIA 01-13) Food Codes and Descriptions
 
 __Required Input Files__
-
   - **wweia_discontinued_foodcodes.csv** - List of discontinued foodcodes from FNDDS versions corresponding to WWEIA 01-13 
   - **fndds_16_18_all.csv** - Output from 02
 
@@ -67,13 +66,29 @@ __Note:__  The output of this manual matching is: string_match_discontinued_comp
 Similarly, fndds_16_18_all.csv was updated with new codes for recipes that did not exists and were needed to match discontinued foodcodes. This updated file is: fndds_16_18_all_added_codes_for_discontinued.csv
 Both of these manually curated outputs [string_match_discontinued_complete.csv and fndds_16_18_all_added_codes_for_discontinued.csv] are used in the next script: 06_wweia_ingredients.py
 
+### 03b: FCID ingredientization
+
+__Required Input Files__
+- **fndds_16_18_all_added_codes_for_discontinued.csv** - manually curated foods and ingredients from script 03
+- **ingredient_codes_to_ingredientization.csv** - list of ingredient codes identified to be multi-ingredient
+- **fcid_data.csv** - Food Commodities Ingredient Database (Calculation performed on 6/23/2023 using FCID-WWEIA data for years 2005-2010 from https://fcid.foodrisk.org/recipes/#)
+
+__Information__  
+Many of the ingredient descriptions in FNDDS are multi-ingredient, these ingredient descriptions were manually identified to undergo further ingredientization by using the Food Commodities Ingredient Database which has ingredient representation of of WWEIA data.
+
+__Output__
+- **fcid_match.csv** - Text similarity matches from FCID to FNDDS
+- **fcid_match_complete.csv** - Manually curated matches from FCID to FNDDS
+- **fcid_ingredients.csv** - FCID descriptions and weights with corrected descriptions to represent ingredient codes identified as multi-ingredient in FNDDS
+- **fndds_fcid_all.csv** - Combines fndds_16_18_all_added_codes_for_discontinued.csv with FCID ingredientized descriptions for multi-ingredient items. 
+
 ### 04: WWEIA Ingredient
 
 __Required Input Files__
 
 Demographic, Dietary day 1, and Food description data for cycles 01 through 18 downloaded from https://wwwn.cdc.gov/NCHS/nhanes
 
-  - **fndds_16_18_all_added_codes_for_discontinued.csv** - Manually curated version of fndds_16_18_all.csv with added food codes and descriptions for matching discontinued foods.
+  - **fndds_fcid_all.csv** - Manually curated version of fndds_16_18_all_added_codes_for_discontinued.csv with ingredient descriptions further ingredientized using the Food Commodities Ingredient Database
   - **string_match_discontinued_complete.csv** - Manually curated version of string_match.csv with added food codes and descriptions for matching discontinued foods.
   - **fndds_crosswalks** - Each of the crosswalk files in the fndds_crosswalk directory.
 
