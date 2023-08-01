@@ -355,8 +355,9 @@ wweia_xwalk.drop(columns=['foodcode', 'food_description', 'DRXFCLD'],inplace=Tru
 
 wweia_xwalk.rename(columns={'DRXFDCD': 'foodcode'},inplace=True)
 
-fndds_ingredients = pd.read_csv('../data/03/manually_curated/fndds_16_18_all_added_codes_for_discontinued.csv')
+fndds_ingredients = pd.read_csv('../data/03b/fndds_fcid_all.csv')
 fndds_ingredients.rename(columns={'parent_foodcode': 'foodcode', 'parent_desc': 'food_description'}, inplace=True)
+fndds_ingredients = fndds_ingredients.dropna()
 
 # string matched / manually updated discontined foodcodes
 discon_update = pd.read_csv('../data/03/manually_curated/string_match_discontinued_complete.csv')
