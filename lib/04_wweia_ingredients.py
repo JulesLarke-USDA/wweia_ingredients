@@ -43,8 +43,8 @@ iff_1_J = pd.read_sas('https://wwwn.cdc.gov/NCHS/nhanes/2017-2018/DR1IFF_J.xpt',
 food_desc_J = pd.read_sas('https://wwwn.cdc.gov/NCHS/nhanes/2017-2018/drxfcd_j.xpt', format='xport', encoding='utf-8')
 
 # select variables of interest from demographic and dietary data
-demo_B = demo_B[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']]
-iff_1_B = iff_1_B[['SEQN', 'DRXILINE', 'DRDIFDCD', 'DRD030Z', 'WTDRD1', 'DRXIGRMS', 'DRXIKCAL', 'DRXICARB', 'DRXISUGR', 'DRXIFIBE']].rename(columns={'DRXILINE':'DR1ILINE','DRDIFDCD':'DRXFDCD','DRD030Z':'DR1_030Z','DRXIGRMS':'DR1IGRMS','DRXIKCAL':'DR1IKCAL','DRXICARB':'DR1ICARB','DRXISUGR':'DR1ISUGR','DRXIFIBE':'DR1IFIBE'})
+demo_B = demo_B[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN', 'INDFMPIR', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']]
+iff_1_B = iff_1_B[['SEQN', 'DRDDRSTZ', 'DRXILINE', 'DRDIFDCD', 'DRD030Z', 'WTDRD1', 'DRXIGRMS', 'DRXIKCAL', 'DRXICARB', 'DRXISUGR', 'DRXIFIBE']].rename(columns={'DRXILINE':'DR1ILINE','DRDIFDCD':'DRXFDCD','DRD030Z':'DR1_030Z','DRXIGRMS':'DR1IGRMS','DRXIKCAL':'DR1IKCAL','DRXICARB':'DR1ICARB','DRXISUGR':'DR1ISUGR','DRXIFIBE':'DR1IFIBE', 'DRDDRSTZ':'DR1DRSTZ'})
 food_desc_B.drop(columns='DRXFCSD', inplace=True)
 food_desc_B.loc[-1] = [94000000, 'WATER AS AN INGREDIENT'] # add this food code and description since it was not included for some reason
 recall_1_B = pd.merge(food_desc_B, iff_1_B, on = 'DRXFDCD')
@@ -73,8 +73,8 @@ recall_1_B_['DR1_030Z'].replace({
   99 : 'Unknown'
 }, inplace=True)
 
-demo_C = demo_C[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']]
-iff_1_C = iff_1_C[['SEQN', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'DR1IGRMS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD'})
+demo_C = demo_C[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN', 'INDFMPIR', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']]
+iff_1_C = iff_1_C[['SEQN', 'DR1DRSTZ', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'DR1IGRMS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD'})
 food_desc_C.drop(columns='DRXFCSD', inplace=True)
 recall_1_C = pd.merge(food_desc_C, iff_1_C, on = 'DRXFDCD')
 recall_1_C_ = pd.merge(recall_1_C, demo_C, on = 'SEQN')
@@ -106,8 +106,8 @@ recall_1_C_['DR1_030Z'].replace({
   99 : 'Unknown'
 }, inplace=True)
 
-demo_D = demo_D[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']]
-iff_1_D = iff_1_D[['SEQN', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'DR1IGRMS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD'})
+demo_D = demo_D[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN', 'INDFMPIR', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']]
+iff_1_D = iff_1_D[['SEQN', 'DR1DRSTZ', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'DR1IGRMS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD'})
 food_desc_D.drop(columns='DRXFCSD', inplace=True)
 recall_1_D = pd.merge(food_desc_D, iff_1_D, on = 'DRXFDCD')
 recall_1_D_ = pd.merge(recall_1_D, demo_D, on = 'SEQN')
@@ -139,8 +139,8 @@ recall_1_D_['DR1_030Z'].replace({
   99 : 'Unknown'
 }, inplace=True)
 
-demo_E = demo_E[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN2', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']].rename(columns={'DMDBORN2':'DMDBORN'})
-iff_1_E = iff_1_E[['SEQN', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'DR1IGRMS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD'})
+demo_E = demo_E[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN2', 'INDFMPIR', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']].rename(columns={'DMDBORN2':'DMDBORN'})
+iff_1_E = iff_1_E[['SEQN', 'DR1DRSTZ', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'DR1IGRMS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD'})
 food_desc_E.drop(columns='DRXFCSD', inplace=True)
 recall_1_E = pd.merge(food_desc_E, iff_1_E, on = 'DRXFDCD')
 recall_1_E_ = pd.merge(recall_1_E, demo_E, on = 'SEQN')
@@ -168,8 +168,8 @@ recall_1_E_['DR1_030Z'].replace({
   99 : 'Unknown'
 }, inplace=True)
 
-demo_F = demo_F[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN2', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']].rename(columns={'DMDBORN2':'DMDBORN'})
-iff_1_F = iff_1_F[['SEQN', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'DR1IGRMS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD'})
+demo_F = demo_F[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN2', 'INDFMPIR', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']].rename(columns={'DMDBORN2':'DMDBORN'})
+iff_1_F = iff_1_F[['SEQN', 'DR1DRSTZ', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'DR1IGRMS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD'})
 food_desc_F.drop(columns='DRXFCSD', inplace=True)
 recall_1_F = pd.merge(food_desc_F, iff_1_F, on = 'DRXFDCD')
 recall_1_F_ = pd.merge(recall_1_F, demo_F, on = 'SEQN')
@@ -201,8 +201,8 @@ recall_1_F_['DR1_030Z'].replace({
   99 : 'Unknown'
 }, inplace=True)
 
-demo_G = demo_G[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN4', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']].rename(columns={'DMDBORN4':'DMDBORN'})
-iff_1_G = iff_1_G[['SEQN', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'DR1IGRMS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD'})
+demo_G = demo_G[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN4', 'INDFMPIR', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']].rename(columns={'DMDBORN4':'DMDBORN'})
+iff_1_G = iff_1_G[['SEQN', 'DR1DRSTZ', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'DR1IGRMS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD'})
 food_desc_G.drop(columns='DRXFCSD', inplace=True)
 recall_1_G = pd.merge(food_desc_G, iff_1_G, on = 'DRXFDCD')
 recall_1_G_ = pd.merge(recall_1_G, demo_G, on = 'SEQN')
@@ -234,8 +234,8 @@ recall_1_G_['DR1_030Z'].replace({
   99 : 'Unknown'
 }, inplace=True)
 
-demo_H = demo_H[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN4', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']].rename(columns={'DMDBORN4':'DMDBORN'})
-iff_1_H = iff_1_H[['SEQN', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'DR1IGRMS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD'})
+demo_H = demo_H[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN4', 'INDFMPIR', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']].rename(columns={'DMDBORN4':'DMDBORN'})
+iff_1_H = iff_1_H[['SEQN', 'DR1DRSTZ', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'DR1IGRMS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD'})
 food_desc_H.drop(columns='DRXFCSD', inplace=True)
 recall_1_H = pd.merge(food_desc_H, iff_1_H, on = 'DRXFDCD')
 recall_1_H_ = pd.merge(recall_1_H, demo_H, on = 'SEQN')
@@ -267,8 +267,8 @@ recall_1_H_['DR1_030Z'].replace({
   99 : 'Unknown'
 }, inplace=True)
 
-demo_I = demo_I[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN4', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']].rename(columns={'DMDBORN4':'DMDBORN'})
-iff_1_I = iff_1_I[['SEQN', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'DR1IGRMS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD'})
+demo_I = demo_I[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN4', 'INDFMPIR', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']].rename(columns={'DMDBORN4':'DMDBORN'})
+iff_1_I = iff_1_I[['SEQN', 'DR1DRSTZ', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'DR1IGRMS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD'})
 food_desc_I.drop(columns='DRXFCSD', inplace=True)
 recall_1_I = pd.merge(food_desc_I, iff_1_I, on = 'DRXFDCD')
 recall_1_I_ = pd.merge(recall_1_I, demo_I, on = 'SEQN')
@@ -300,8 +300,8 @@ recall_1_I_['DR1_030Z'].replace({
   99 : 'Unknown'
 }, inplace=True)
 
-demo_J = demo_J[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN4', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']].rename(columns={'DMDBORN4':'DMDBORN'})
-iff_1_J = iff_1_J[['SEQN', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'DR1IGRMS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD'})
+demo_J = demo_J[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN4', 'INDFMPIR', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']].rename(columns={'DMDBORN4':'DMDBORN'})
+iff_1_J = iff_1_J[['SEQN', 'DR1DRSTZ', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'DR1IGRMS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD'})
 food_desc_J.drop(columns='DRXFCSD', inplace=True)
 recall_1_J = pd.merge(food_desc_J, iff_1_J, on = 'DRXFDCD')
 recall_1_J_ = pd.merge(recall_1_J, demo_J, on = 'SEQN')
@@ -334,6 +334,7 @@ recall_1_J_['DR1_030Z'].replace({
 }, inplace=True)
 
 WWEIA_ALL = pd.concat([recall_1_B_, recall_1_C_, recall_1_D_, recall_1_E_, recall_1_F_, recall_1_G_, recall_1_H_, recall_1_I_, recall_1_J_])
+WWEIA_ALL = WWEIA_ALL[WWEIA_ALL['DR1DRSTZ']==1]
 
 WWEIA_ALL_DIET = WWEIA_ALL.dropna(subset='DR1IGRMS')
 
@@ -395,7 +396,7 @@ merged_dd['Ingred_consumed_g'] = merged_dd['DR1IGRMS'] * (merged_dd['ingred_wt']
 # Convert Dask dataframe back to pandas dataframe
 wweia_all_recalls = merged_dd.compute()
 
-wweia_all_recalls.iloc[:,27:92] = wweia_all_recalls.iloc[:,27:92].multiply(wweia_all_recalls['Ingred_consumed_g'], axis=0) / 100
+wweia_all_recalls.iloc[:,29:94] = wweia_all_recalls.iloc[:,29:94].multiply(wweia_all_recalls['Ingred_consumed_g'], axis=0) / 100
 
 # Save dataset
 wweia_all_recalls.to_csv('../data/04/wweia_all_recalls.txt', sep = '\t', index=None)
