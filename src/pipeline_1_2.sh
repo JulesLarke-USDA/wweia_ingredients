@@ -9,5 +9,5 @@ python3 ../lib/03_text_match_discontinued_codes.py
 echo "Initializing step 3b: Further ingredientizing with FCID"; date
 python3 ../lib/03b_fcid_ingredients.py
 echo "Initializing step 4: Ingredientizing WWEIA data"; date
-python3 ../lib/04_wweia_ingredients.py
+python3 ../lib/04_wweia_ingredients_day_1_2.py
 echo "Success! Pipeline finished on:"; date
