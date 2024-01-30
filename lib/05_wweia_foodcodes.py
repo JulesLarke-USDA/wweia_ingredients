@@ -54,7 +54,7 @@ food_desc_J = pd.read_sas('https://wwwn.cdc.gov/NCHS/nhanes/2017-2018/drxfcd_j.x
 print('Finished downloading NHANES files; wrangling data') 
 # select variables of interest from demographic and dietary data
 demo_B = demo_B[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN', 'INDFMPIR', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']]
-iff_1_B = iff_1_B[['SEQN', 'DRDDRSTZ', 'DRXILINE', 'DRDIFDCD', 'DRD030Z', 'WTDRD1', 'DRXIGRMS', 'DRXIKCAL', 'DRXICARB', 'DRXISUGR', 'DRXIFIBE']].rename(columns={'DRXILINE':'DR2ILINE','DRDIFDCD':'DRXFDCD','DRD030Z':'DR2_030Z','DRXIGRMS':'DR2IGRMS','DRXIKCAL':'DR2IKCAL','DRXICARB':'DR2ICARB','DRXISUGR':'DR2ISUGR','DRXIFIBE':'DR2IFIBE', 'DRDDRSTZ':'DR2DRSTZ'})
+iff_1_B = iff_1_B[['SEQN', 'DRDDRSTZ', 'DRXILINE', 'DRDIFDCD', 'DRD030Z', 'WTDRD1', 'DRXIGRMS', 'DRXIMOIS', 'DRXIKCAL', 'DRXICARB', 'DRXISUGR', 'DRXIFIBE']].rename(columns={'DRXILINE':'DR2ILINE','DRDIFDCD':'DRXFDCD','DRD030Z':'DR2_030Z','DRXIGRMS':'DR2IGRMS', 'DRXIMOIS': 'DR2IMOIS', 'DRXIKCAL':'DR2IKCAL','DRXICARB':'DR2ICARB','DRXISUGR':'DR2ISUGR','DRXIFIBE':'DR2IFIBE', 'DRDDRSTZ':'DR2DRSTZ'})
 iff_1_B['diet_day'] = 1
 food_desc_B.drop(columns='DRXFCSD', inplace=True)
 food_desc_B.loc[-1] = [94000000, 'WATER AS AN INGREDIENT'] # add this food code and description since it was not included for some reason
@@ -86,9 +86,9 @@ recall_1_B_['DR2_030Z'].replace({
 }, inplace=True)
 
 demo_C = demo_C[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN', 'INDFMPIR', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']]
-iff_1_C = iff_1_C[['SEQN', 'DR1DRSTZ', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'WTDR2D', 'DR1IGRMS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
+iff_1_C = iff_1_C[['SEQN', 'DR1DRSTZ', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'WTDR2D', 'DR1IGRMS', 'DR1IMOIS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IMOIS':'DR2IMOIS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
 iff_1_C['diet_day'] = 1
-iff_2_C = iff_2_C[['SEQN', 'DR2DRSTZ', 'DR2ILINE', 'DR2IFDCD', 'DR2_030Z', 'WTDRD1', 'WTDR2D', 'DR2IGRMS', 'DR2IKCAL', 'DR2ICARB', 'DR2ISUGR', 'DR2IFIBE']].rename(columns={'DR2IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1IFDCD':'DR2IFDCD', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
+iff_2_C = iff_2_C[['SEQN', 'DR2DRSTZ', 'DR2ILINE', 'DR2IFDCD', 'DR2_030Z', 'WTDRD1', 'WTDR2D', 'DR2IGRMS', 'DR2IMOIS', 'DR2IKCAL', 'DR2ICARB', 'DR2ISUGR', 'DR2IFIBE']].rename(columns={'DR2IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1IFDCD':'DR2IFDCD', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
 iff_2_C['DR2ILINE'] = iff_2_C['DR2ILINE'] + 100 # combining two days of diet recalls, need unique DR Line items for ingredientization; add 100 to each line item for 2nd recalls for unique values
 iff_2_C['diet_day'] = 2
 iff_C = pd.concat([iff_1_C, iff_2_C])
@@ -126,9 +126,9 @@ recall_1_C_['DR2_030Z'].replace({
 }, inplace=True)
 
 demo_D = demo_D[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN', 'INDFMPIR', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']]
-iff_1_D = iff_1_D[['SEQN', 'DR1DRSTZ', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'WTDR2D', 'DR1IGRMS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
+iff_1_D = iff_1_D[['SEQN', 'DR1DRSTZ', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'WTDR2D', 'DR1IGRMS', 'DR1IMOIS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IMOIS':'DR2IMOIS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
 iff_1_D['diet_day'] = 1
-iff_2_D = iff_2_D[['SEQN', 'DR2DRSTZ', 'DR2ILINE', 'DR2IFDCD', 'DR2_030Z', 'WTDRD1', 'WTDR2D', 'DR2IGRMS', 'DR2IKCAL', 'DR2ICARB', 'DR2ISUGR', 'DR2IFIBE']].rename(columns={'DR2IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1IFDCD':'DR2IFDCD', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
+iff_2_D = iff_2_D[['SEQN', 'DR2DRSTZ', 'DR2ILINE', 'DR2IFDCD', 'DR2_030Z', 'WTDRD1', 'WTDR2D', 'DR2IGRMS', 'DR2IMOIS', 'DR2IKCAL', 'DR2ICARB', 'DR2ISUGR', 'DR2IFIBE']].rename(columns={'DR2IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1IFDCD':'DR2IFDCD', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
 iff_2_D['DR2ILINE'] = iff_2_D['DR2ILINE'] + 100 # combining two days of diet recalls, need unique DR Line items for ingredientization; add 100 to each line item for 2nd recalls for unique values
 iff_2_D['diet_day'] = 2
 iff_D = pd.concat([iff_1_D, iff_2_D])
@@ -166,9 +166,9 @@ recall_1_D_['DR2_030Z'].replace({
 }, inplace=True)
 
 demo_E = demo_E[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN2', 'INDFMPIR', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']].rename(columns={'DMDBORN2':'DMDBORN'})
-iff_1_E = iff_1_E[['SEQN', 'DR1DRSTZ', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'WTDR2D', 'DR1IGRMS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
+iff_1_E = iff_1_E[['SEQN', 'DR1DRSTZ', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'WTDR2D', 'DR1IGRMS', 'DR1IMOIS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IMOIS':'DR2IMOIS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
 iff_1_E['diet_day'] = 1
-iff_2_E = iff_2_E[['SEQN', 'DR2DRSTZ', 'DR2ILINE', 'DR2IFDCD', 'DR2_030Z', 'WTDRD1', 'WTDR2D', 'DR2IGRMS', 'DR2IKCAL', 'DR2ICARB', 'DR2ISUGR', 'DR2IFIBE']].rename(columns={'DR2IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1IFDCD':'DR2IFDCD', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
+iff_2_E = iff_2_E[['SEQN', 'DR2DRSTZ', 'DR2ILINE', 'DR2IFDCD', 'DR2_030Z', 'WTDRD1', 'WTDR2D', 'DR2IGRMS', 'DR2IMOIS', 'DR2IKCAL', 'DR2ICARB', 'DR2ISUGR', 'DR2IFIBE']].rename(columns={'DR2IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1IFDCD':'DR2IFDCD', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
 iff_2_E['DR2ILINE'] = iff_2_E['DR2ILINE'] + 100 # combining two days of diet recalls, need unique DR Line items for ingredientization; add 100 to each line item for 2nd recalls for unique values
 iff_2_E['diet_day'] = 2
 iff_E = pd.concat([iff_1_E, iff_2_E])
@@ -202,9 +202,9 @@ recall_1_E_['DR2_030Z'].replace({
 }, inplace=True)
 
 demo_F = demo_F[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN2', 'INDFMPIR', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']].rename(columns={'DMDBORN2':'DMDBORN'})
-iff_1_F = iff_1_F[['SEQN', 'DR1DRSTZ', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'WTDR2D', 'DR1IGRMS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
+iff_1_F = iff_1_F[['SEQN', 'DR1DRSTZ', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'WTDR2D', 'DR1IGRMS', 'DR1IMOIS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IMOIS':'DR2IMOIS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
 iff_1_F['diet_day'] = 1
-iff_2_F = iff_2_F[['SEQN', 'DR2DRSTZ', 'DR2ILINE', 'DR2IFDCD', 'DR2_030Z', 'WTDRD1', 'WTDR2D', 'DR2IGRMS', 'DR2IKCAL', 'DR2ICARB', 'DR2ISUGR', 'DR2IFIBE']].rename(columns={'DR2IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1IFDCD':'DR2IFDCD', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
+iff_2_F = iff_2_F[['SEQN', 'DR2DRSTZ', 'DR2ILINE', 'DR2IFDCD', 'DR2_030Z', 'WTDRD1', 'WTDR2D', 'DR2IGRMS', 'DR2IMOIS', 'DR2IKCAL', 'DR2ICARB', 'DR2ISUGR', 'DR2IFIBE']].rename(columns={'DR2IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1IFDCD':'DR2IFDCD', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
 iff_2_F['DR2ILINE'] = iff_2_F['DR2ILINE'] + 100 # combining two days of diet recalls, need unique DR Line items for ingredientization; add 100 to each line item for 2nd recalls for unique values
 iff_2_F['diet_day'] = 2
 iff_F = pd.concat([iff_1_F, iff_2_F])
@@ -242,9 +242,9 @@ recall_1_F_['DR2_030Z'].replace({
 }, inplace=True)
 
 demo_G = demo_G[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN4', 'INDFMPIR', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']].rename(columns={'DMDBORN4':'DMDBORN'})
-iff_1_G = iff_1_G[['SEQN', 'DR1DRSTZ', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'WTDR2D', 'DR1IGRMS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
+iff_1_G = iff_1_G[['SEQN', 'DR1DRSTZ', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'WTDR2D', 'DR1IGRMS', 'DR1IMOIS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IMOIS':'DR2IMOIS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
 iff_1_G['diet_day'] = 1
-iff_2_G = iff_2_G[['SEQN', 'DR2DRSTZ', 'DR2ILINE', 'DR2IFDCD', 'DR2_030Z', 'WTDRD1', 'WTDR2D', 'DR2IGRMS', 'DR2IKCAL', 'DR2ICARB', 'DR2ISUGR', 'DR2IFIBE']].rename(columns={'DR2IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1IFDCD':'DR2IFDCD', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
+iff_2_G = iff_2_G[['SEQN', 'DR2DRSTZ', 'DR2ILINE', 'DR2IFDCD', 'DR2_030Z', 'WTDRD1', 'WTDR2D', 'DR2IGRMS', 'DR2IMOIS', 'DR2IKCAL', 'DR2ICARB', 'DR2ISUGR', 'DR2IFIBE']].rename(columns={'DR2IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1IFDCD':'DR2IFDCD', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
 iff_2_G['DR2ILINE'] = iff_2_G['DR2ILINE'] + 100 # combining two days of diet recalls, need unique DR Line items for ingredientization; add 100 to each line item for 2nd recalls for unique values
 iff_2_G['diet_day'] = 2
 iff_G = pd.concat([iff_1_G, iff_2_G])
@@ -282,9 +282,9 @@ recall_1_G_['DR2_030Z'].replace({
 }, inplace=True)
 
 demo_H = demo_H[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN4', 'INDFMPIR', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']].rename(columns={'DMDBORN4':'DMDBORN'})
-iff_1_H = iff_1_H[['SEQN', 'DR1DRSTZ', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'WTDR2D', 'DR1IGRMS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
+iff_1_H = iff_1_H[['SEQN', 'DR1DRSTZ', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'WTDR2D', 'DR1IGRMS', 'DR1IMOIS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IMOIS':'DR2IMOIS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
 iff_1_H['diet_day'] = 1
-iff_2_H = iff_2_H[['SEQN', 'DR2DRSTZ', 'DR2ILINE', 'DR2IFDCD', 'DR2_030Z', 'WTDRD1', 'WTDR2D', 'DR2IGRMS', 'DR2IKCAL', 'DR2ICARB', 'DR2ISUGR', 'DR2IFIBE']].rename(columns={'DR2IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1IFDCD':'DR2IFDCD', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
+iff_2_H = iff_2_H[['SEQN', 'DR2DRSTZ', 'DR2ILINE', 'DR2IFDCD', 'DR2_030Z', 'WTDRD1', 'WTDR2D', 'DR2IGRMS', 'DR2IMOIS', 'DR2IKCAL', 'DR2ICARB', 'DR2ISUGR', 'DR2IFIBE']].rename(columns={'DR2IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1IFDCD':'DR2IFDCD', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
 iff_2_H['DR2ILINE'] = iff_2_H['DR2ILINE'] + 100 # combining two days of diet recalls, need unique DR Line items for ingredientization; add 100 to each line item for 2nd recalls for unique values
 iff_2_H['diet_day'] = 2
 iff_H = pd.concat([iff_1_H, iff_2_H])
@@ -322,9 +322,9 @@ recall_1_H_['DR2_030Z'].replace({
 }, inplace=True)
 
 demo_I = demo_I[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN4', 'INDFMPIR', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']].rename(columns={'DMDBORN4':'DMDBORN'})
-iff_1_I = iff_1_I[['SEQN', 'DR1DRSTZ', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'WTDR2D', 'DR1IGRMS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
+iff_1_I = iff_1_I[['SEQN', 'DR1DRSTZ', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'WTDR2D', 'DR1IGRMS', 'DR1IMOIS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IMOIS':'DR2IMOIS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
 iff_1_I['diet_day'] = 1
-iff_2_I = iff_2_I[['SEQN', 'DR2DRSTZ', 'DR2ILINE', 'DR2IFDCD', 'DR2_030Z', 'WTDRD1', 'WTDR2D', 'DR2IGRMS', 'DR2IKCAL', 'DR2ICARB', 'DR2ISUGR', 'DR2IFIBE']].rename(columns={'DR2IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1IFDCD':'DR2IFDCD', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
+iff_2_I = iff_2_I[['SEQN', 'DR2DRSTZ', 'DR2ILINE', 'DR2IFDCD', 'DR2_030Z', 'WTDRD1', 'WTDR2D', 'DR2IGRMS', 'DR2IMOIS', 'DR2IKCAL', 'DR2ICARB', 'DR2ISUGR', 'DR2IFIBE']].rename(columns={'DR2IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1IFDCD':'DR2IFDCD', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
 iff_2_I['DR2ILINE'] = iff_2_I['DR2ILINE'] + 100 # combining two days of diet recalls, need unique DR Line items for ingredientization; add 100 to each line item for 2nd recalls for unique values
 iff_2_I['diet_day'] = 2
 iff_I = pd.concat([iff_1_I, iff_2_I])
@@ -362,9 +362,9 @@ recall_1_I_['DR2_030Z'].replace({
 }, inplace=True)
 
 demo_J = demo_J[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'DMDBORN4', 'INDFMPIR', 'DMDYRSUS', 'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA']].rename(columns={'DMDBORN4':'DMDBORN'})
-iff_1_J = iff_1_J[['SEQN', 'DR1DRSTZ', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'WTDR2D', 'DR1IGRMS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
+iff_1_J = iff_1_J[['SEQN', 'DR1DRSTZ', 'DR1ILINE', 'DR1IFDCD', 'DR1_030Z', 'WTDRD1', 'WTDR2D', 'DR1IGRMS', 'DR1IMOIS', 'DR1IKCAL', 'DR1ICARB', 'DR1ISUGR', 'DR1IFIBE']].rename(columns={'DR1IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IMOIS':'DR2IMOIS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
 iff_1_J['diet_day'] = 1
-iff_2_J = iff_2_J[['SEQN', 'DR2DRSTZ', 'DR2ILINE', 'DR2IFDCD', 'DR2_030Z', 'WTDRD1', 'WTDR2D', 'DR2IGRMS', 'DR2IKCAL', 'DR2ICARB', 'DR2ISUGR', 'DR2IFIBE']].rename(columns={'DR2IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1IFDCD':'DR2IFDCD', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
+iff_2_J = iff_2_J[['SEQN', 'DR2DRSTZ', 'DR2ILINE', 'DR2IFDCD', 'DR2_030Z', 'WTDRD1', 'WTDR2D', 'DR2IGRMS', 'DR2IMOIS', 'DR2IKCAL', 'DR2ICARB', 'DR2ISUGR', 'DR2IFIBE']].rename(columns={'DR2IFDCD':'DRXFDCD', 'DR1DRSTZ':'DR2DRSTZ', 'DR1ILINE':'DR2ILINE', 'DR1IFDCD':'DR2IFDCD', 'DR1_030Z':'DR2_030Z', 'DR1IGRMS':'DR2IGRMS', 'DR1IKCAL':'DR2IKCAL', 'DR1ICARB':'DR2ICARB', 'DR1ISUGR':'DR2ISUGR', 'DR1IFIBE':'DR2IFIBE'})
 iff_2_J['DR2ILINE'] = iff_2_J['DR2ILINE'] + 100 # combining two days of diet recalls, need unique DR Line items for ingredientization; add 100 to each line item for 2nd recalls for unique values
 iff_2_J['diet_day'] = 2
 iff_J = pd.concat([iff_1_J, iff_2_J])
@@ -421,117 +421,45 @@ xwalk_F_J.drop_duplicates(subset='DRXFDCD', inplace=True)
 # merge with cross walk to update foodcodes
 wweia_xwalk = pd.merge(WWEIA_ALL_DIET, xwalk_F_J, on='DRXFDCD', how = 'left')
 
-wweia_xwalk.drop(columns=['foodcode', 'food_description', 'DRXFCLD'],inplace=True)
+wweia_xwalk.drop(columns=['foodcode'],inplace=True)
 
 wweia_xwalk.rename(columns={'DRXFDCD': 'foodcode'},inplace=True)
 
-fndds_ingredients = pd.read_csv('../data/03b/fndds_fcid_all.csv')
-fndds_ingredients.rename(columns={'parent_foodcode': 'foodcode', 'parent_desc': 'food_description'}, inplace=True)
-fndds_ingredients = fndds_ingredients.dropna()
-
 # string matched / manually updated discontined foodcodes
 discon_update = pd.read_csv('../data/03/manually_curated/string_match_discontinued_complete.csv')
-discon_update = discon_update[['DRXFDCD', 'parent_foodcode']]
 discon_update.rename(columns={'DRXFDCD': 'foodcode'},inplace=True)
 
-# merge with FNDDS ingredients
-wweia_ingredients_allx = pd.merge(wweia_xwalk, fndds_ingredients, on='foodcode', how = 'left')
-wweia_ingredients = pd.merge(wweia_xwalk, fndds_ingredients, on='foodcode', how = 'inner')
+code_dict = dict(zip(discon_update.foodcode, discon_update.parent_foodcode))
+desc_dict = dict(zip(discon_update.DRXFCLD, discon_update.parent_desc))
 
-missing_fc = wweia_ingredients_allx[~wweia_ingredients_allx['foodcode'].isin(wweia_ingredients['foodcode'])]
-missing_fc = missing_fc.drop(columns=['food_description', 'ingred_code', 'ingred_desc', 'ingred_wt'])
-
-missing_update = pd.merge(missing_fc, discon_update, on = 'foodcode').drop(columns=['foodcode']).rename(columns={'parent_foodcode':'foodcode'})
-missing_update_2 = pd.merge(missing_update, fndds_ingredients, on = 'foodcode')
-
-wweia_complete = pd.concat([wweia_ingredients, missing_update_2])
-
-# Load ingredient nutrient value data
-ingred_nutrients = pd.read_csv('../data/01/fndds_all_ingredient_nutrient_values.csv')
-
-ingred_nutrients.rename(columns={'Ingredient code': 'ingred_code'}, inplace=True)
-
-wweia_complete_nutrients = pd.merge(wweia_complete, ingred_nutrients, on = 'ingred_code')
-
-# calculate the amount of each ingredient consumed and the quantity of each nutrient consumed per ingredient
-# Convert the pandas dataframe to Dask dataframe
-wweia_complete_nutrients_dd = dd.from_pandas(wweia_complete_nutrients, npartitions=10)
-# Perform the same operations as before but in Dask
-grouped_wt_sum_dd = wweia_complete_nutrients_dd.groupby(['SEQN', 'foodcode', 'DR2ILINE'])['ingred_wt'].sum().reset_index().rename(columns={'ingred_wt': 'ingred_wt_sum'})
-# Merge this with the original dataframe.
-merged_dd = dd.merge(wweia_complete_nutrients_dd, grouped_wt_sum_dd, on=['SEQN', 'foodcode', 'DR2ILINE'])
-# Calculate the 'Ingred_consumed_g' using vectorized operations.
-merged_dd['Ingred_consumed_g'] = merged_dd['DR2IGRMS'] * (merged_dd['ingred_wt'] / merged_dd['ingred_wt_sum'])
-# Convert Dask dataframe back to pandas dataframe
-wweia_all_recalls = merged_dd.compute()
-
-# calculate the amount of each ingredient consumed and the quantity of each nutrient consumed per ingredient
-# Convert the pandas dataframe to Dask dataframe
-wweia_complete_nutrients_dd = dd.from_pandas(wweia_complete_nutrients, npartitions=10)
-# Perform the same operations as before but in Dask
-grouped_wt_sum_dd = wweia_complete_nutrients_dd.groupby(['SEQN', 'foodcode', 'DR2ILINE'])['ingred_wt'].sum().reset_index().rename(columns={'ingred_wt': 'ingred_wt_sum'})
-# Merge this with the original dataframe.
-merged_dd = dd.merge(wweia_complete_nutrients_dd, grouped_wt_sum_dd, on=['SEQN', 'foodcode', 'DR2ILINE'])
-# Calculate the 'Ingred_consumed_g' using vectorized operations.
-merged_dd['Ingred_consumed_g'] = merged_dd['DR2IGRMS'] * (merged_dd['ingred_wt'] / merged_dd['ingred_wt_sum'])
-# Convert Dask dataframe back to pandas dataframe
-wweia_all_recalls = merged_dd.compute()
-wweia_all_recalls.iloc[:,30:95] = wweia_all_recalls.iloc[:,30:95].multiply(wweia_all_recalls['Ingred_consumed_g'], axis=0) / 100
-wweia_all_recalls.drop(columns=['DR2IGRMS', 'DR2IKCAL', 'DR2ICARB', 'DR2ISUGR', 'DR2IFIBE', 'Ingredient description'], inplace=True)
+wweia_fc = wweia_xwalk.replace({'foodcode':code_dict})
+wweia_fc = wweia_fc.replace({'DRXFCLD':desc_dict})
 
 # split metadata for combining with averaged recalls in next step
-metadata = wweia_all_recalls.drop_duplicates(subset='SEQN')
+metadata = wweia_fc.drop_duplicates(subset='SEQN')
 metadata = metadata[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'INDFMPIR',
        'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA',
        'CYCLE', 'diet_wts']]
 
 
+# get unique foodcodes to create 1-1 foodcode to food description
+codes = wweia_fc.drop_duplicates(subset='foodcode')
+codes = codes[['foodcode', 'DRXFCLD']]
+wweia_fc.drop(columns=['DRXFCLD'],inplace=True)
+wweia_fc_ = wweia_fc.merge(codes, on='foodcode', how='left')
+
 # average intake over 2 diet recall days
 # sum intakes
-recalls_sum = wweia_all_recalls.groupby(['SEQN', 'diet_day', 'ingred_code', 'ingred_desc'])[['Ingred_consumed_g', 'Capric acid', 'Lauric acid', 'Myristic acid',
-       'Palmitic acid', 'Palmitoleic acid', 'Stearic acid', 'Oleic acid',
-       'Linoleic acid', 'Linolenic acid', 'Stearidonic acid',
-       'Eicosenoic acid', 'Arachidonic acid', 'Eicosapentaenoic acid',
-       'Erucic acid', 'Docosapentaenoic acid', 'Docosahexaenoic acid',
-       'Butyric acid', 'Caproic acid', 'Caprylic acid', 'Alcohol', 'Caffeine',
-       'Calcium', 'Carbohydrate', 'Carotene, alpha', 'Carotene, beta',
-       'Cholesterol', 'Choline, total', 'Copper', 'Cryptoxanthin, beta',
-       'Energy', 'Fatty acids, total monounsaturated',
-       'Fatty acids, total polyunsaturated', 'Fatty acids, total saturated',
-       'Fiber, total dietary', 'Folate, DFE', 'Folate, food', 'Folate, total',
-       'Folic acid', 'Iron', 'Lutein + zeaxanthin', 'Lycopene', 'Magnesium',
-       'Niacin', 'Phosphorus', 'Potassium', 'Protein', 'Retinol', 'Riboflavin',
-       'Selenium', 'Sodium', 'Sugars, total', 'Theobromine', 'Thiamin',
-       'Total Fat', 'Vitamin A, RAE', 'Vitamin B-12', 'Vitamin B-12, added',
-       'Vitamin B-6', 'Vitamin C', 'Vitamin D (D2 + D3)',
-       'Vitamin E (alpha-tocopherol)', 'Vitamin E, added',
-       'Vitamin K (phylloquinone)', 'Water', 'Zinc']].agg(np.sum).reset_index()
-recalls_sum.set_index(['SEQN', 'diet_day', 'ingred_code', 'ingred_desc'],inplace=True)
+recalls_sum = wweia_fc_.groupby(['SEQN', 'diet_day', 'foodcode', 'DRXFCLD'])[['DR2IGRMS', 'DR2IKCAL', 'DR2IMOIS']].agg(np.sum).reset_index()
+recalls_sum.set_index(['SEQN', 'diet_day', 'foodcode', 'DRXFCLD'],inplace=True)
 r_sum = recalls_sum.unstack(level=['diet_day'], fill_value=0).stack()
 r_sum.reset_index(inplace=True)
 
 # average intakes
-recalls_mean = r_sum.groupby(['SEQN', 'ingred_code', 'ingred_desc'])[['Ingred_consumed_g', 'Capric acid', 'Lauric acid', 'Myristic acid',
-       'Palmitic acid', 'Palmitoleic acid', 'Stearic acid', 'Oleic acid',
-       'Linoleic acid', 'Linolenic acid', 'Stearidonic acid',
-       'Eicosenoic acid', 'Arachidonic acid', 'Eicosapentaenoic acid',
-       'Erucic acid', 'Docosapentaenoic acid', 'Docosahexaenoic acid',
-       'Butyric acid', 'Caproic acid', 'Caprylic acid', 'Alcohol', 'Caffeine',
-       'Calcium', 'Carbohydrate', 'Carotene, alpha', 'Carotene, beta',
-       'Cholesterol', 'Choline, total', 'Copper', 'Cryptoxanthin, beta',
-       'Energy', 'Fatty acids, total monounsaturated',
-       'Fatty acids, total polyunsaturated', 'Fatty acids, total saturated',
-       'Fiber, total dietary', 'Folate, DFE', 'Folate, food', 'Folate, total',
-       'Folic acid', 'Iron', 'Lutein + zeaxanthin', 'Lycopene', 'Magnesium',
-       'Niacin', 'Phosphorus', 'Potassium', 'Protein', 'Retinol', 'Riboflavin',
-       'Selenium', 'Sodium', 'Sugars, total', 'Theobromine', 'Thiamin',
-       'Total Fat', 'Vitamin A, RAE', 'Vitamin B-12', 'Vitamin B-12, added',
-       'Vitamin B-6', 'Vitamin C', 'Vitamin D (D2 + D3)',
-       'Vitamin E (alpha-tocopherol)', 'Vitamin E, added',
-       'Vitamin K (phylloquinone)', 'Water', 'Zinc']].mean().reset_index()
+recalls_mean = r_sum.groupby(['SEQN', 'foodcode', 'DRXFCLD'])[['DR2IGRMS', 'DR2IKCAL', 'DR2IMOIS']].mean().reset_index()
 
 # combine with metadata
 recalls_mean_meta = recalls_mean.merge(metadata, on='SEQN', how='left')
 
 # Save dataset
-recalls_mean_meta.to_csv('../data/04/wweia_all_recalls_day_1_2.txt', sep = '\t', index=None)
+recalls_mean_meta.to_csv('../data/04/wweia_foodcodes.txt', sep = '\t', index=None)
