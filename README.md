@@ -4,6 +4,15 @@ The field of nutritional epidemiology attemps to link dietary intake data with h
 
 Recognizing these challenges, this project modifies the National Health And Nutrition Examination Survey (NHANES) What We Eat In America (WWEIA) data from 2001-2018 to generate an 'ingredientized' dataset by updating food codes and descriptions with the Food and Nutrition Database for Dietary Studies (FNDDS) database versions 2015-2016 and 2017-2018.
 
+## Use and Requirements
+
+1. clone the repository from the terminal: git clone https://github.com/JulesLarke-USDA/wweia_ingredients & cd wweia_ingredients
+2. Create a conda environment from src/wweia_ingredients.yml: cd src & conda env create -f wweia_ingredients.yml
+3. Activate the conda environment: conda activate wweia_ingredients
+4. Run the pipeline: bash pipeline_ingredients.sh
+- **03: Matching Discontinued FNDDS (WWEIA 01-13) Food Codes and Descriptions** will prompt download of nltk package data; the packages required are **wordnet** and **omw-1.4**
+
+
 ## Workflow
 
 ### 01: Consolidate ingredient codes
@@ -97,14 +106,3 @@ This script combines data for each of the WWEIA cycles (01 - 18), updates the fo
 
 __Output__
   - **wweia_all_recalls.txt** - The complete ingredientized dataset for WWEIA cycles 01-18. Diet intake with 65 nutrient estimates for each ingredient across 80275 individuals.
-
-### Use and Requirements
-
-This program uses a bash script to execute each Python3 script (src/pipeline.sh) with the following package versions:
-- python==3.8.8
-- pandas==1.4.4
-- polyfuzz==0.3.3
-- nltk==3.7
-
-Create a conda env from src/wweia_ingredients.yml: conda env create -f wweia_ingredients.yml
-- **03: Matching Discontinued FNDDS (WWEIA 01-13) Food Codes and Descriptions** will prompt download of nltk package data; the packages required are **wordnet** and **omw-1.4**
