@@ -64,7 +64,7 @@ __Output__
 
 __Note:__  The output of this manual matching is: string_match_discontinued_complete.csv and string_match_discontinued_complete_with_annotation.csv for documentation on added foodcodes.
 Similarly, fndds_16_18_all.csv was updated with new codes for recipes that did not exists and were needed to match discontinued foodcodes. This updated file is: fndds_16_18_all_added_codes_for_discontinued.csv
-Both of these manually curated outputs [string_match_discontinued_complete.csv and fndds_16_18_all_added_codes_for_discontinued.csv] are used in the next script: 06_wweia_ingredients.py
+Both of these manually curated outputs [string_match_discontinued_complete.csv and fndds_16_18_all_added_codes_for_discontinued.csv] are used in the script 04_wweia_ingredients.py
 
 ### 03b: FCID ingredientization
 
@@ -86,17 +86,17 @@ __Output__
 
 __Required Input Files__
 
-Demographic, Dietary day 1, and Food description data for cycles 01 through 18 downloaded from https://wwwn.cdc.gov/NCHS/nhanes
+Demographic, Dietary day 1 and 2, and food description data for cycles 01 through 18 downloaded from https://wwwn.cdc.gov/NCHS/nhanes
 
   - **fndds_fcid_all.csv** - Manually curated version of fndds_16_18_all_added_codes_for_discontinued.csv with ingredient descriptions further ingredientized using the Food Commodities Ingredient Database
   - **string_match_discontinued_complete.csv** - Manually curated version of string_match.csv with added food codes and descriptions for matching discontinued foods.
   - **fndds_crosswalks** - Each of the crosswalk files in the fndds_crosswalk directory.
 
 __Information__  
-This script prepares combines data for each of the WWEIA cycles (01 - 18), updates the food codes to those with ingredient codes and appends nutrient values corresponding to the ingredients.
+This script combines data for each of the WWEIA cycles (01 - 18), updates the food codes to those with ingredient codes and appends nutrient values corresponding to the ingredients.
 
 __Output__
-  - **wweia_all_recalls.txt** - The complete ingredientized dataset for WWEIA cycles 01-18. Approximately 2.3M rows of diet intake with 65 nutrient estimates for each ingredient across 80275 individuals.
+  - **wweia_all_recalls.txt** - The complete ingredientized dataset for WWEIA cycles 01-18. Diet intake with 65 nutrient estimates for each ingredient across 80275 individuals.
 
 ### Use and Requirements
 
