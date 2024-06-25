@@ -88,6 +88,7 @@ Many of the ingredient descriptions in FNDDS are multi-ingredient, these ingredi
 __Output__
 - **fcid_match.csv** - Text similarity matches from FCID to FNDDS
 - **fcid_match_complete.csv** - Manually curated matches from FCID to FNDDS
+- **fcid_match_complete_edit_0625.csv** - fcid_match_complete.csv edited on 062524 to not disaggregate chicken/beef broths or gravies. These break down into small amounts of meat and animal fats that aren't appropriate for vegetarian recipes.
 - **fcid_ingredients.csv** - FCID descriptions and weights with corrected descriptions to represent ingredient codes identified as multi-ingredient in FNDDS
 - **fndds_fcid_all.csv** - Combines fndds_16_18_all_added_codes_for_discontinued.csv with FCID ingredientized descriptions for multi-ingredient items. 
 
