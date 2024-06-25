@@ -5,6 +5,7 @@ dependencies:
   - python==3.8.8
   - pandas==1.4.4
   - dask==2.1
+  - requests
   - pip
   - pip:
     - polyfuzz==0.3.3
