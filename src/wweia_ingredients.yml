@@ -1,4 +1,4 @@
-name: nltk_test
+name: wweia_ingredients
 channels:
   - defaults
 dependencies:
