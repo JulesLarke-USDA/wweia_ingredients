@@ -1,4 +1,6 @@
 # Import packages
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
 import pandas as pd
 import dask.dataframe as dd
 import numpy as np
