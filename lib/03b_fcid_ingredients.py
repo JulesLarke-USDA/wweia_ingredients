@@ -1,4 +1,5 @@
 # Import packages
+# Edit 062424: Commented out line 80 'Spices, other' : 'Spices, pepper, black'. Spices other are undefined and should not be assumed as black pepper.
 import pandas as pd
 import string
 import re
@@ -11,7 +12,7 @@ wn = nltk.WordNetLemmatizer()
 ##PART 1:
 # Load data
 fcid = pd.read_csv('../data/03b/fcid_data.csv', usecols=['Food Description', 'FCID Description'])
-ingred = pd.read_csv('../data/03b/ingredient_codes_to_ingredientization.csv')
+ingred = pd.read_csv('../data/03b/ingredient_codes_to_ingredientization.csv') # list of ingredients needing further disaggregation
 fcid = fcid.dropna()
 
 punct = string.punctuation[0:11] + string.punctuation[13:] # remove '-' from the list of punctuation. This is needed for the text cleaner in the following cell
@@ -44,8 +45,9 @@ match_merge_[['Main.food.description', 'Food Description', 'ingred_clean', 'fcid
 
 ##PART 2:
 fcid = pd.read_csv('../data/03b/fcid_data.csv')
-matches = pd.read_csv('../data/03b/manually_curated/fcid_match_complete.csv') # load manually curated data
+matches = pd.read_csv('../data/03b/manually_curated/fcid_match_complete_edit_0625.csv') # load manually curated data, updated 062524 to not disaggregate chicken/beef broths or gravies. These break down into small amounts of meat and animal fats that aren't appropriate for vegetarian recipes.
 
+fcid = fcid.drop([122397, 122401, 122404]) # drop beef products from vegetable soup (75649010)
 fcid = fcid[fcid['Modification Code']==0]
 fcid = fcid[['WWEIA Food Code', 'Food Description', 'FCID Description', 'Commodity Weight']]
 
@@ -77,7 +79,7 @@ fcid_ingred['FCID Description'].replace({'Sugarcane, sugar': 'Sugars, granulated
                                          'Corn, field, starch' : 'Cornstarch',
                                          'Egg, whole' : 'Egg, whole, raw, fresh',
                                          'Beef, fat' : 'Beef, retail cuts, separable fat, cooked',
-                                         'Spices, other' : 'Spices, pepper, black',
+                                         #'Spices, other' : 'Spices, pepper, black',
                                          'Beef, meat byproducts' : 'Ground beef, cooked, averaged',
                                          'Rice, flour' : 'Rice flour, white, unenriched',
                                          'Onion, bulb' : 'Onions, raw',
@@ -301,12 +303,12 @@ fcid_ingred['FCID Description'].replace({'Sugarcane, sugar': 'Sugars, granulated
                                          'Arrowroot, flour': 'Tapioca, pearl, dry',
                                          'Bean, black, seed': 'Beans, black, mature seeds, raw'}, inplace=True)
 
-fcid_ingred = fcid_ingred[fcid_ingred["FCID Description"].str.contains('Citron|Orange, peel|Oat, flour|Pepper, bell, dried|Rice, bran|Barley, bran|Coffee, roasted bean|Raspberry, juice|Cherry, juice|Corn, field, bran|Strawberry, juice|Sheep, fat|Wheat, germ|Pork, skin|Dillweed|Dill, seed|Guar, seed|Herbs, other|Triticale, flour|Chicory, roots|Celery, juice|Corn, sweet-babyfood|Onion, bulb, dried-babyfood|Broccoli-babyfood|Bean, snap, succulent-babyfood|Tomato, puree-babyfood')==False]
-fcid_ingred.to_csv('../data/03b/fcid_ingredients.csv', index=None)
+fcid_ingred = fcid_ingred[fcid_ingred["FCID Description"].str.contains('Spices, other|Citron|Orange, peel|Oat, flour|Pepper, bell, dried|Rice, bran|Barley, bran|Coffee, roasted bean|Raspberry, juice|Cherry, juice|Corn, field, bran|Strawberry, juice|Sheep, fat|Wheat, germ|Pork, skin|Dillweed|Dill, seed|Guar, seed|Herbs, other|Triticale, flour|Chicory, roots|Celery, juice|Corn, sweet-babyfood|Onion, bulb, dried-babyfood|Broccoli-babyfood|Bean, snap, succulent-babyfood|Tomato, puree-babyfood')==False]
+fcid_ingred.to_csv('../data/03b/fcid_ingredients_0625.csv', index=None)
 
 ##PART 3:
 
-fcid = pd.read_csv('../data/03b/fcid_ingredients.csv', usecols=['Main.food.description', 'Ingredient code', 'FCID Description', 'Commodity Weight'])
+fcid = pd.read_csv('../data/03b/fcid_ingredients_0625.csv', usecols=['Main.food.description', 'Ingredient code', 'FCID Description', 'Commodity Weight'])
 fndds_all = pd.read_csv('../data/03/manually_curated/fndds_16_18_all_added_codes_for_discontinued.csv')
 fcid.rename(columns={'Ingredient code':'ingred_code'}, inplace=True)
 
