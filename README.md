@@ -1,6 +1,6 @@
 # WWEIA Ingredients
 
-The field of nutritional epidemiology attemps to link dietary intake data with health outcomes or other biomarkers associated with health or disease. However, dietary data from current publicly available databases is often aggregated at the level of food groups or mixed dishes, thereby limiting resolution and analysis of individual ingredients that may contribute to an outcome of interest. 
+The field of nutritional epidemiology attempts to link dietary intake data with health outcomes or other biomarkers associated with health or disease. However, dietary data from current publicly available databases is often aggregated at the level of food groups or mixed dishes, thereby limiting resolution and analysis of individual ingredients that may contribute to an outcome of interest. 
 
 Recognizing these challenges, this project modifies the National Health And Nutrition Examination Survey (NHANES) What We Eat In America (WWEIA) data from 2001-2018 to generate an 'ingredientized' dataset by updating food codes and descriptions with the Food and Nutrition Database for Dietary Studies (FNDDS) database versions 2015-2016 and 2017-2018.
 
@@ -72,7 +72,7 @@ __Output__
   - **string_match.csv** - This file will undergo manual curation to match discontinued foodcodes to the most appropriate foodcode in fndds_16_18_all.csv
 
 __Note:__  The output of this manual matching is: string_match_discontinued_complete.csv and string_match_discontinued_complete_with_annotation.csv for documentation on added foodcodes.
-Similarly, fndds_16_18_all.csv was updated with new codes for recipes that did not exists and were needed to match discontinued foodcodes. This updated file is: fndds_16_18_all_added_codes_for_discontinued.csv
+Similarly, fndds_16_18_all.csv was updated with new codes for recipes that did not exist and were needed to match discontinued foodcodes. This updated file is: fndds_16_18_all_added_codes_for_discontinued.csv
 Both of these manually curated outputs [string_match_discontinued_complete.csv and fndds_16_18_all_added_codes_for_discontinued.csv] are used in the script 04_wweia_ingredients.py
 
 ### 03b: FCID ingredientization
