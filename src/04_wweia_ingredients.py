@@ -1,4 +1,6 @@
 # Import packages
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
 import pandas as pd
 import dask.dataframe as dd
 import numpy as np
@@ -446,5 +448,92 @@ missing_update_2 = pd.merge(missing_update, fndds_ingredients, on = 'foodcode')
 
 wweia_complete = pd.concat([wweia_ingredients, missing_update_2])
 
+# Load ingredient nutrient value data
+ingred_nutrients = pd.read_csv('../data/01/fndds_all_ingredient_nutrient_values.csv')
+
+ingred_nutrients.rename(columns={'Ingredient code': 'ingred_code'}, inplace=True)
+
+wweia_complete_nutrients = pd.merge(wweia_complete, ingred_nutrients, on = 'ingred_code')
+
+# calculate the amount of each ingredient consumed and the quantity of each nutrient consumed per ingredient
+# Convert the pandas dataframe to Dask dataframe
+wweia_complete_nutrients_dd = dd.from_pandas(wweia_complete_nutrients, npartitions=10)
+# Perform the same operations as before but in Dask
+grouped_wt_sum_dd = wweia_complete_nutrients_dd.groupby(['SEQN', 'foodcode', 'DR2ILINE'])['ingred_wt'].sum().reset_index().rename(columns={'ingred_wt': 'ingred_wt_sum'})
+# Merge this with the original dataframe.
+merged_dd = dd.merge(wweia_complete_nutrients_dd, grouped_wt_sum_dd, on=['SEQN', 'foodcode', 'DR2ILINE'])
+# Calculate the 'Ingred_consumed_g' using vectorized operations.
+merged_dd['Ingred_consumed_g'] = merged_dd['DR2IGRMS'] * (merged_dd['ingred_wt'] / merged_dd['ingred_wt_sum'])
+# Convert Dask dataframe back to pandas dataframe
+wweia_all_recalls = merged_dd.compute()
+
+# calculate the amount of each ingredient consumed and the quantity of each nutrient consumed per ingredient
+# Convert the pandas dataframe to Dask dataframe
+wweia_complete_nutrients_dd = dd.from_pandas(wweia_complete_nutrients, npartitions=10)
+# Perform the same operations as before but in Dask
+grouped_wt_sum_dd = wweia_complete_nutrients_dd.groupby(['SEQN', 'foodcode', 'DR2ILINE'])['ingred_wt'].sum().reset_index().rename(columns={'ingred_wt': 'ingred_wt_sum'})
+# Merge this with the original dataframe.
+merged_dd = dd.merge(wweia_complete_nutrients_dd, grouped_wt_sum_dd, on=['SEQN', 'foodcode', 'DR2ILINE'])
+# Calculate the 'Ingred_consumed_g' using vectorized operations.
+merged_dd['Ingred_consumed_g'] = merged_dd['DR2IGRMS'] * (merged_dd['ingred_wt'] / merged_dd['ingred_wt_sum'])
+# Convert Dask dataframe back to pandas dataframe
+wweia_all_recalls = merged_dd.compute()
+wweia_all_recalls.iloc[:,30:95] = wweia_all_recalls.iloc[:,30:95].multiply(wweia_all_recalls['Ingred_consumed_g'], axis=0) / 100
+wweia_all_recalls.drop(columns=['DR2IGRMS', 'DR2IKCAL', 'DR2ICARB', 'DR2ISUGR', 'DR2IFIBE', 'Ingredient description'], inplace=True)
+
+# split metadata for combining with averaged recalls in next step
+metadata = wweia_all_recalls.drop_duplicates(subset='SEQN')
+metadata = metadata[['SEQN', 'RIAGENDR', 'RIDAGEYR', 'RIDRETH1', 'INDFMPIR',
+       'DMDEDUC3', 'DMDEDUC2', 'WTINT2YR', 'WTMEC2YR', 'SDMVPSU', 'SDMVSTRA',
+       'CYCLE', 'diet_wts']]
+
+
+# average intake over 2 diet recall days
+# sum intakes
+recalls_sum = wweia_all_recalls.groupby(['SEQN', 'diet_day', 'ingred_code', 'ingred_desc'])[['Ingred_consumed_g', 'Capric acid', 'Lauric acid', 'Myristic acid',
+       'Palmitic acid', 'Palmitoleic acid', 'Stearic acid', 'Oleic acid',
+       'Linoleic acid', 'Linolenic acid', 'Stearidonic acid',
+       'Eicosenoic acid', 'Arachidonic acid', 'Eicosapentaenoic acid',
+       'Erucic acid', 'Docosapentaenoic acid', 'Docosahexaenoic acid',
+       'Butyric acid', 'Caproic acid', 'Caprylic acid', 'Alcohol', 'Caffeine',
+       'Calcium', 'Carbohydrate', 'Carotene, alpha', 'Carotene, beta',
+       'Cholesterol', 'Choline, total', 'Copper', 'Cryptoxanthin, beta',
+       'Energy', 'Fatty acids, total monounsaturated',
+       'Fatty acids, total polyunsaturated', 'Fatty acids, total saturated',
+       'Fiber, total dietary', 'Folate, DFE', 'Folate, food', 'Folate, total',
+       'Folic acid', 'Iron', 'Lutein + zeaxanthin', 'Lycopene', 'Magnesium',
+       'Niacin', 'Phosphorus', 'Potassium', 'Protein', 'Retinol', 'Riboflavin',
+       'Selenium', 'Sodium', 'Sugars, total', 'Theobromine', 'Thiamin',
+       'Total Fat', 'Vitamin A, RAE', 'Vitamin B-12', 'Vitamin B-12, added',
+       'Vitamin B-6', 'Vitamin C', 'Vitamin D (D2 + D3)',
+       'Vitamin E (alpha-tocopherol)', 'Vitamin E, added',
+       'Vitamin K (phylloquinone)', 'Water', 'Zinc']].agg(np.sum).reset_index()
+recalls_sum.set_index(['SEQN', 'diet_day', 'ingred_code', 'ingred_desc'],inplace=True)
+r_sum = recalls_sum.unstack(level=['diet_day'], fill_value=0).stack()
+r_sum.reset_index(inplace=True)
+
+# average intakes
+recalls_mean = r_sum.groupby(['SEQN', 'ingred_code', 'ingred_desc'])[['Ingred_consumed_g', 'Capric acid', 'Lauric acid', 'Myristic acid',
+       'Palmitic acid', 'Palmitoleic acid', 'Stearic acid', 'Oleic acid',
+       'Linoleic acid', 'Linolenic acid', 'Stearidonic acid',
+       'Eicosenoic acid', 'Arachidonic acid', 'Eicosapentaenoic acid',
+       'Erucic acid', 'Docosapentaenoic acid', 'Docosahexaenoic acid',
+       'Butyric acid', 'Caproic acid', 'Caprylic acid', 'Alcohol', 'Caffeine',
+       'Calcium', 'Carbohydrate', 'Carotene, alpha', 'Carotene, beta',
+       'Cholesterol', 'Choline, total', 'Copper', 'Cryptoxanthin, beta',
+       'Energy', 'Fatty acids, total monounsaturated',
+       'Fatty acids, total polyunsaturated', 'Fatty acids, total saturated',
+       'Fiber, total dietary', 'Folate, DFE', 'Folate, food', 'Folate, total',
+       'Folic acid', 'Iron', 'Lutein + zeaxanthin', 'Lycopene', 'Magnesium',
+       'Niacin', 'Phosphorus', 'Potassium', 'Protein', 'Retinol', 'Riboflavin',
+       'Selenium', 'Sodium', 'Sugars, total', 'Theobromine', 'Thiamin',
+       'Total Fat', 'Vitamin A, RAE', 'Vitamin B-12', 'Vitamin B-12, added',
+       'Vitamin B-6', 'Vitamin C', 'Vitamin D (D2 + D3)',
+       'Vitamin E (alpha-tocopherol)', 'Vitamin E, added',
+       'Vitamin K (phylloquinone)', 'Water', 'Zinc']].mean().reset_index()
+
+# combine with metadata
+recalls_mean_meta = recalls_mean.merge(metadata, on='SEQN', how='left')
+
 # Save dataset
-wweia_complete.to_csv('../data/04/wweia_food_and_ingred_codes.csv', index=None)
+recalls_mean_meta.to_csv('../data/04/wweia_all_recalls.txt', sep = '\t', index=None)

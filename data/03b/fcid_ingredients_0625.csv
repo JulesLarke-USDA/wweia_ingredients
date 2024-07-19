@@ -27,7 +27,6 @@ Main.food.description,Ingredient code,FCID Description,Commodity Weight
 "Strudel, apple",18354,"Oil, cottonseed, salad or cooking",0.773
 "Strudel, apple",18354,"Ginger root, raw",0.166
 "Strudel, apple",18354,"Spices, cinnamon, ground",0.166
-"Strudel, apple",18354,"Spices, pepper, black",0.166
 "Strudel, apple",18354,"Milk, averaged fat, with added vitamin A and D",0.084
 "Strudel, apple",18354,"Milk, averaged fat, with added vitamin A and D",0.019
 "Crackers, saltines, fat-free, low-sodium",18457,"Wheat flour, white, all-purpose, enriched, bleached",107.36
@@ -47,7 +46,6 @@ Main.food.description,Ingredient code,FCID Description,Commodity Weight
 "Cream puff, eclair, custard or cream filled, iced",18969,Cornstarch,2.904
 "Cream puff, eclair, custard or cream filled, iced",18969,"Oil, corn, industrial and retail, all purpose salad or cooking",0.746
 "Cream puff, eclair, custard or cream filled, iced",18969,"Oil, canola",0.416
-"Cream puff, eclair, custard or cream filled, iced",18969,"Spices, pepper, black",0.208
 "Cream puff, eclair, custard or cream filled, iced",18969,"Oil, cottonseed, salad or cooking",0.058
 "Cream puff, eclair, custard or cream filled, iced",18969,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.058
 "Cream puff, eclair, custard or cream filled, iced",18969,"Oil, sunflower, linoleic, (approx. 65%)",0.058
@@ -135,7 +133,6 @@ Chewing gum,19163,"Barley, pearled, raw",0.5
 "Bratwurst, pork, cooked",7013,"Seaweed, wakame, raw",0.094
 "Bratwurst, pork, cooked",7013,"Ground beef, cooked, averaged",0.047
 "Bratwurst, pork, cooked",7013,Honey,0.02
-"Bratwurst, pork, cooked",7013,"Spices, pepper, black",0.014
 "Bratwurst, pork, cooked",7013,"Spices, ginger, ground",0.013
 "Bratwurst, pork, cooked",7013,"Peppers, jalapeno, raw",0.013
 "Bratwurst, pork, cooked",7013,"Coriander (cilantro) leaves, raw",0.013
@@ -168,7 +165,6 @@ Chewing gum,19163,"Barley, pearled, raw",0.5
 "Bologna, beef",7007,"Celery, raw",0.129
 "Bologna, beef",7007,"Egg, white, raw, fresh",0.129
 "Bologna, beef",7007,"Seaweed, wakame, raw",0.128
-"Bologna, beef",7007,"Spices, pepper, black",0.019
 "Bologna, beef",7007,"Spices, ginger, ground",0.018
 "Bologna, beef",7007,"Peppers, jalapeno, raw",0.018
 "Bologna, beef",7007,"Coriander (cilantro) leaves, raw",0.018
@@ -192,7 +188,6 @@ Blood sausage,7005,"Spices, ginger, ground",0.009
 Blood sausage,7005,"Peppers, jalapeno, raw",0.009
 Blood sausage,7005,"Coriander (cilantro) leaves, raw",0.009
 Blood sausage,7005,"Spices, coriander leaf, dried",0.009
-Blood sausage,7005,"Spices, pepper, black",0.009
 Blood sausage,7005,"Spices, pepper, black",0.009
 Blood sausage,7005,"Cassava, raw",0.002
 Blood sausage,7005,Potato flour,0.002
@@ -254,7 +249,6 @@ Blood sausage,7005,"Wheat flour, white, all-purpose, enriched, bleached",0.002
 "Cookie, butter or sugar, with chocolate icing or filling",28293,"Candies, chocolate, dark, NFS (45-59% cacao solids 90%; 60-69% cacao solids 5%; 70-85% cacao solids 5%)",0.75
 "Cookie, butter or sugar, with chocolate icing or filling",28293,"Oil, corn, industrial and retail, all purpose salad or cooking",0.556
 "Cookie, butter or sugar, with chocolate icing or filling",28293,"Oil, canola",0.31
-"Cookie, butter or sugar, with chocolate icing or filling",28293,"Spices, pepper, black",0.124
 "Cookie, butter or sugar, with chocolate icing or filling",28293,"Oil, cottonseed, salad or cooking",0.043
 "Cookie, butter or sugar, with chocolate icing or filling",28293,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.043
 "Cookie, butter or sugar, with chocolate icing or filling",28293,"Oil, sunflower, linoleic, (approx. 65%)",0.043
@@ -324,7 +318,6 @@ Blood sausage,7005,"Wheat flour, white, all-purpose, enriched, bleached",0.002
 "Sauce, barbecue",6150,"Spices, onion powder",1.22
 "Sauce, barbecue",6150,"Peppers, jalapeno, raw",1.22
 "Sauce, barbecue",6150,Cornstarch,1.22
-"Sauce, barbecue",6150,"Spices, pepper, black",1.22
 "Sauce, barbecue",6150,"Oil, soybean, salad or cooking",0.978
 "Sauce, barbecue",6150,"Oil, corn, industrial and retail, all purpose salad or cooking",0.116
 "Sauce, barbecue",6150,"Oil, cottonseed, salad or cooking",0.086
@@ -384,7 +377,6 @@ Potato salad with egg,22971,"Peppers, sweet, green, raw",2.39
 Potato salad with egg,22971,"Syrups, corn, light",2.066
 Potato salad with egg,22971,"Onions, raw",1.56
 Potato salad with egg,22971,"Vinegar, distilled",0.477
-Potato salad with egg,22971,"Spices, pepper, black",0.3
 Potato salad with egg,22971,"Egg, yolk, raw, fresh",0.281
 Potato salad with egg,22971,"Lemon juice, raw",0.124
 Potato salad with egg,22971,"Sugars, granulated",0.069
@@ -493,7 +485,6 @@ Clif Z bar,3000,"Barley, pearled, raw",0.001
 "Bread, rye",18060,"Wheat flour, white, all-purpose, enriched, bleached",40.945
 "Bread, rye",18060,"Rye flour, medium",23.626
 "Bread, rye",18060,"Oil, soybean, salad or cooking",1.503
-"Bread, rye",18060,"Spices, pepper, black",1.319
 "Bread, rye",18060,"Barley, pearled, raw",0.201
 "Bread, rye",18060,"Oil, cottonseed, salad or cooking",0.131
 "Ice cream cone, chocolate covered, with nuts, flavors other than chocolate",1240,"Milk, averaged fat, with added vitamin A and D",44.586
@@ -507,7 +498,6 @@ Clif Z bar,3000,"Barley, pearled, raw",0.001
 "Ice cream cone, chocolate covered, with nuts, flavors other than chocolate",1240,"Wheat flour, white, all-purpose, enriched, bleached",3.641
 "Ice cream cone, chocolate covered, with nuts, flavors other than chocolate",1240,"Oil, cottonseed, salad or cooking",0.76
 "Ice cream cone, chocolate covered, with nuts, flavors other than chocolate",1240,"Oil, soybean, salad or cooking",0.264
-"Ice cream cone, chocolate covered, with nuts, flavors other than chocolate",1240,"Spices, pepper, black",0.181
 "Ice cream cone, chocolate covered, with nuts, flavors other than chocolate",1240,"Cherries, sweet, raw",0.001
 "Ice cream cone, chocolate covered, with nuts, flavors other than chocolate",1240,"Peaches, yellow, raw",0.001
 "Ice cream cone, chocolate covered, with nuts, flavors other than chocolate",1240,"Raspberries, raw",0.001
@@ -522,7 +512,6 @@ Clif Z bar,3000,"Barley, pearled, raw",0.001
 "Ice cream, bar or stick, chocolate covered",1237,"Sugars, granulated",6.886
 "Ice cream, bar or stick, chocolate covered",1237,"Sugars, granulated",5.41
 "Ice cream, bar or stick, chocolate covered",1237,"Cocoa, dry powder, unsweetened",1.1
-"Ice cream, bar or stick, chocolate covered",1237,"Spices, pepper, black",0.186
 "Ice cream, bar or stick, chocolate covered",1237,Molasses,0.001
 "Ice cream, bar or stick, chocolate covered",1237,"Cassava, raw",0.001
 "Ice cream, bar or stick, chocolate covered",1237,Potato flour,0.001
@@ -652,7 +641,6 @@ Milk and cereal bar,8510,"Nuts, almonds",1.345
 "Salad dressing, caesar, low calorie",43021,"Sugars, granulated",9.885
 "Salad dressing, caesar, low calorie",43021,"Sugars, granulated",7.767
 "Salad dressing, caesar, low calorie",43021,"Oil, soybean, salad or cooking",4.001
-"Salad dressing, caesar, low calorie",43021,"Spices, pepper, black",0.4
 "Salad dressing, caesar, low calorie",43021,"Fish, tuna, light, canned in water, drained solids",0.37
 "Salad dressing, caesar, low calorie",43021,"Milk, averaged fat, with added vitamin A and D",0.173
 "Salad dressing, caesar, low calorie",43021,"Milk, averaged fat, with added vitamin A and D",0.165
@@ -707,7 +695,6 @@ Milk and cereal bar,8510,"Nuts, almonds",1.345
 "Cookies, oatmeal sandwich, with creme filling",28300,"Milk, averaged fat, with added vitamin A and D",0.827
 "Cookies, oatmeal sandwich, with creme filling",28300,"Oil, canola",0.519
 "Cookies, oatmeal sandwich, with creme filling",28300,"Milk, averaged fat, with added vitamin A and D",0.192
-"Cookies, oatmeal sandwich, with creme filling",28300,"Spices, pepper, black",0.145
 "Cookies, oatmeal sandwich, with creme filling",28300,"Spices, cinnamon, ground",0.135
 "Cookies, gingersnaps",18172,"Wheat flour, white, all-purpose, enriched, bleached",44.681
 "Cookies, gingersnaps",18172,Molasses,13.106
@@ -761,7 +748,6 @@ Milk and cereal bar,8510,"Nuts, almonds",1.345
 "Dressing, honey mustard, fat-free",4706,Honey,52.859
 "Dressing, honey mustard, fat-free",4706,"Oil, soybean, salad or cooking",13.493
 "Dressing, honey mustard, fat-free",4706,"Vinegar, distilled",13.098
-"Dressing, honey mustard, fat-free",4706,"Spices, pepper, black",3.016
 "Dressing, honey mustard, fat-free",4706,"Onions, raw",2.08
 "Dressing, honey mustard, fat-free",4706,"Oil, corn, industrial and retail, all purpose salad or cooking",1.597
 "Dressing, honey mustard, fat-free",4706,"Oil, cottonseed, salad or cooking",1.19
@@ -792,7 +778,6 @@ Milk and cereal bar,8510,"Nuts, almonds",1.345
 "Bologna, beef, low fat",42161,"Celery, raw",0.129
 "Bologna, beef, low fat",42161,"Egg, white, raw, fresh",0.129
 "Bologna, beef, low fat",42161,"Seaweed, wakame, raw",0.128
-"Bologna, beef, low fat",42161,"Spices, pepper, black",0.019
 "Bologna, beef, low fat",42161,"Spices, ginger, ground",0.018
 "Bologna, beef, low fat",42161,"Peppers, jalapeno, raw",0.018
 "Bologna, beef, low fat",42161,"Coriander (cilantro) leaves, raw",0.018
@@ -805,7 +790,6 @@ Milk and cereal bar,8510,"Nuts, almonds",1.345
 "Salad dressing, coleslaw",43016,"Egg, yolk, raw, fresh",5.161
 "Salad dressing, coleslaw",43016,Cornstarch,4.58
 "Salad dressing, coleslaw",43016,"Wheat flour, white, all-purpose, enriched, bleached",0.123
-"Salad dressing, coleslaw",43016,"Spices, pepper, black",0.11
 "Salad dressing, coleslaw",43016,"Cassava, raw",0.023
 "Salad dressing, coleslaw",43016,Potato flour,0.023
 "Salad dressing, coleslaw",43016,"Rice flour, white, unenriched",0.023
@@ -841,7 +825,6 @@ Milk and cereal bar,8510,"Nuts, almonds",1.345
 "Cookies, fortune",18171,"Sugars, granulated",20.68
 "Cookies, fortune",18171,"Egg, whole, raw, fresh",2.0
 "Cookies, fortune",18171,"Oil, soybean, salad or cooking",1.935
-"Cookies, fortune",18171,"Spices, pepper, black",0.237
 "Cookies, fortune",18171,"Oil, cottonseed, salad or cooking",0.083
 "Cookies, fortune",18171,"Oil, canola",0.052
 "Salad dressing, russian dressing, low calorie",4022,"Sugars, granulated",13.614
@@ -906,7 +889,6 @@ Milk and cereal bar,8510,"Nuts, almonds",1.345
 "Salad dressing, honey mustard dressing, reduced calorie",4686,Honey,52.859
 "Salad dressing, honey mustard dressing, reduced calorie",4686,"Oil, soybean, salad or cooking",13.493
 "Salad dressing, honey mustard dressing, reduced calorie",4686,"Vinegar, distilled",13.098
-"Salad dressing, honey mustard dressing, reduced calorie",4686,"Spices, pepper, black",3.016
 "Salad dressing, honey mustard dressing, reduced calorie",4686,"Onions, raw",2.08
 "Salad dressing, honey mustard dressing, reduced calorie",4686,"Oil, corn, industrial and retail, all purpose salad or cooking",1.597
 "Salad dressing, honey mustard dressing, reduced calorie",4686,"Oil, cottonseed, salad or cooking",1.19
@@ -978,7 +960,6 @@ Zwieback,3217,"Milk, averaged fat, with added vitamin A and D",0.03
 "Frankfurter, meatless",43130,"Coriander (cilantro) leaves, raw",0.023
 "Frankfurter, meatless",43130,"Spices, coriander leaf, dried",0.023
 "Frankfurter, meatless",43130,"Spices, pepper, black",0.023
-"Frankfurter, meatless",43130,"Spices, pepper, black",0.023
 "Frankfurter, meatless",43130,Honey,0.011
 "Frankfurter, meatless",43130,"Cassava, raw",0.001
 "Frankfurter, meatless",43130,Potato flour,0.001
@@ -1037,7 +1018,6 @@ Zwieback,3217,"Milk, averaged fat, with added vitamin A and D",0.03
 "Sausage, Vienna, canned, chicken, beef, pork",7083,"Celery, raw",0.087
 "Sausage, Vienna, canned, chicken, beef, pork",7083,"Egg, white, raw, fresh",0.087
 "Sausage, Vienna, canned, chicken, beef, pork",7083,"Seaweed, wakame, raw",0.087
-"Sausage, Vienna, canned, chicken, beef, pork",7083,"Spices, pepper, black",0.013
 "Sausage, Vienna, canned, chicken, beef, pork",7083,"Spices, ginger, ground",0.012
 "Sausage, Vienna, canned, chicken, beef, pork",7083,"Peppers, jalapeno, raw",0.012
 "Sausage, Vienna, canned, chicken, beef, pork",7083,"Coriander (cilantro) leaves, raw",0.012
@@ -1108,7 +1088,6 @@ Zwieback,3217,"Milk, averaged fat, with added vitamin A and D",0.03
 "Light ice cream, Creamsicle",1302,"Raspberries, raw",0.001
 "Light ice cream, Creamsicle",1302,"Blueberries, raw",0.001
 "Light ice cream, Creamsicle",1302,"Strawberries, raw",0.001
-"Light ice cream, Creamsicle",1302,"Spices, pepper, black",0.001
 "Light ice cream, Creamsicle",1302,"Bananas, raw",0.001
 "Snack, Pretzel, hard chocolate coated",25060,"Wheat flour, white, all-purpose, enriched, bleached",69.847
 "Snack, Pretzel, hard chocolate coated",25060,"Candies, chocolate, dark, NFS (45-59% cacao solids 90%; 60-69% cacao solids 5%; 70-85% cacao solids 5%)",9.24
@@ -1152,7 +1131,6 @@ Chocolate-flavored hazelnut spread,19125,"Milk, averaged fat, with added vitamin
 "Ice creams, vanilla",19095,Cornstarch,2.706
 "Ice creams, vanilla",19095,"Milk, averaged fat, with added vitamin A and D",1.412
 "Ice creams, vanilla",19095,"Oil, cottonseed, salad or cooking",0.82
-"Ice creams, vanilla",19095,"Spices, pepper, black",0.396
 "Ice creams, vanilla",19095,"Oil, corn, industrial and retail, all purpose salad or cooking",0.138
 "Ice creams, vanilla",19095,"Oil, canola",0.077
 "Ice creams, vanilla",19095,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.011
@@ -1205,7 +1183,6 @@ Chocolate-flavored hazelnut spread,19125,"Milk, averaged fat, with added vitamin
 "Mortadella, beef, pork",7050,"Coriander (cilantro) leaves, raw",0.005
 "Mortadella, beef, pork",7050,"Spices, coriander leaf, dried",0.005
 "Mortadella, beef, pork",7050,"Spices, pepper, black",0.005
-"Mortadella, beef, pork",7050,"Spices, pepper, black",0.005
 "Cabbage, kimchi",11118,"Cabbage, savoy, raw",26.25
 "Cabbage, kimchi",11118,"Cabbage, chinese (pak-choi), raw",26.25
 "Cabbage, kimchi",11118,"Cabbage, chinese (pak-choi), raw",26.25
@@ -1238,7 +1215,6 @@ Chocolate-flavored hazelnut spread,19125,"Milk, averaged fat, with added vitamin
 "Fast foods, griddle cake sandwich, egg, cheese, and sausage",21305,"Peppers, jalapeno, raw",0.003
 "Fast foods, griddle cake sandwich, egg, cheese, and sausage",21305,"Coriander (cilantro) leaves, raw",0.003
 "Fast foods, griddle cake sandwich, egg, cheese, and sausage",21305,"Spices, coriander leaf, dried",0.003
-"Fast foods, griddle cake sandwich, egg, cheese, and sausage",21305,"Spices, pepper, black",0.003
 "Fast foods, griddle cake sandwich, egg, cheese, and sausage",21305,"Spices, pepper, black",0.003
 "Snack, BALANCE, original bar",25068,"Soy flour, defatted",18.553
 "Snack, BALANCE, original bar",25068,"Vegetable oil, averaged",17.443
@@ -1293,7 +1269,6 @@ Chocolate-flavored hazelnut spread,19125,"Milk, averaged fat, with added vitamin
 "Frankfurter, meat and poultry, low fat",42280,"Celery, raw",0.094
 "Frankfurter, meat and poultry, low fat",42280,"Egg, white, raw, fresh",0.094
 "Frankfurter, meat and poultry, low fat",42280,"Seaweed, wakame, raw",0.093
-"Frankfurter, meat and poultry, low fat",42280,"Spices, pepper, black",0.014
 "Frankfurter, meat and poultry, low fat",42280,"Spices, ginger, ground",0.013
 "Frankfurter, meat and poultry, low fat",42280,"Peppers, jalapeno, raw",0.013
 "Frankfurter, meat and poultry, low fat",42280,"Coriander (cilantro) leaves, raw",0.013
@@ -1378,7 +1353,6 @@ Chocolate-flavored hazelnut spread,19125,"Milk, averaged fat, with added vitamin
 "Fast foods, griddle cake sandwich, sausage",21306,"Coriander (cilantro) leaves, raw",0.004
 "Fast foods, griddle cake sandwich, sausage",21306,"Spices, coriander leaf, dried",0.004
 "Fast foods, griddle cake sandwich, sausage",21306,"Spices, pepper, black",0.004
-"Fast foods, griddle cake sandwich, sausage",21306,"Spices, pepper, black",0.004
 Rice crackers,25071,"Rice, white, long-grain, regular, enriched, cooked",94.898
 Rice crackers,25071,"Oil, soybean, salad or cooking",4.687
 Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
@@ -1420,7 +1394,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Fast foods, english muffin, with egg, cheese, and sausage",21022,"Coriander (cilantro) leaves, raw",0.003
 "Fast foods, english muffin, with egg, cheese, and sausage",21022,"Spices, coriander leaf, dried",0.003
 "Fast foods, english muffin, with egg, cheese, and sausage",21022,"Spices, pepper, black",0.003
-"Fast foods, english muffin, with egg, cheese, and sausage",21022,"Spices, pepper, black",0.003
 "Bread stuffing, bread, dry mix",18081,"Beverages, water, tap, drinking",62.31
 "Bread stuffing, bread, dry mix",18081,"Wheat flour, white, all-purpose, enriched, bleached",25.795
 "Bread stuffing, bread, dry mix",18081,"Oil, soybean, salad or cooking",4.757
@@ -1436,7 +1409,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Bread stuffing, bread, dry mix",18081,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.043
 "Bread stuffing, bread, dry mix",18081,"Oil, sunflower, linoleic, (approx. 65%)",0.043
 "Bread stuffing, bread, dry mix",18081,"Spices, marjoram, dried",0.005
-"Bread stuffing, bread, dry mix",18081,"Spices, pepper, black",0.005
 "Bread stuffing, bread, dry mix",18081,"Spices, pepper, black",0.005
 "Bread stuffing, bread, dry mix",18081,"Chicken, broiler, rotisserie, BBQ, breast, meat only",0.001
 "Cookies, fig bars",18170,"Figs, dried, uncooked",33.0
@@ -1457,7 +1429,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Salad dressing, mayonnaise-type, light",4709,"Egg, yolk, raw, fresh",5.161
 "Salad dressing, mayonnaise-type, light",4709,Cornstarch,4.58
 "Salad dressing, mayonnaise-type, light",4709,"Wheat flour, white, all-purpose, enriched, bleached",0.123
-"Salad dressing, mayonnaise-type, light",4709,"Spices, pepper, black",0.11
 "Salad dressing, mayonnaise-type, light",4709,"Cassava, raw",0.023
 "Salad dressing, mayonnaise-type, light",4709,Potato flour,0.023
 "Salad dressing, mayonnaise-type, light",4709,"Rice flour, white, unenriched",0.023
@@ -1466,7 +1437,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Salami, cooked, turkey",7070,"Fat, turkey",13.5
 "Salami, cooked, turkey",7070,"Turkey, all classes, light meat, cooked, roasted",10.0
 "Salami, cooked, turkey",7070,"Turkey, skin from whole, (light and dark), with added solution, roasted",7.0
-"Salami, cooked, turkey",7070,"Spices, pepper, black",1.0
 "Salami, cooked, turkey",7070,"Syrups, corn, light",0.655
 "Fast foods, english muffin, with cheese and sausage",21020,"Wheat flour, white, all-purpose, enriched, bleached",24.538
 "Fast foods, english muffin, with cheese and sausage",21020,"Milk, averaged fat, with added vitamin A and D",9.56
@@ -1491,7 +1461,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Fast foods, english muffin, with cheese and sausage",21020,"Peppers, jalapeno, raw",0.004
 "Fast foods, english muffin, with cheese and sausage",21020,"Coriander (cilantro) leaves, raw",0.004
 "Fast foods, english muffin, with cheese and sausage",21020,"Spices, coriander leaf, dried",0.004
-"Fast foods, english muffin, with cheese and sausage",21020,"Spices, pepper, black",0.004
 "Fast foods, english muffin, with cheese and sausage",21020,"Spices, pepper, black",0.004
 "Toppings, marshmallow cream",19365,"Syrups, corn, light",35.641
 "Toppings, marshmallow cream",19365,Cornstarch,27.223
@@ -1549,7 +1518,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Ice cream bar, covered with chocolate and nuts",1300,"Wheat flour, white, all-purpose, enriched, bleached",3.641
 "Ice cream bar, covered with chocolate and nuts",1300,"Oil, cottonseed, salad or cooking",0.76
 "Ice cream bar, covered with chocolate and nuts",1300,"Oil, soybean, salad or cooking",0.264
-"Ice cream bar, covered with chocolate and nuts",1300,"Spices, pepper, black",0.181
 "Fruit juice drink, greater than 3% fruit juice, high vitamin C and added thiamin",14648,"Orange juice, chilled, includes from concentrate",9.9
 "Fruit juice drink, greater than 3% fruit juice, high vitamin C and added thiamin",14648,"Syrups, corn, light",9.46
 "Crackers, matzo, plain",18217,"Wheat flour, white, all-purpose, enriched, bleached",108.39
@@ -1589,7 +1557,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Knackwurst, knockwurst, pork, beef",7038,"Celery, raw",0.088
 "Knackwurst, knockwurst, pork, beef",7038,"Egg, white, raw, fresh",0.088
 "Knackwurst, knockwurst, pork, beef",7038,"Seaweed, wakame, raw",0.088
-"Knackwurst, knockwurst, pork, beef",7038,"Spices, pepper, black",0.013
 "Knackwurst, knockwurst, pork, beef",7038,"Spices, ginger, ground",0.012
 "Knackwurst, knockwurst, pork, beef",7038,"Peppers, jalapeno, raw",0.012
 "Knackwurst, knockwurst, pork, beef",7038,"Coriander (cilantro) leaves, raw",0.012
@@ -1623,7 +1590,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Snacks, granola bar, with coconut, chocolate coated",42272,"Seeds, sesame seeds, whole, dried",1.331
 "Snacks, granola bar, with coconut, chocolate coated",42272,"Oil, cottonseed, salad or cooking",1.005
 "Snacks, granola bar, with coconut, chocolate coated",42272,"Milk, averaged fat, with added vitamin A and D",0.044
-"Snacks, granola bar, with coconut, chocolate coated",42272,"Spices, pepper, black",0.026
 "Snacks, granola bar, with coconut, chocolate coated",42272,"Barley, pearled, raw",0.012
 "Snacks, granola bar, with coconut, chocolate coated",42272,"Milk, averaged fat, with added vitamin A and D",0.011
 "Milk, chocolate, lowfat, with added vitamin A and vitamin D",1104,"Milk, averaged fat, with added vitamin A and D",83.591
@@ -1678,7 +1644,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Cereals ready-to-eat, HEALTH VALLEY, FIBER 7 Flakes",8290,Molasses,1.838
 "Cereals ready-to-eat, HEALTH VALLEY, FIBER 7 Flakes",8290,"Sugars, granulated",1.445
 "Cereals ready-to-eat, HEALTH VALLEY, FIBER 7 Flakes",8290,Molasses,1.445
-"Cereals ready-to-eat, HEALTH VALLEY, FIBER 7 Flakes",8290,"Spices, pepper, black",0.083
 "Salisbury steak with gravy, frozen",32031,"Wheat flour, white, all-purpose, enriched, bleached",23.912
 "Salisbury steak with gravy, frozen",32031,"Ground beef, cooked, averaged",22.356
 "Salisbury steak with gravy, frozen",32031,"Milk, averaged fat, with added vitamin A and D",9.845
@@ -1817,7 +1782,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Cereals ready-to-eat, OAT BRAN FLAKES, HEALTH VALLEY",43495,"Sugars, granulated",2.006
 "Cereals ready-to-eat, OAT BRAN FLAKES, HEALTH VALLEY",43495,"Sugars, granulated",1.576
 "Cereals ready-to-eat, OAT BRAN FLAKES, HEALTH VALLEY",43495,"Syrups, corn, light",0.551
-"Cereals ready-to-eat, OAT BRAN FLAKES, HEALTH VALLEY",43495,"Spices, pepper, black",0.293
 "Cereals ready-to-eat, KELLOGG, KELLOGG'S FROSTED FLAKES",8069,"Corn flour, masa, unenriched, white",61.348
 "Cereals ready-to-eat, KELLOGG, KELLOGG'S FROSTED FLAKES",8069,"Sugars, granulated",21.436
 "Cereals ready-to-eat, KELLOGG, KELLOGG'S FROSTED FLAKES",8069,"Sugars, granulated",16.842
@@ -1849,7 +1813,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Salad dressing, thousand island dressing, reduced fat",4023,"Coriander (cilantro) leaves, raw",0.023
 "Salad dressing, thousand island dressing, reduced fat",4023,"Spices, coriander leaf, dried",0.023
 "Salad dressing, thousand island dressing, reduced fat",4023,"Spices, pepper, black",0.023
-"Salad dressing, thousand island dressing, reduced fat",4023,"Spices, pepper, black",0.023
 "Salad dressing, thousand island dressing, reduced fat",4023,"Spices, onion powder",0.02
 "Ice creams, chocolate, light",19114,"Sugars, granulated",10.864
 "Ice creams, chocolate, light",19114,"Milk, averaged fat, with added vitamin A and D",10.771
@@ -1875,7 +1838,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Salami, dry or hard, pork, beef",7072,"Coriander (cilantro) leaves, raw",0.007
 "Salami, dry or hard, pork, beef",7072,"Spices, coriander leaf, dried",0.007
 "Salami, dry or hard, pork, beef",7072,"Spices, pepper, black",0.007
-"Salami, dry or hard, pork, beef",7072,"Spices, pepper, black",0.007
 "Fast foods, taco with chicken, lettuce and cheese, soft",21487,"Chicken, broiler, rotisserie, BBQ, breast, meat only",47.296
 "Fast foods, taco with chicken, lettuce and cheese, soft",21487,"Wheat flour, white, all-purpose, enriched, bleached",20.133
 "Fast foods, taco with chicken, lettuce and cheese, soft",21487,"Lettuce, iceberg (includes crisphead types), raw",17.3
@@ -1887,7 +1849,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Fast foods, taco with chicken, lettuce and cheese, soft",21487,"Oil, cottonseed, salad or cooking",0.129
 "Fast foods, taco with chicken, lettuce and cheese, soft",21487,"Oil, corn, industrial and retail, all purpose salad or cooking",0.084
 "Fast foods, taco with chicken, lettuce and cheese, soft",21487,"Peppers, jalapeno, raw",0.077
-"Fast foods, taco with chicken, lettuce and cheese, soft",21487,"Spices, pepper, black",0.075
 "Fast foods, taco with chicken, lettuce and cheese, soft",21487,"Spices, marjoram, dried",0.073
 "Fast foods, taco with chicken, lettuce and cheese, soft",21487,"Oil, canola",0.068
 "Fast foods, taco with chicken, lettuce and cheese, soft",21487,"Garlic, raw",0.005
@@ -1950,7 +1911,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Ice creams, vanilla, rich",19089,Cornstarch,2.706
 "Ice creams, vanilla, rich",19089,"Milk, averaged fat, with added vitamin A and D",1.412
 "Ice creams, vanilla, rich",19089,"Oil, cottonseed, salad or cooking",0.82
-"Ice creams, vanilla, rich",19089,"Spices, pepper, black",0.396
 "Ice creams, vanilla, rich",19089,"Oil, corn, industrial and retail, all purpose salad or cooking",0.138
 "Ice creams, vanilla, rich",19089,"Oil, canola",0.077
 "Ice creams, vanilla, rich",19089,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.011
@@ -2000,7 +1960,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Cookies, vanilla wafers, lower fat",18212,"Oil, cottonseed, salad or cooking",0.541
 "Cookies, vanilla wafers, lower fat",18212,"Milk, averaged fat, with added vitamin A and D",0.491
 "Cookies, vanilla wafers, lower fat",18212,"Oil, canola",0.338
-"Cookies, vanilla wafers, lower fat",18212,"Spices, pepper, black",0.244
 "Cookies, vanilla wafers, lower fat",18212,"Milk, averaged fat, with added vitamin A and D",0.01
 "Cookies, vanilla wafers, lower fat",18212,"Milk, averaged fat, with added vitamin A and D",0.006
 "Cookies, graham crackers, chocolate-coated",18174,"Sugars, granulated",23.018
@@ -2020,7 +1979,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Cookies, graham crackers, chocolate-coated",18174,Honey,0.372
 "Cookies, graham crackers, chocolate-coated",18174,"Oil, cottonseed, salad or cooking",0.328
 "Cookies, graham crackers, chocolate-coated",18174,"Oil, canola",0.205
-"Cookies, graham crackers, chocolate-coated",18174,"Spices, pepper, black",0.018
 "Fast foods, biscuit, with egg, cheese, and bacon",21007,"Wheat flour, white, all-purpose, enriched, bleached",23.285
 "Fast foods, biscuit, with egg, cheese, and bacon",21007,"Egg, whole, raw, fresh",20.725
 "Fast foods, biscuit, with egg, cheese, and bacon",21007,"Milk, averaged fat, with added vitamin A and D",11.082
@@ -2073,7 +2031,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Turnover, meat- and cheese-filled, tomato-based sauce, reduced fat, frozen",32027,"Coriander (cilantro) leaves, raw",0.002
 "Turnover, meat- and cheese-filled, tomato-based sauce, reduced fat, frozen",32027,"Spices, coriander leaf, dried",0.002
 "Turnover, meat- and cheese-filled, tomato-based sauce, reduced fat, frozen",32027,"Spices, pepper, black",0.002
-"Turnover, meat- and cheese-filled, tomato-based sauce, reduced fat, frozen",32027,"Spices, pepper, black",0.002
 "Turnover, meat- and cheese-filled, tomato-based sauce, reduced fat, frozen",32027,Honey,0.002
 "Turnover, meat- and cheese-filled, tomato-based sauce, reduced fat, frozen",32027,"Cassava, raw",0.001
 "Turnover, meat- and cheese-filled, tomato-based sauce, reduced fat, frozen",32027,Potato flour,0.001
@@ -2090,7 +2047,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Fast foods, taco with beef, cheese and lettuce, soft",21486,"Oil, cottonseed, salad or cooking",0.232
 "Fast foods, taco with beef, cheese and lettuce, soft",21486,"Oil, corn, industrial and retail, all purpose salad or cooking",0.152
 "Fast foods, taco with beef, cheese and lettuce, soft",21486,"Peppers, jalapeno, raw",0.138
-"Fast foods, taco with beef, cheese and lettuce, soft",21486,"Spices, pepper, black",0.134
 "Fast foods, taco with beef, cheese and lettuce, soft",21486,"Spices, marjoram, dried",0.13
 "Fast foods, taco with beef, cheese and lettuce, soft",21486,"Oil, canola",0.123
 "Fast foods, taco with beef, cheese and lettuce, soft",21486,"Garlic, raw",0.008
@@ -2117,7 +2073,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Bread stuffing, cornbread, dry mix, prepared",18085,"Oil, canola",0.299
 "Bread stuffing, cornbread, dry mix, prepared",18085,"Spices, marjoram, dried",0.272
 "Bread stuffing, cornbread, dry mix, prepared",18085,"Spices, pepper, black",0.241
-"Bread stuffing, cornbread, dry mix, prepared",18085,"Spices, pepper, black",0.241
 "Bread stuffing, cornbread, dry mix, prepared",18085,"Milk, averaged fat, with added vitamin A and D",0.202
 "Bread stuffing, cornbread, dry mix, prepared",18085,"Fat, chicken",0.146
 "Bread stuffing, cornbread, dry mix, prepared",18085,"Oil, cottonseed, salad or cooking",0.089
@@ -2139,7 +2094,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Cookies, vanilla wafers, higher fat",18213,"Oil, cottonseed, salad or cooking",0.541
 "Cookies, vanilla wafers, higher fat",18213,"Milk, averaged fat, with added vitamin A and D",0.491
 "Cookies, vanilla wafers, higher fat",18213,"Oil, canola",0.338
-"Cookies, vanilla wafers, higher fat",18213,"Spices, pepper, black",0.244
 "Cookies, vanilla wafers, higher fat",18213,"Milk, averaged fat, with added vitamin A and D",0.01
 "Cookies, vanilla wafers, higher fat",18213,"Milk, averaged fat, with added vitamin A and D",0.006
 "Fast foods, biscuit, with sausage",21009,"Wheat flour, white, all-purpose, enriched, bleached",33.25
@@ -2165,7 +2119,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Fast foods, biscuit, with sausage",21009,"Coriander (cilantro) leaves, raw",0.004
 "Fast foods, biscuit, with sausage",21009,"Spices, coriander leaf, dried",0.004
 "Fast foods, biscuit, with sausage",21009,"Spices, pepper, black",0.004
-"Fast foods, biscuit, with sausage",21009,"Spices, pepper, black",0.004
 "Ice creams, vanilla, fat free",19867,"Milk, averaged fat, with added vitamin A and D",40.192
 "Ice creams, vanilla, fat free",19867,"Wheat flour, white, all-purpose, enriched, bleached",18.247
 "Ice creams, vanilla, fat free",19867,"Oil, soybean, salad or cooking",10.408
@@ -2177,7 +2130,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Ice creams, vanilla, fat free",19867,Cornstarch,2.706
 "Ice creams, vanilla, fat free",19867,"Milk, averaged fat, with added vitamin A and D",1.412
 "Ice creams, vanilla, fat free",19867,"Oil, cottonseed, salad or cooking",0.82
-"Ice creams, vanilla, fat free",19867,"Spices, pepper, black",0.396
 "Ice creams, vanilla, fat free",19867,"Oil, corn, industrial and retail, all purpose salad or cooking",0.138
 "Ice creams, vanilla, fat free",19867,"Oil, canola",0.077
 "Ice creams, vanilla, fat free",19867,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.011
@@ -2258,7 +2210,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Candies, fudge, vanilla with nuts",19104,"Sugars, granulated",0.175
 "Candies, fudge, vanilla with nuts",19104,"Syrups, corn, light",0.17
 "Candies, fudge, vanilla with nuts",19104,"Oil, cottonseed, salad or cooking",0.095
-"Candies, fudge, vanilla with nuts",19104,"Spices, pepper, black",0.013
 "Candies, fudge, vanilla with nuts",19104,"Oil, canola",0.013
 "Salad dressing, caesar dressing, regular",43015,"Oil, soybean, salad or cooking",42.292
 "Salad dressing, caesar dressing, regular",43015,"Vinegar, distilled",17.008
@@ -2321,7 +2272,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Sandwich spread, pork, beef",7073,"Spices, turmeric, ground",0.2
 "Sandwich spread, pork, beef",7073,"Peppers, jalapeno, raw",0.2
 "Sandwich spread, pork, beef",7073,"Lemon juice, raw",0.2
-"Sandwich spread, pork, beef",7073,"Spices, pepper, black",0.058
 "Sandwich spread, pork, beef",7073,"Spices, ginger, ground",0.057
 "Sandwich spread, pork, beef",7073,"Peppers, jalapeno, raw",0.057
 "Sandwich spread, pork, beef",7073,"Coriander (cilantro) leaves, raw",0.057
@@ -2355,7 +2305,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Salad Dressing, coleslaw dressing, reduced fat",42230,"Egg, yolk, raw, fresh",5.161
 "Salad Dressing, coleslaw dressing, reduced fat",42230,Cornstarch,4.58
 "Salad Dressing, coleslaw dressing, reduced fat",42230,"Wheat flour, white, all-purpose, enriched, bleached",0.123
-"Salad Dressing, coleslaw dressing, reduced fat",42230,"Spices, pepper, black",0.11
 "Salad Dressing, coleslaw dressing, reduced fat",42230,"Cassava, raw",0.023
 "Salad Dressing, coleslaw dressing, reduced fat",42230,Potato flour,0.023
 "Salad Dressing, coleslaw dressing, reduced fat",42230,"Rice flour, white, unenriched",0.023
@@ -2389,7 +2338,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Turkey ham, sliced, extra lean, prepackaged or deli-sliced",42128,"Coriander (cilantro) leaves, raw",0.004
 "Turkey ham, sliced, extra lean, prepackaged or deli-sliced",42128,"Spices, coriander leaf, dried",0.004
 "Turkey ham, sliced, extra lean, prepackaged or deli-sliced",42128,"Spices, pepper, black",0.004
-"Turkey ham, sliced, extra lean, prepackaged or deli-sliced",42128,"Spices, pepper, black",0.004
 "Sauce, teriyaki, ready-to-serve",6112,"Alcoholic beverage, wine, table, all",26.633
 "Sauce, teriyaki, ready-to-serve",6112,"Wheat flour, white, all-purpose, enriched, bleached",26.633
 "Sauce, teriyaki, ready-to-serve",6112,"Soybeans, mature seeds, sprouted, cooked, steamed",10.893
@@ -2411,7 +2359,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Cake, pudding-type, yellow, dry mix",18142,"Oil, corn, industrial and retail, all purpose salad or cooking",0.754
 "Cake, pudding-type, yellow, dry mix",18142,"Oil, cottonseed, salad or cooking",0.678
 "Cake, pudding-type, yellow, dry mix",18142,"Oil, canola",0.35
-"Cake, pudding-type, yellow, dry mix",18142,"Spices, pepper, black",0.123
 "Cake, pudding-type, yellow, dry mix",18142,"Oil, sunflower, linoleic, (approx. 65%)",0.036
 "Cake, pudding-type, yellow, dry mix",18142,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.02
 "Cheese puffs and twists, corn based, baked, low fat",19434,"Cornmeal, degermed, enriched, yellow",72.825
@@ -2450,7 +2397,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Fast foods, submarine sandwich, cold cut on white bread with lettuce and tomato",21124,"Egg, white, raw, fresh",0.035
 "Fast foods, submarine sandwich, cold cut on white bread with lettuce and tomato",21124,"Seaweed, wakame, raw",0.035
 "Fast foods, submarine sandwich, cold cut on white bread with lettuce and tomato",21124,Honey,0.009
-"Fast foods, submarine sandwich, cold cut on white bread with lettuce and tomato",21124,"Spices, pepper, black",0.008
 "Fast foods, submarine sandwich, cold cut on white bread with lettuce and tomato",21124,"Spices, ginger, ground",0.005
 "Fast foods, submarine sandwich, cold cut on white bread with lettuce and tomato",21124,"Peppers, jalapeno, raw",0.005
 "Fast foods, submarine sandwich, cold cut on white bread with lettuce and tomato",21124,"Coriander (cilantro) leaves, raw",0.005
@@ -2490,7 +2436,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Salad Dressing, mayonnaise-like, fat-free",42193,"Garlic, raw",1.901
 "Salad Dressing, mayonnaise-like, fat-free",42193,"Spices, onion powder",1.901
 "Salad Dressing, mayonnaise-like, fat-free",42193,"Lemon juice, raw",1.901
-"Salad Dressing, mayonnaise-like, fat-free",42193,"Spices, pepper, black",1.901
 "Salad Dressing, mayonnaise-like, fat-free",42193,"Egg, white, raw, fresh",1.901
 "Salad Dressing, mayonnaise-like, fat-free",42193,"Seaweed, wakame, raw",1.901
 "Salad Dressing, mayonnaise-like, fat-free",42193,"Vinegar, distilled",1.901
@@ -2508,7 +2453,6 @@ Rice crackers,25071,"Oil, cottonseed, salad or cooking",0.408
 "Salad dressing, mayonnaise type, regular, with salt",4018,"Egg, yolk, raw, fresh",5.161
 "Salad dressing, mayonnaise type, regular, with salt",4018,Cornstarch,4.58
 "Salad dressing, mayonnaise type, regular, with salt",4018,"Wheat flour, white, all-purpose, enriched, bleached",0.123
-"Salad dressing, mayonnaise type, regular, with salt",4018,"Spices, pepper, black",0.11
 "Salad dressing, mayonnaise type, regular, with salt",4018,"Cassava, raw",0.023
 "Salad dressing, mayonnaise type, regular, with salt",4018,Potato flour,0.023
 "Salad dressing, mayonnaise type, regular, with salt",4018,"Rice flour, white, unenriched",0.023
@@ -2574,7 +2518,6 @@ Candied fruit,9426,"Lemon peel, raw",20.667
 "Fast foods, submarine sandwich, tuna on white bread with lettuce and tomato",21126,Cornstarch,0.317
 "Fast foods, submarine sandwich, tuna on white bread with lettuce and tomato",21126,"Milk, averaged fat, with added vitamin A and D",0.234
 "Fast foods, submarine sandwich, tuna on white bread with lettuce and tomato",21126,"Oil, cottonseed, salad or cooking",0.134
-"Fast foods, submarine sandwich, tuna on white bread with lettuce and tomato",21126,"Spices, pepper, black",0.022
 "Fast foods, submarine sandwich, tuna on white bread with lettuce and tomato",21126,"Spices, ginger, ground",0.014
 "Fast foods, submarine sandwich, tuna on white bread with lettuce and tomato",21126,"Peppers, jalapeno, raw",0.014
 "Fast foods, submarine sandwich, tuna on white bread with lettuce and tomato",21126,"Coriander (cilantro) leaves, raw",0.014
@@ -2604,7 +2547,6 @@ Candied fruit,9426,"Lemon peel, raw",20.667
 "Beans, baked, canned, with pork and sweet sauce",16010,"Sugars, granulated",3.03
 "Beans, baked, canned, with pork and sweet sauce",16010,"Sugars, granulated",2.38
 "Beans, baked, canned, with pork and sweet sauce",16010,"Pork, fresh, variety meats and by-products, feet, cooked, simmered",1.54
-"Beans, baked, canned, with pork and sweet sauce",16010,"Spices, pepper, black",0.7
 "Milk dessert, frozen, milk-fat free, chocolate",42131,"Milk, averaged fat, with added vitamin A and D",57.7
 "Milk dessert, frozen, milk-fat free, chocolate",42131,"Syrups, corn, light",12.654
 "Milk dessert, frozen, milk-fat free, chocolate",42131,"Milk, averaged fat, with added vitamin A and D",9.851
@@ -2623,7 +2565,6 @@ Candied fruit,9426,"Lemon peel, raw",20.667
 "Beef, corned beef hash, with potato, canned",22908,"Beef, retail cuts, separable fat, cooked",6.643
 "Beef, corned beef hash, with potato, canned",22908,"Onions, raw",2.7
 "Beef, corned beef hash, with potato, canned",22908,"Syrups, corn, light",0.073
-"Beef, corned beef hash, with potato, canned",22908,"Spices, pepper, black",0.051
 "Beef, corned beef hash, with potato, canned",22908,"Spices, ginger, ground",0.05
 "Beef, corned beef hash, with potato, canned",22908,"Peppers, jalapeno, raw",0.05
 "Beef, corned beef hash, with potato, canned",22908,"Coriander (cilantro) leaves, raw",0.05
@@ -2773,7 +2714,6 @@ Candied fruit,9426,"Lemon peel, raw",20.667
 "Scrapple, pork",7951,"Coriander (cilantro) leaves, raw",0.008
 "Scrapple, pork",7951,"Spices, coriander leaf, dried",0.008
 "Scrapple, pork",7951,"Spices, pepper, black",0.008
-"Scrapple, pork",7951,"Spices, pepper, black",0.008
 "Cereals ready-to-eat, KELLOGG, KELLOGG'S Low Fat Granola with Raisins",8284,"Wheat flour, white, all-purpose, enriched, bleached",28.334
 "Cereals ready-to-eat, KELLOGG, KELLOGG'S Low Fat Granola with Raisins",8284,"Wheat flour, white, all-purpose, enriched, bleached",28.334
 "Cereals ready-to-eat, KELLOGG, KELLOGG'S Low Fat Granola with Raisins",8284,"Sugars, granulated",15.867
@@ -2802,7 +2742,6 @@ Candied fruit,9426,"Lemon peel, raw",20.667
 "Pickles, cucumber, sweet (includes bread and butter pickles)",11940,"Cucumber, with peel, raw",49.95
 "Pickles, cucumber, sweet (includes bread and butter pickles)",11940,"Syrups, corn, light",45.934
 "Pickles, cucumber, sweet (includes bread and butter pickles)",11940,"Vinegar, distilled",1.83
-"Pickles, cucumber, sweet (includes bread and butter pickles)",11940,"Spices, pepper, black",0.065
 "Pickles, cucumber, sweet (includes bread and butter pickles)",11940,"Spices, ginger, ground",0.064
 "Pickles, cucumber, sweet (includes bread and butter pickles)",11940,"Peppers, jalapeno, raw",0.064
 "Pickles, cucumber, sweet (includes bread and butter pickles)",11940,"Coriander (cilantro) leaves, raw",0.064
@@ -2818,7 +2757,6 @@ Eggnog,1057,"Milk, averaged fat, with added vitamin A and D",6.747
 Eggnog,1057,"Sugars, granulated",4.972
 Eggnog,1057,"Milk, averaged fat, with added vitamin A and D",4.375
 Eggnog,1057,"Sugars, granulated",3.907
-Eggnog,1057,"Spices, pepper, black",3.0
 "Jams, preserves, marmalades, sweetened with fruit juice",19920,"Babyfood, juice, pear",169.0
 "Jams, preserves, marmalades, sweetened with fruit juice",19920,"Grape juice, canned or bottled, unsweetened, without added ascorbic acid",137.0
 "Jams, preserves, marmalades, sweetened with fruit juice",19920,"Strawberries, raw",9.5
@@ -2830,7 +2768,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Salad dressing, honey mustard, regular",4703,Honey,52.859
 "Salad dressing, honey mustard, regular",4703,"Oil, soybean, salad or cooking",13.493
 "Salad dressing, honey mustard, regular",4703,"Vinegar, distilled",13.098
-"Salad dressing, honey mustard, regular",4703,"Spices, pepper, black",3.016
 "Salad dressing, honey mustard, regular",4703,"Onions, raw",2.08
 "Salad dressing, honey mustard, regular",4703,"Oil, corn, industrial and retail, all purpose salad or cooking",1.597
 "Salad dressing, honey mustard, regular",4703,"Oil, cottonseed, salad or cooking",1.19
@@ -2869,7 +2806,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Cookies, vanilla sandwich with creme filling, reduced fat",28352,"Oil, canola",0.142
 "Cookies, vanilla sandwich with creme filling, reduced fat",28352,"Milk, averaged fat, with added vitamin A and D",0.083
 "Cookies, vanilla sandwich with creme filling, reduced fat",28352,"Milk, averaged fat, with added vitamin A and D",0.045
-"Cookies, vanilla sandwich with creme filling, reduced fat",28352,"Spices, pepper, black",0.001
 "Fast foods, biscuit, with ham",21008,"Pork, cured, ham -- water added, whole, boneless, separable lean only, heated, roasted",35.192
 "Fast foods, biscuit, with ham",21008,"Wheat flour, white, all-purpose, enriched, bleached",25.701
 "Fast foods, biscuit, with ham",21008,"Oil, soybean, salad or cooking",11.709
@@ -2982,7 +2918,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Luncheon slices, meatless",43131,"Coriander (cilantro) leaves, raw",0.023
 "Luncheon slices, meatless",43131,"Spices, coriander leaf, dried",0.023
 "Luncheon slices, meatless",43131,"Spices, pepper, black",0.023
-"Luncheon slices, meatless",43131,"Spices, pepper, black",0.023
 "Luncheon slices, meatless",43131,Honey,0.011
 "Luncheon slices, meatless",43131,"Cassava, raw",0.001
 "Luncheon slices, meatless",43131,Potato flour,0.001
@@ -3027,7 +2962,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Frankfurter, beef, pork, and turkey, fat free",7905,"Celery, raw",0.088
 "Frankfurter, beef, pork, and turkey, fat free",7905,"Egg, white, raw, fresh",0.088
 "Frankfurter, beef, pork, and turkey, fat free",7905,"Seaweed, wakame, raw",0.088
-"Frankfurter, beef, pork, and turkey, fat free",7905,"Spices, pepper, black",0.013
 "Frankfurter, beef, pork, and turkey, fat free",7905,"Spices, ginger, ground",0.012
 "Frankfurter, beef, pork, and turkey, fat free",7905,"Peppers, jalapeno, raw",0.012
 "Frankfurter, beef, pork, and turkey, fat free",7905,"Coriander (cilantro) leaves, raw",0.012
@@ -3077,7 +3011,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Fast foods, croissant, with egg, cheese, and sausage",21014,"Coriander (cilantro) leaves, raw",0.004
 "Fast foods, croissant, with egg, cheese, and sausage",21014,"Spices, coriander leaf, dried",0.004
 "Fast foods, croissant, with egg, cheese, and sausage",21014,"Spices, pepper, black",0.004
-"Fast foods, croissant, with egg, cheese, and sausage",21014,"Spices, pepper, black",0.004
 "Milk, canned, condensed, sweetened",1095,"Beverages, water, tap, drinking",43.65
 "Milk, canned, condensed, sweetened",1095,"Milk, averaged fat, with added vitamin A and D",15.304
 "Milk, canned, condensed, sweetened",1095,"Sugars, granulated",13.886
@@ -3099,7 +3032,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Bread stuffing, bread, dry mix, prepared",18082,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.043
 "Bread stuffing, bread, dry mix, prepared",18082,"Oil, sunflower, linoleic, (approx. 65%)",0.043
 "Bread stuffing, bread, dry mix, prepared",18082,"Spices, marjoram, dried",0.005
-"Bread stuffing, bread, dry mix, prepared",18082,"Spices, pepper, black",0.005
 "Bread stuffing, bread, dry mix, prepared",18082,"Spices, pepper, black",0.005
 "Bread stuffing, bread, dry mix, prepared",18082,"Chicken, broiler, rotisserie, BBQ, breast, meat only",0.001
 "Cranberry juice cocktail, bottled",14242,"Cranberry juice, unsweetened",33.706
@@ -3206,7 +3138,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Sauce, tartar, ready-to-serve",27049,"Lemon juice, raw",0.642
 "Sauce, tartar, ready-to-serve",27049,"Parsley, fresh",0.365
 "Sauce, tartar, ready-to-serve",27049,"Wheat flour, white, all-purpose, enriched, bleached",0.058
-"Sauce, tartar, ready-to-serve",27049,"Spices, pepper, black",0.055
 "Sauce, tartar, ready-to-serve",27049,"Cassava, raw",0.011
 "Sauce, tartar, ready-to-serve",27049,Potato flour,0.011
 "Sauce, tartar, ready-to-serve",27049,"Rice flour, white, unenriched",0.011
@@ -3330,7 +3261,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Cake, gingerbread, dry mix",18114,"Oil, cottonseed, salad or cooking",0.722
 "Cake, gingerbread, dry mix",18114,"Spices, cinnamon, ground",0.346
 "Cake, gingerbread, dry mix",18114,"Spices, ginger, ground",0.277
-"Cake, gingerbread, dry mix",18114,"Spices, pepper, black",0.139
 "Cereals ready-to-eat, KELLOGG'S SPECIAL K Chocolatey Delight",8584,"Rice, white, long-grain, regular, enriched, cooked",71.655
 "Cereals ready-to-eat, KELLOGG'S SPECIAL K Chocolatey Delight",8584,"Wheat flour, white, all-purpose, enriched, bleached",15.946
 "Cereals ready-to-eat, KELLOGG'S SPECIAL K Chocolatey Delight",8584,"Sugars, granulated",2.79
@@ -3359,7 +3289,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Cookies, sugar wafer, chocolate-covered",28311,"Milk, averaged fat, with added vitamin A and D",0.97
 "Cookies, sugar wafer, chocolate-covered",28311,"Oil, corn, industrial and retail, all purpose salad or cooking",0.069
 "Cookies, sugar wafer, chocolate-covered",28311,"Oil, canola",0.038
-"Cookies, sugar wafer, chocolate-covered",28311,"Spices, pepper, black",0.033
 "Cookies, sugar wafer, chocolate-covered",28311,"Oil, cottonseed, salad or cooking",0.005
 "Cookies, sugar wafer, chocolate-covered",28311,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.005
 "Cookies, sugar wafer, chocolate-covered",28311,"Oil, sunflower, linoleic, (approx. 65%)",0.005
@@ -3421,7 +3350,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Sausage, egg and cheese breakfast biscuit",32032,Cornstarch,0.023
 "Sausage, egg and cheese breakfast biscuit",32032,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.02
 "Sausage, egg and cheese breakfast biscuit",32032,"Oil, sunflower, linoleic, (approx. 65%)",0.02
-"Sausage, egg and cheese breakfast biscuit",32032,"Spices, pepper, black",0.004
 "Sausage, egg and cheese breakfast biscuit",32032,"Spices, ginger, ground",0.003
 "Sausage, egg and cheese breakfast biscuit",32032,"Peppers, jalapeno, raw",0.003
 "Sausage, egg and cheese breakfast biscuit",32032,"Coriander (cilantro) leaves, raw",0.003
@@ -3510,7 +3438,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Sandwich spread, meatless",43135,"Spices, turmeric, ground",0.2
 "Sandwich spread, meatless",43135,"Peppers, jalapeno, raw",0.2
 "Sandwich spread, meatless",43135,"Lemon juice, raw",0.2
-"Sandwich spread, meatless",43135,"Spices, pepper, black",0.058
 "Sandwich spread, meatless",43135,"Spices, ginger, ground",0.057
 "Sandwich spread, meatless",43135,"Peppers, jalapeno, raw",0.057
 "Sandwich spread, meatless",43135,"Coriander (cilantro) leaves, raw",0.057
@@ -3523,7 +3450,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Cookies, sugar wafer, with creme filling, sugar free",18202,Cornstarch,5.181
 "Cookies, sugar wafer, with creme filling, sugar free",18202,"Milk, averaged fat, with added vitamin A and D",0.193
 "Cookies, sugar wafer, with creme filling, sugar free",18202,"Milk, averaged fat, with added vitamin A and D",0.002
-"Cookies, sugar wafer, with creme filling, sugar free",18202,"Spices, pepper, black",0.001
 "Cookies, sugar wafer, with creme filling, sugar free",18202,"Milk, averaged fat, with added vitamin A and D",0.001
 "Cereals ready-to-eat, KELLOGG, KELLOGG'S Low Fat Granola without Raisins",8189,"Wheat flour, white, all-purpose, enriched, bleached",28.334
 "Cereals ready-to-eat, KELLOGG, KELLOGG'S Low Fat Granola without Raisins",8189,"Wheat flour, white, all-purpose, enriched, bleached",28.334
@@ -3584,7 +3510,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Ice creams, vanilla, light",19088,Cornstarch,2.706
 "Ice creams, vanilla, light",19088,"Milk, averaged fat, with added vitamin A and D",1.412
 "Ice creams, vanilla, light",19088,"Oil, cottonseed, salad or cooking",0.82
-"Ice creams, vanilla, light",19088,"Spices, pepper, black",0.396
 "Ice creams, vanilla, light",19088,"Oil, corn, industrial and retail, all purpose salad or cooking",0.138
 "Ice creams, vanilla, light",19088,"Oil, canola",0.077
 "Ice creams, vanilla, light",19088,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.011
@@ -3625,7 +3550,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Pizza, meat and vegetable topping, regular crust, frozen, cooked",21226,"Spices, basil, dried",0.047
 "Pizza, meat and vegetable topping, regular crust, frozen, cooked",21226,"Spices, marjoram, dried",0.047
 "Pizza, meat and vegetable topping, regular crust, frozen, cooked",21226,"Spices, sage, ground",0.047
-"Pizza, meat and vegetable topping, regular crust, frozen, cooked",21226,"Spices, pepper, black",0.022
 "Pizza, meat and vegetable topping, regular crust, frozen, cooked",21226,"Oil, sunflower, linoleic, (approx. 65%)",0.01
 "Pizza, meat and vegetable topping, regular crust, frozen, cooked",21226,"Spices, onion powder",0.003
 "Pizza, meat and vegetable topping, regular crust, frozen, cooked",21226,"Celery, raw",0.003
@@ -3679,7 +3603,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Cookies, vanilla sandwich with creme filling",18210,Cornstarch,0.8
 "Cookies, vanilla sandwich with creme filling",18210,"Oil, cottonseed, salad or cooking",0.782
 "Cookies, vanilla sandwich with creme filling",18210,"Oil, canola",0.489
-"Cookies, vanilla sandwich with creme filling",18210,"Spices, pepper, black",0.001
 "Cookies, ladyfingers, with lemon juice and rind",18175,"Wheat flour, white, all-purpose, enriched, bleached",33.831
 "Cookies, ladyfingers, with lemon juice and rind",18175,"Egg, white, raw, fresh",28.494
 "Cookies, ladyfingers, with lemon juice and rind",18175,"Egg, yolk, raw, fresh",28.481
@@ -3730,11 +3653,9 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Cereals ready-to-eat, granola, homemade",8037,"Nuts, coconut meat, dried (desiccated), sweetened, flaked, packaged",3.554
 "Cereals ready-to-eat, granola, homemade",8037,"Sugars, granulated",1.997
 "Cereals ready-to-eat, granola, homemade",8037,"Sugars, granulated",1.569
-"Cereals ready-to-eat, granola, homemade",8037,"Spices, pepper, black",0.446
 "Pickles, cucumber, sweet, low sodium (includes bread and butter pickles)",11948,"Cucumber, with peel, raw",49.95
 "Pickles, cucumber, sweet, low sodium (includes bread and butter pickles)",11948,"Syrups, corn, light",45.934
 "Pickles, cucumber, sweet, low sodium (includes bread and butter pickles)",11948,"Vinegar, distilled",1.83
-"Pickles, cucumber, sweet, low sodium (includes bread and butter pickles)",11948,"Spices, pepper, black",0.065
 "Pickles, cucumber, sweet, low sodium (includes bread and butter pickles)",11948,"Spices, ginger, ground",0.064
 "Pickles, cucumber, sweet, low sodium (includes bread and butter pickles)",11948,"Peppers, jalapeno, raw",0.064
 "Pickles, cucumber, sweet, low sodium (includes bread and butter pickles)",11948,"Coriander (cilantro) leaves, raw",0.064
@@ -3776,7 +3697,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Pickle and pimiento loaf, pork",7058,"Peppers, jalapeno, raw",0.008
 "Pickle and pimiento loaf, pork",7058,"Coriander (cilantro) leaves, raw",0.008
 "Pickle and pimiento loaf, pork",7058,"Spices, coriander leaf, dried",0.008
-"Pickle and pimiento loaf, pork",7058,"Spices, pepper, black",0.008
 "Pickle and pimiento loaf, pork",7058,"Spices, pepper, black",0.008
 "Pickle and pimiento loaf, pork",7058,"Milk, averaged fat, with added vitamin A and D",0.002
 "Pickle and pimiento loaf, pork",7058,"Milk, averaged fat, with added vitamin A and D",0.001
@@ -3835,7 +3755,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Fast Foods, biscuit, with egg and sausage",21005,"Coriander (cilantro) leaves, raw",0.003
 "Fast Foods, biscuit, with egg and sausage",21005,"Spices, coriander leaf, dried",0.003
 "Fast Foods, biscuit, with egg and sausage",21005,"Spices, pepper, black",0.003
-"Fast Foods, biscuit, with egg and sausage",21005,"Spices, pepper, black",0.003
 "Fast foods, submarine sandwich, turkey breast on white bread with lettuce and tomato",21155,"Turkey, Ground, cooked",32.859
 "Fast foods, submarine sandwich, turkey breast on white bread with lettuce and tomato",21155,"Wheat flour, white, all-purpose, enriched, bleached",21.659
 "Fast foods, submarine sandwich, turkey breast on white bread with lettuce and tomato",21155,"Tomatoes, red, ripe, raw, year round average",8.2
@@ -3861,14 +3780,12 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Candies, Tamarind",19921,"Sugars, granulated",1.12
 "Candies, Tamarind",19921,"Sugars, granulated",0.88
 "Candies, Tamarind",19921,"Peppers, jalapeno, raw",0.388
-"Candies, Tamarind",19921,"Spices, pepper, black",0.388
 "Tortillas, ready-to-bake or -fry, corn",18363,"Corn flour, masa, unenriched, white",61.344
 "Salad dressing, KRAFT Mayo Fat Free Mayonnaise Dressing",4013,"Syrups, corn, light",10.038
 "Salad dressing, KRAFT Mayo Fat Free Mayonnaise Dressing",4013,Cornstarch,2.718
 "Salad dressing, KRAFT Mayo Fat Free Mayonnaise Dressing",4013,"Garlic, raw",1.901
 "Salad dressing, KRAFT Mayo Fat Free Mayonnaise Dressing",4013,"Spices, onion powder",1.901
 "Salad dressing, KRAFT Mayo Fat Free Mayonnaise Dressing",4013,"Lemon juice, raw",1.901
-"Salad dressing, KRAFT Mayo Fat Free Mayonnaise Dressing",4013,"Spices, pepper, black",1.901
 "Salad dressing, KRAFT Mayo Fat Free Mayonnaise Dressing",4013,"Egg, white, raw, fresh",1.901
 "Salad dressing, KRAFT Mayo Fat Free Mayonnaise Dressing",4013,"Seaweed, wakame, raw",1.901
 "Salad dressing, KRAFT Mayo Fat Free Mayonnaise Dressing",4013,"Vinegar, distilled",1.901
@@ -4008,7 +3925,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Pie, banana cream, prepared from recipe",18304,Cornstarch,2.2
 "Pie, banana cream, prepared from recipe",18304,"Milk, averaged fat, with added vitamin A and D",1.144
 "Pie, banana cream, prepared from recipe",18304,"Oil, cottonseed, salad or cooking",0.811
-"Pie, banana cream, prepared from recipe",18304,"Spices, pepper, black",0.323
 "Pie, banana cream, prepared from recipe",18304,"Oil, corn, industrial and retail, all purpose salad or cooking",0.112
 "Pie, banana cream, prepared from recipe",18304,"Oil, canola",0.063
 "Pie, banana cream, prepared from recipe",18304,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.009
@@ -4032,7 +3948,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Ice cream sandwich, vanilla, light, no sugar added",1242,"Raspberries, raw",0.001
 "Ice cream sandwich, vanilla, light, no sugar added",1242,"Blueberries, raw",0.001
 "Ice cream sandwich, vanilla, light, no sugar added",1242,"Strawberries, raw",0.001
-"Ice cream sandwich, vanilla, light, no sugar added",1242,"Spices, pepper, black",0.001
 "Ice cream sandwich, vanilla, light, no sugar added",1242,"Bananas, raw",0.001
 "Snacks, fruit leather, rolls",19014,"Pears, raw",50.9
 "Snacks, fruit leather, rolls",19014,"Grapes, red or green (European type, such as Thompson seedless), raw",42.4
@@ -4070,7 +3985,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Fast Food, Pizza Chain, 14"" pizza, pepperoni topping, regular crust",21302,"Spices, basil, dried",0.059
 "Fast Food, Pizza Chain, 14"" pizza, pepperoni topping, regular crust",21302,"Spices, marjoram, dried",0.059
 "Fast Food, Pizza Chain, 14"" pizza, pepperoni topping, regular crust",21302,"Spices, sage, ground",0.059
-"Fast Food, Pizza Chain, 14"" pizza, pepperoni topping, regular crust",21302,"Spices, pepper, black",0.027
 "Fast Food, Pizza Chain, 14"" pizza, pepperoni topping, regular crust",21302,"Oil, sunflower, linoleic, (approx. 65%)",0.013
 "Fast Food, Pizza Chain, 14"" pizza, pepperoni topping, regular crust",21302,"Spices, onion powder",0.004
 "Fast Food, Pizza Chain, 14"" pizza, pepperoni topping, regular crust",21302,"Celery, raw",0.004
@@ -4094,7 +4008,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Salad dressing, mayonnaise, imitation, soybean",4027,"Sugars, granulated",4.563
 "Salad dressing, mayonnaise, imitation, soybean",4027,"Sugars, granulated",3.586
 "Salad dressing, mayonnaise, imitation, soybean",4027,"Lemon juice, raw",1.25
-"Salad dressing, mayonnaise, imitation, soybean",4027,"Spices, pepper, black",0.66
 "Salad dressing, mayonnaise, imitation, soybean",4027,"Egg, yolk, raw, fresh",0.66
 "Salad dressing, mayonnaise, imitation, soybean",4027,"Cassava, raw",0.102
 "Salad dressing, mayonnaise, imitation, soybean",4027,Potato flour,0.102
@@ -4117,7 +4030,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Fast Foods, grilled chicken filet sandwich, with lettuce, tomato and spread",21490,Cornstarch,0.239
 "Fast Foods, grilled chicken filet sandwich, with lettuce, tomato and spread",21490,"Milk, averaged fat, with added vitamin A and D",0.236
 "Fast Foods, grilled chicken filet sandwich, with lettuce, tomato and spread",21490,"Oil, cottonseed, salad or cooking",0.089
-"Fast Foods, grilled chicken filet sandwich, with lettuce, tomato and spread",21490,"Spices, pepper, black",0.006
 "Fast Foods, grilled chicken filet sandwich, with lettuce, tomato and spread",21490,"Milk, averaged fat, with added vitamin A and D",0.006
 "Fast Foods, grilled chicken filet sandwich, with lettuce, tomato and spread",21490,"Milk, averaged fat, with added vitamin A and D",0.004
 "Fast Foods, grilled chicken filet sandwich, with lettuce, tomato and spread",21490,"Cassava, raw",0.001
@@ -4147,7 +4059,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Taquitos, frozen, chicken and cheese, oven-heated",32006,"Chicken, broiler, rotisserie, BBQ, breast, meat only",2.52
 "Taquitos, frozen, chicken and cheese, oven-heated",32006,"Oil, cottonseed, salad or cooking",0.391
 "Taquitos, frozen, chicken and cheese, oven-heated",32006,"Peppers, jalapeno, raw",0.339
-"Taquitos, frozen, chicken and cheese, oven-heated",32006,"Spices, pepper, black",0.328
 "Taquitos, frozen, chicken and cheese, oven-heated",32006,"Spices, marjoram, dried",0.318
 "Taquitos, frozen, chicken and cheese, oven-heated",32006,"Oil, corn, industrial and retail, all purpose salad or cooking",0.246
 "Taquitos, frozen, chicken and cheese, oven-heated",32006,"Oil, canola",0.207
@@ -4170,7 +4081,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Cookies, chocolate chip sandwich, with creme filling",28328,Cornstarch,0.4
 "Cookies, chocolate chip sandwich, with creme filling",28328,"Milk, averaged fat, with added vitamin A and D",0.008
 "Cookies, chocolate chip sandwich, with creme filling",28328,"Milk, averaged fat, with added vitamin A and D",0.006
-"Cookies, chocolate chip sandwich, with creme filling",28328,"Spices, pepper, black",0.001
 "Pineapple, canned, heavy syrup pack, solids and liquids",9270,"Pineapple, raw, all varieties",56.05
 "Pineapple, canned, heavy syrup pack, solids and liquids",9270,"Syrups, corn, light",11.623
 "Pineapple, canned, heavy syrup pack, solids and liquids",9270,"Sugars, granulated",2.406
@@ -4193,7 +4103,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Fast foods, quesadilla, with chicken",21488,"Oil, peanut, salad or cooking",0.071
 "Fast foods, quesadilla, with chicken",21488,"Oil, sunflower, linoleic, (approx. 65%)",0.015
 "Fast foods, quesadilla, with chicken",21488,"Spices, marjoram, dried",0.013
-"Fast foods, quesadilla, with chicken",21488,"Spices, pepper, black",0.013
 "Fast foods, quesadilla, with chicken",21488,"Ground beef, cooked, averaged",0.01
 "Fast foods, quesadilla, with chicken",21488,"Pork, fresh, variety meats and by-products, feet, cooked, simmered",0.006
 "Fast foods, quesadilla, with chicken",21488,"Garlic, raw",0.001
@@ -4313,7 +4222,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Bologna, meat and poultry",7971,"Peppers, jalapeno, raw",0.011
 "Bologna, meat and poultry",7971,"Coriander (cilantro) leaves, raw",0.011
 "Bologna, meat and poultry",7971,"Spices, coriander leaf, dried",0.011
-"Bologna, meat and poultry",7971,"Spices, pepper, black",0.011
 "Bologna, meat and poultry",7971,"Spices, pepper, black",0.011
 "Bologna, meat and poultry",7971,"Cassava, raw",0.003
 "Bologna, meat and poultry",7971,Potato flour,0.003
@@ -4475,7 +4383,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Fast Food, Pizza Chain, 14"" pizza, meat and vegetable topping, regular crust",21304,"Spices, basil, dried",0.047
 "Fast Food, Pizza Chain, 14"" pizza, meat and vegetable topping, regular crust",21304,"Spices, marjoram, dried",0.047
 "Fast Food, Pizza Chain, 14"" pizza, meat and vegetable topping, regular crust",21304,"Spices, sage, ground",0.047
-"Fast Food, Pizza Chain, 14"" pizza, meat and vegetable topping, regular crust",21304,"Spices, pepper, black",0.022
 "Fast Food, Pizza Chain, 14"" pizza, meat and vegetable topping, regular crust",21304,"Oil, sunflower, linoleic, (approx. 65%)",0.01
 "Fast Food, Pizza Chain, 14"" pizza, meat and vegetable topping, regular crust",21304,"Spices, onion powder",0.003
 "Fast Food, Pizza Chain, 14"" pizza, meat and vegetable topping, regular crust",21304,"Celery, raw",0.003
@@ -4500,7 +4407,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Cereals, CREAM OF WHEAT, instant, dry",8106,"Apples, dried, sulfured, uncooked",0.001
 "Cereals, CREAM OF WHEAT, instant, dry",8106,"Peaches, dried, sulfured, uncooked",0.001
 "Cereals, CREAM OF WHEAT, instant, dry",8106,"Spices, cinnamon, ground",0.001
-"Cereals, CREAM OF WHEAT, instant, dry",8106,"Spices, pepper, black",0.001
 "Cereals, CREAM OF WHEAT, instant, dry",8106,"Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program)",0.001
 "Cereals, CREAM OF WHEAT, instant, dry",8106,"Syrups, maple",0.001
 "Cereals, CREAM OF WHEAT, instant, dry",8106,"Sugars, granulated",0.001
@@ -4529,7 +4435,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Salad dressing, poppyseed, creamy",4704,"Oil, corn, industrial and retail, all purpose salad or cooking",3.808
 "Salad dressing, poppyseed, creamy",4704,"Oil, cottonseed, salad or cooking",2.836
 "Salad dressing, poppyseed, creamy",4704,"Oil, canola",1.58
-"Salad dressing, poppyseed, creamy",4704,"Spices, pepper, black",1.041
 "Salad dressing, poppyseed, creamy",4704,"Spices, onion powder",0.309
 "Salad dressing, poppyseed, creamy",4704,"Oil, sunflower, linoleic, (approx. 65%)",0.122
 "Salad dressing, poppyseed, creamy",4704,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.001
@@ -4542,14 +4447,11 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Soup, vegetable broth, ready to serve",6700,"Beans, snap, green, frozen, cooked, boiled, drained without salt",0.52
 "Soup, vegetable broth, ready to serve",6700,"Lima beans, immature seeds, frozen, fordhook, cooked, boiled, drained, without salt",0.52
 "Soup, vegetable broth, ready to serve",6700,Potato flour,0.519
-"Soup, vegetable broth, ready to serve",6700,"Beef, retail cuts, separable fat, cooked",0.355
 "Soup, vegetable broth, ready to serve",6700,"Milk, averaged fat, with added vitamin A and D",0.285
 "Soup, vegetable broth, ready to serve",6700,"Rutabagas, raw",0.28
 "Soup, vegetable broth, ready to serve",6700,"Cabbage, raw",0.28
-"Soup, vegetable broth, ready to serve",6700,"Ground beef, cooked, averaged",0.256
 "Soup, vegetable broth, ready to serve",6700,"Spices, onion powder",0.254
 "Soup, vegetable broth, ready to serve",6700,"Oil, soybean, salad or cooking",0.238
-"Soup, vegetable broth, ready to serve",6700,"Ground beef, cooked, averaged",0.2
 "Soup, vegetable broth, ready to serve",6700,"Sugars, granulated",0.159
 "Soup, vegetable broth, ready to serve",6700,"Sugars, granulated",0.125
 "Soup, vegetable broth, ready to serve",6700,"Wheat flour, white, all-purpose, enriched, bleached",0.108
@@ -4588,7 +4490,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Fast Food, Pizza Chain, 14"" pizza, pepperoni topping, thin crust",21485,"Spices, basil, dried",0.059
 "Fast Food, Pizza Chain, 14"" pizza, pepperoni topping, thin crust",21485,"Spices, marjoram, dried",0.059
 "Fast Food, Pizza Chain, 14"" pizza, pepperoni topping, thin crust",21485,"Spices, sage, ground",0.059
-"Fast Food, Pizza Chain, 14"" pizza, pepperoni topping, thin crust",21485,"Spices, pepper, black",0.027
 "Fast Food, Pizza Chain, 14"" pizza, pepperoni topping, thin crust",21485,"Oil, sunflower, linoleic, (approx. 65%)",0.013
 "Fast Food, Pizza Chain, 14"" pizza, pepperoni topping, thin crust",21485,"Spices, onion powder",0.004
 "Fast Food, Pizza Chain, 14"" pizza, pepperoni topping, thin crust",21485,"Celery, raw",0.004
@@ -4685,7 +4586,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Fast Food, Pizza Chain, 14"" pizza, pepperoni topping, thick crust",21303,"Spices, basil, dried",0.043
 "Fast Food, Pizza Chain, 14"" pizza, pepperoni topping, thick crust",21303,"Spices, marjoram, dried",0.043
 "Fast Food, Pizza Chain, 14"" pizza, pepperoni topping, thick crust",21303,"Spices, sage, ground",0.043
-"Fast Food, Pizza Chain, 14"" pizza, pepperoni topping, thick crust",21303,"Spices, pepper, black",0.019
 "Fast Food, Pizza Chain, 14"" pizza, pepperoni topping, thick crust",21303,"Oil, sunflower, linoleic, (approx. 65%)",0.016
 "Fast Food, Pizza Chain, 14"" pizza, pepperoni topping, thick crust",21303,"Spices, onion powder",0.003
 "Fast Food, Pizza Chain, 14"" pizza, pepperoni topping, thick crust",21303,"Celery, raw",0.003
@@ -4872,7 +4772,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Cereals ready-to-eat, QUAKER, HONEY GRAHAM OH!S",8211,"Rice flour, white, unenriched",0.663
 "Cereals ready-to-eat, QUAKER, HONEY GRAHAM OH!S",8211,Honey,0.549
 "Cereals ready-to-eat, QUAKER, HONEY GRAHAM OH!S",8211,"Oil, canola",0.161
-"Cereals ready-to-eat, QUAKER, HONEY GRAHAM OH!S",8211,"Spices, pepper, black",0.016
 "Cereals ready-to-eat, QUAKER, HONEY GRAHAM OH!S",8211,"Oil, cottonseed, salad or cooking",0.011
 "Snacks, tortilla chips, low fat, unsalted",19833,"Cornmeal, degermed, enriched, yellow",76.775
 "Snacks, tortilla chips, low fat, unsalted",19833,"Oil, peanut, salad or cooking",23.432
@@ -4896,7 +4795,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Pie, vanilla cream, prepared from recipe",18328,Cornstarch,2.706
 "Pie, vanilla cream, prepared from recipe",18328,"Milk, averaged fat, with added vitamin A and D",1.412
 "Pie, vanilla cream, prepared from recipe",18328,"Oil, cottonseed, salad or cooking",0.82
-"Pie, vanilla cream, prepared from recipe",18328,"Spices, pepper, black",0.396
 "Pie, vanilla cream, prepared from recipe",18328,"Oil, corn, industrial and retail, all purpose salad or cooking",0.138
 "Pie, vanilla cream, prepared from recipe",18328,"Oil, canola",0.077
 "Pie, vanilla cream, prepared from recipe",18328,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.011
@@ -4936,12 +4834,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Cereals ready-to-eat, QUAKER, 100% Natural Granola, Oats, Wheat and Honey",8054,Honey,2.965
 "Cereals ready-to-eat, QUAKER, 100% Natural Granola, Oats, Wheat and Honey",8054,"Milk, averaged fat, with added vitamin A and D",0.162
 "Cereals ready-to-eat, QUAKER, 100% Natural Granola, Oats, Wheat and Honey",8054,"Milk, averaged fat, with added vitamin A and D",0.048
-"Soup, beef broth or bouillon, powder, dry",6075,"Beverages, water, tap, drinking",94.94
-"Soup, beef broth or bouillon, powder, dry",6075,Cornstarch,0.622
-"Soup, beef broth or bouillon, powder, dry",6075,"Chicken, broiler, rotisserie, BBQ, breast, meat only",0.39
-"Soup, beef broth or bouillon, powder, dry",6075,"Pork, fresh, variety meats and by-products, feet, cooked, simmered",0.255
-"Soup, beef broth or bouillon, powder, dry",6075,"Ground beef, cooked, averaged",0.255
-"Soup, beef broth or bouillon, powder, dry",6075,"Turkey, all classes, light meat, cooked, roasted",0.12
 "Bread, roll, Mexican, bollilo",28288,"Wheat flour, white, all-purpose, enriched, bleached",71.425
 "Bread, roll, Mexican, bollilo",28288,"Milk, averaged fat, with added vitamin A and D",0.331
 "Bread, roll, Mexican, bollilo",28288,"Milk, averaged fat, with added vitamin A and D",0.048
@@ -5096,7 +4988,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Frankfurter, low sodium",43507,"Coriander (cilantro) leaves, raw",0.013
 "Frankfurter, low sodium",43507,"Spices, coriander leaf, dried",0.013
 "Frankfurter, low sodium",43507,"Spices, pepper, black",0.013
-"Frankfurter, low sodium",43507,"Spices, pepper, black",0.013
 "Frankfurter, low sodium",43507,"Milk, averaged fat, with added vitamin A and D",0.001
 "Frankfurter, low sodium",43507,"Milk, averaged fat, with added vitamin A and D",0.001
 "Puddings, rice, ready-to-eat",19193,"Milk, averaged fat, with added vitamin A and D",51.362
@@ -5184,7 +5075,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Taquitos, frozen, beef and cheese, oven-heated",32007,"Oil, soybean, salad or cooking",4.358
 "Taquitos, frozen, beef and cheese, oven-heated",32007,"Oil, cottonseed, salad or cooking",0.391
 "Taquitos, frozen, beef and cheese, oven-heated",32007,"Peppers, jalapeno, raw",0.339
-"Taquitos, frozen, beef and cheese, oven-heated",32007,"Spices, pepper, black",0.328
 "Taquitos, frozen, beef and cheese, oven-heated",32007,"Spices, marjoram, dried",0.318
 "Taquitos, frozen, beef and cheese, oven-heated",32007,"Oil, corn, industrial and retail, all purpose salad or cooking",0.246
 "Taquitos, frozen, beef and cheese, oven-heated",32007,"Oil, canola",0.207
@@ -5291,7 +5181,6 @@ Eggnog,1057,"Spices, pepper, black",3.0
 "Cereals, oats, instant, fortified, plain, dry",8122,"Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program)",2.168
 "Cereals, oats, instant, fortified, plain, dry",8122,"Spices, cinnamon, ground",0.071
 "Cereals, oats, instant, fortified, plain, dry",8122,"Ginger root, raw",0.028
-"Cereals, oats, instant, fortified, plain, dry",8122,"Spices, pepper, black",0.028
 "Cereals, oats, instant, fortified, plain, dry",8122,"Oil, soybean, salad or cooking",0.024
 "Cereals, oats, instant, fortified, plain, dry",8122,"Oil, cottonseed, salad or cooking",0.002
 "Soup, ramen noodle, dry, any flavor, reduced fat, reduced sodium",27035,"Beverages, water, tap, drinking",83.276
@@ -5388,7 +5277,6 @@ Poultry salad sandwich spread,7067,"Sugars, granulated",0.713
 Poultry salad sandwich spread,7067,"Spices, turmeric, ground",0.2
 Poultry salad sandwich spread,7067,"Peppers, jalapeno, raw",0.2
 Poultry salad sandwich spread,7067,"Lemon juice, raw",0.2
-Poultry salad sandwich spread,7067,"Spices, pepper, black",0.058
 Poultry salad sandwich spread,7067,"Spices, ginger, ground",0.057
 Poultry salad sandwich spread,7067,"Peppers, jalapeno, raw",0.057
 Poultry salad sandwich spread,7067,"Coriander (cilantro) leaves, raw",0.057
@@ -5448,7 +5336,6 @@ Jams and preserves,19297,"Blackberries, raw",21.0
 "Frankfurter, meat and poultry, unheated",7962,"Celery, raw",0.094
 "Frankfurter, meat and poultry, unheated",7962,"Egg, white, raw, fresh",0.094
 "Frankfurter, meat and poultry, unheated",7962,"Seaweed, wakame, raw",0.093
-"Frankfurter, meat and poultry, unheated",7962,"Spices, pepper, black",0.014
 "Frankfurter, meat and poultry, unheated",7962,"Spices, ginger, ground",0.013
 "Frankfurter, meat and poultry, unheated",7962,"Peppers, jalapeno, raw",0.013
 "Frankfurter, meat and poultry, unheated",7962,"Coriander (cilantro) leaves, raw",0.013
@@ -5577,7 +5464,6 @@ Jams and preserves,19297,"Blackberries, raw",21.0
 "Ice creams, vanilla, light, no sugar added",19260,Cornstarch,2.706
 "Ice creams, vanilla, light, no sugar added",19260,"Milk, averaged fat, with added vitamin A and D",1.412
 "Ice creams, vanilla, light, no sugar added",19260,"Oil, cottonseed, salad or cooking",0.82
-"Ice creams, vanilla, light, no sugar added",19260,"Spices, pepper, black",0.396
 "Ice creams, vanilla, light, no sugar added",19260,"Oil, corn, industrial and retail, all purpose salad or cooking",0.138
 "Ice creams, vanilla, light, no sugar added",19260,"Oil, canola",0.077
 "Ice creams, vanilla, light, no sugar added",19260,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.011
@@ -5718,7 +5604,6 @@ Jams and preserves,19297,"Blackberries, raw",21.0
 "Cookies, sugar wafers with creme filling, regular",18209,Cornstarch,5.181
 "Cookies, sugar wafers with creme filling, regular",18209,"Milk, averaged fat, with added vitamin A and D",0.193
 "Cookies, sugar wafers with creme filling, regular",18209,"Milk, averaged fat, with added vitamin A and D",0.002
-"Cookies, sugar wafers with creme filling, regular",18209,"Spices, pepper, black",0.001
 "Cookies, sugar wafers with creme filling, regular",18209,"Milk, averaged fat, with added vitamin A and D",0.001
 "Cereals ready-to-eat, GENERAL MILLS, FRANKENBERRY",8268,"Cereals, oats, regular and quick, not fortified, dry",50.579
 "Cereals ready-to-eat, GENERAL MILLS, FRANKENBERRY",8268,"Sugars, granulated",14.451
@@ -5747,7 +5632,6 @@ Jams and preserves,19297,"Blackberries, raw",21.0
 "Pepperoni, beef and pork, sliced",7057,"Coriander (cilantro) leaves, raw",0.003
 "Pepperoni, beef and pork, sliced",7057,"Spices, coriander leaf, dried",0.003
 "Pepperoni, beef and pork, sliced",7057,"Spices, pepper, black",0.003
-"Pepperoni, beef and pork, sliced",7057,"Spices, pepper, black",0.003
 "Candies, fudge, vanilla, prepared-from-recipe",19103,"Sugars, granulated",43.0
 "Candies, fudge, vanilla, prepared-from-recipe",19103,"Sugars, granulated",33.786
 "Candies, fudge, vanilla, prepared-from-recipe",19103,"Milk, averaged fat, with added vitamin A and D",10.288
@@ -5756,7 +5640,6 @@ Jams and preserves,19297,"Blackberries, raw",21.0
 "Candies, fudge, vanilla, prepared-from-recipe",19103,"Oil, soybean, salad or cooking",2.466
 "Candies, fudge, vanilla, prepared-from-recipe",19103,"Milk, averaged fat, with added vitamin A and D",1.991
 "Candies, fudge, vanilla, prepared-from-recipe",19103,"Oil, corn, industrial and retail, all purpose salad or cooking",0.308
-"Candies, fudge, vanilla, prepared-from-recipe",19103,"Spices, pepper, black",0.282
 "Candies, fudge, vanilla, prepared-from-recipe",19103,"Oil, canola",0.172
 "Candies, fudge, vanilla, prepared-from-recipe",19103,"Oil, cottonseed, salad or cooking",0.024
 "Candies, fudge, vanilla, prepared-from-recipe",19103,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.024
@@ -5809,7 +5692,6 @@ Tofu yogurt,43476,"Oil, corn, industrial and retail, all purpose salad or cookin
 "Salad dressing, thousand island, commercial, regular",4017,"Peppers, jalapeno, raw",0.023
 "Salad dressing, thousand island, commercial, regular",4017,"Coriander (cilantro) leaves, raw",0.023
 "Salad dressing, thousand island, commercial, regular",4017,"Spices, coriander leaf, dried",0.023
-"Salad dressing, thousand island, commercial, regular",4017,"Spices, pepper, black",0.023
 "Salad dressing, thousand island, commercial, regular",4017,"Spices, pepper, black",0.023
 "Salad dressing, thousand island, commercial, regular",4017,"Spices, onion powder",0.02
 "Crackers, saltines, low salt (includes oyster, soda, soup)",18425,"Wheat flour, white, all-purpose, enriched, bleached",92.193
@@ -5963,7 +5845,6 @@ Tofu yogurt,43476,"Oil, corn, industrial and retail, all purpose salad or cookin
 "Cinnamon buns, frosted (includes honey buns)",18964,Molasses,0.361
 "Cinnamon buns, frosted (includes honey buns)",18964,"Oil, corn, industrial and retail, all purpose salad or cooking",0.151
 "Cinnamon buns, frosted (includes honey buns)",18964,"Oil, canola",0.084
-"Cinnamon buns, frosted (includes honey buns)",18964,"Spices, pepper, black",0.072
 "Cinnamon buns, frosted (includes honey buns)",18964,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.012
 "Cinnamon buns, frosted (includes honey buns)",18964,"Oil, sunflower, linoleic, (approx. 65%)",0.012
 "Fast foods, submarine sandwich, meatball marinara on white bread",21158,"Ground beef, cooked, averaged",20.396
@@ -6068,7 +5949,6 @@ Tofu yogurt,43476,"Oil, corn, industrial and retail, all purpose salad or cookin
 "Candies, fudge, chocolate, with nuts, prepared-from-recipe",19101,"Oil, soybean, salad or cooking",2.192
 "Candies, fudge, chocolate, with nuts, prepared-from-recipe",19101,"Milk, averaged fat, with added vitamin A and D",1.706
 "Candies, fudge, chocolate, with nuts, prepared-from-recipe",19101,"Oil, corn, industrial and retail, all purpose salad or cooking",0.274
-"Candies, fudge, chocolate, with nuts, prepared-from-recipe",19101,"Spices, pepper, black",0.226
 "Candies, fudge, chocolate, with nuts, prepared-from-recipe",19101,"Oil, canola",0.153
 "Candies, fudge, chocolate, with nuts, prepared-from-recipe",19101,"Oil, cottonseed, salad or cooking",0.021
 "Candies, fudge, chocolate, with nuts, prepared-from-recipe",19101,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.021
@@ -6191,7 +6071,6 @@ Tofu yogurt,43476,"Oil, corn, industrial and retail, all purpose salad or cookin
 "Cookies, graham crackers, plain or honey (includes cinnamon)",18173,"Sugars, granulated",6.021
 "Cookies, graham crackers, plain or honey (includes cinnamon)",18173,Honey,5.263
 "Cookies, graham crackers, plain or honey (includes cinnamon)",18173,"Oil, cottonseed, salad or cooking",0.372
-"Cookies, graham crackers, plain or honey (includes cinnamon)",18173,"Spices, pepper, black",0.249
 "Cookies, graham crackers, plain or honey (includes cinnamon)",18173,"Oil, canola",0.233
 "Biscuits, plain or buttermilk, frozen, baked",18009,"Wheat flour, white, all-purpose, enriched, bleached",52.963
 "Biscuits, plain or buttermilk, frozen, baked",18009,"Milk, averaged fat, with added vitamin A and D",27.068
@@ -6263,7 +6142,6 @@ Tofu yogurt,43476,"Oil, corn, industrial and retail, all purpose salad or cookin
 "Candies, MARS SNACKFOOD US, MILKY WAY Midnight Bar",42196,"Soy flour, defatted",0.44
 "Candies, MARS SNACKFOOD US, MILKY WAY Midnight Bar",42196,"Milk, averaged fat, with added vitamin A and D",0.409
 "Candies, MARS SNACKFOOD US, MILKY WAY Midnight Bar",42196,"Milk, averaged fat, with added vitamin A and D",0.139
-"Candies, MARS SNACKFOOD US, MILKY WAY Midnight Bar",42196,"Spices, pepper, black",0.001
 "Frozen novelties, ice cream type, vanilla ice cream, light, no sugar added, chocolate coated",42074,"Sugars, granulated",10.864
 "Frozen novelties, ice cream type, vanilla ice cream, light, no sugar added, chocolate coated",42074,"Milk, averaged fat, with added vitamin A and D",10.771
 "Frozen novelties, ice cream type, vanilla ice cream, light, no sugar added, chocolate coated",42074,"Sugars, granulated",8.536
@@ -6327,7 +6205,6 @@ Tofu yogurt,43476,"Oil, corn, industrial and retail, all purpose salad or cookin
 "Candies, fudge, chocolate, prepared-from-recipe",19100,"Milk, averaged fat, with added vitamin A and D",2.719
 "Candies, fudge, chocolate, prepared-from-recipe",19100,"Oil, soybean, salad or cooking",2.192
 "Candies, fudge, chocolate, prepared-from-recipe",19100,"Milk, averaged fat, with added vitamin A and D",1.799
-"Candies, fudge, chocolate, prepared-from-recipe",19100,"Spices, pepper, black",0.282
 "Candies, fudge, chocolate, prepared-from-recipe",19100,"Oil, corn, industrial and retail, all purpose salad or cooking",0.274
 "Candies, fudge, chocolate, prepared-from-recipe",19100,"Oil, canola",0.153
 "Candies, fudge, chocolate, prepared-from-recipe",19100,"Oil, cottonseed, salad or cooking",0.021
@@ -6368,7 +6245,6 @@ Vegetarian meatloaf or patties,43137,"Oil, cottonseed, salad or cooking",0.5
 "REDUCED SODIUM: Salami, dry or hard, pork, beef",907072,"Peppers, jalapeno, raw",0.007
 "REDUCED SODIUM: Salami, dry or hard, pork, beef",907072,"Coriander (cilantro) leaves, raw",0.007
 "REDUCED SODIUM: Salami, dry or hard, pork, beef",907072,"Spices, coriander leaf, dried",0.007
-"REDUCED SODIUM: Salami, dry or hard, pork, beef",907072,"Spices, pepper, black",0.007
 "REDUCED SODIUM: Salami, dry or hard, pork, beef",907072,"Spices, pepper, black",0.007
 "Snacks, granola bar, KASHI GOLEAN, chewy, mixed flavors",25032,"Corn flour, masa, unenriched, white",11.935
 "Snacks, granola bar, KASHI GOLEAN, chewy, mixed flavors",25032,"Oat bran, raw",11.935
@@ -6515,7 +6391,6 @@ Dulce de Leche,1225,"Vinegar, distilled",1.816
 "Formulated bar, high fiber, chewy, oats and chocolate",25045,"Sugars, granulated",0.143
 "Formulated bar, high fiber, chewy, oats and chocolate",25045,"Sugars, granulated",0.112
 "Formulated bar, high fiber, chewy, oats and chocolate",25045,"Milk, averaged fat, with added vitamin A and D",0.046
-"Formulated bar, high fiber, chewy, oats and chocolate",25045,"Spices, pepper, black",0.021
 "Formulated bar, high fiber, chewy, oats and chocolate",25045,"Milk, averaged fat, with added vitamin A and D",0.014
 "Formulated bar, high fiber, chewy, oats and chocolate",25045,"Raspberries, raw",0.001
 "Candies, NESTLE, BABY RUTH Bar",19111,"Peanuts, all types, dry-roasted, without salt",34.46
@@ -6567,7 +6442,6 @@ Dulce de Leche,1225,"Vinegar, distilled",1.816
 "REDUCED SODIUM: Bologna, meat and poultry",907971,"Celery, raw",0.129
 "REDUCED SODIUM: Bologna, meat and poultry",907971,"Egg, white, raw, fresh",0.129
 "REDUCED SODIUM: Bologna, meat and poultry",907971,"Seaweed, wakame, raw",0.128
-"REDUCED SODIUM: Bologna, meat and poultry",907971,"Spices, pepper, black",0.019
 "REDUCED SODIUM: Bologna, meat and poultry",907971,"Spices, ginger, ground",0.018
 "REDUCED SODIUM: Bologna, meat and poultry",907971,"Peppers, jalapeno, raw",0.018
 "REDUCED SODIUM: Bologna, meat and poultry",907971,"Coriander (cilantro) leaves, raw",0.018
@@ -6606,7 +6480,6 @@ Dulce de Leche,1225,"Vinegar, distilled",1.816
 "Ice creams, vanilla, light, soft-serve",19096,Cornstarch,2.706
 "Ice creams, vanilla, light, soft-serve",19096,"Milk, averaged fat, with added vitamin A and D",1.412
 "Ice creams, vanilla, light, soft-serve",19096,"Oil, cottonseed, salad or cooking",0.82
-"Ice creams, vanilla, light, soft-serve",19096,"Spices, pepper, black",0.396
 "Ice creams, vanilla, light, soft-serve",19096,"Oil, corn, industrial and retail, all purpose salad or cooking",0.138
 "Ice creams, vanilla, light, soft-serve",19096,"Oil, canola",0.077
 "Ice creams, vanilla, light, soft-serve",19096,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.011
@@ -6709,7 +6582,6 @@ Dulce de Leche,1225,"Vinegar, distilled",1.816
 "Thuringer, cervelat, summer sausage, beef, pork",7078,"Egg, white, raw, fresh",0.1
 "Thuringer, cervelat, summer sausage, beef, pork",7078,"Seaweed, wakame, raw",0.1
 "Thuringer, cervelat, summer sausage, beef, pork",7078,"Pork, fresh, variety meats and by-products, feet, cooked, simmered",0.05
-"Thuringer, cervelat, summer sausage, beef, pork",7078,"Spices, pepper, black",0.015
 "Thuringer, cervelat, summer sausage, beef, pork",7078,"Spices, ginger, ground",0.014
 "Thuringer, cervelat, summer sausage, beef, pork",7078,"Peppers, jalapeno, raw",0.014
 "Thuringer, cervelat, summer sausage, beef, pork",7078,"Coriander (cilantro) leaves, raw",0.014
@@ -6744,7 +6616,6 @@ Dulce de Leche,1225,"Vinegar, distilled",1.816
 "Luncheon meat, pork, ham, and chicken, minced, canned, reduced sodium, added ascorbic acid, includes SPAM, 25% less sodium",7906,"Coriander (cilantro) leaves, raw",0.009
 "Luncheon meat, pork, ham, and chicken, minced, canned, reduced sodium, added ascorbic acid, includes SPAM, 25% less sodium",7906,"Spices, coriander leaf, dried",0.009
 "Luncheon meat, pork, ham, and chicken, minced, canned, reduced sodium, added ascorbic acid, includes SPAM, 25% less sodium",7906,"Spices, pepper, black",0.009
-"Luncheon meat, pork, ham, and chicken, minced, canned, reduced sodium, added ascorbic acid, includes SPAM, 25% less sodium",7906,"Spices, pepper, black",0.009
 "Candies, KIT KAT Wafer Bar",19109,"Candies, chocolate, dark, NFS (45-59% cacao solids 90%; 60-69% cacao solids 5%; 70-85% cacao solids 5%)",23.76
 "Candies, KIT KAT Wafer Bar",19109,"Sugars, granulated",22.098
 "Candies, KIT KAT Wafer Bar",19109,"Sugars, granulated",17.362
@@ -6778,7 +6649,6 @@ Dulce de Leche,1225,"Vinegar, distilled",1.816
 "Pickles, chowchow, with cauliflower onion mustard, sweet",11983,"Vinegar, distilled",4.514
 "Pickles, chowchow, with cauliflower onion mustard, sweet",11983,"Sugars, granulated",2.633
 "Pickles, chowchow, with cauliflower onion mustard, sweet",11983,"Sugars, granulated",2.069
-"Pickles, chowchow, with cauliflower onion mustard, sweet",11983,"Spices, pepper, black",0.398
 "Cake, boston cream pie, commercially prepared",18090,"Wheat flour, white, all-purpose, enriched, bleached",18.0
 "Cake, boston cream pie, commercially prepared",18090,"Sugars, granulated",15.411
 "Cake, boston cream pie, commercially prepared",18090,"Sugars, granulated",12.109
@@ -6868,7 +6738,6 @@ Dulce de Leche,1225,"Vinegar, distilled",1.816
 "Fast foods, bagel, with egg, sausage patty, cheese, and condiments",21410,"Egg, white, raw, fresh",0.019
 "Fast foods, bagel, with egg, sausage patty, cheese, and condiments",21410,"Seaweed, wakame, raw",0.019
 "Fast foods, bagel, with egg, sausage patty, cheese, and condiments",21410,"Spices, ginger, ground",0.004
-"Fast foods, bagel, with egg, sausage patty, cheese, and condiments",21410,"Spices, pepper, black",0.004
 "Fast foods, bagel, with egg, sausage patty, cheese, and condiments",21410,"Peppers, jalapeno, raw",0.003
 "Fast foods, bagel, with egg, sausage patty, cheese, and condiments",21410,"Coriander (cilantro) leaves, raw",0.003
 "Fast foods, bagel, with egg, sausage patty, cheese, and condiments",21410,"Spices, coriander leaf, dried",0.003
@@ -6987,21 +6856,7 @@ Dulce de Leche,1225,"Vinegar, distilled",1.816
 "Ice cream cones, sugar, rolled-type",18272,"Sugars, granulated",15.572
 "Ice cream cones, sugar, rolled-type",18272,"Sugars, granulated",12.235
 "Ice cream cones, sugar, rolled-type",18272,"Oil, soybean, salad or cooking",2.845
-"Ice cream cones, sugar, rolled-type",18272,"Spices, pepper, black",0.507
 "Ice cream cones, sugar, rolled-type",18272,"Oil, cottonseed, salad or cooking",0.247
-"Soup, stock, chicken, home-prepared",6172,"Beverages, water, tap, drinking",52.26
-"Soup, stock, chicken, home-prepared",6172,"Potatoes, boiled, cooked without skin, flesh, without salt",21.14
-"Soup, stock, chicken, home-prepared",6172,"Carrots, raw",10.34
-"Soup, stock, chicken, home-prepared",6172,"Tomatoes, red, ripe, raw, year round average",5.01
-"Soup, stock, chicken, home-prepared",6172,"Squash, summer, crookneck and straightneck, raw",4.7
-"Soup, stock, chicken, home-prepared",6172,"Chicken, broiler, rotisserie, BBQ, breast, meat only",1.99
-"Soup, stock, chicken, home-prepared",6172,"Onions, young green, tops only",1.34
-"Soup, stock, chicken, home-prepared",6172,"Fat, chicken",0.775
-"Soup, stock, chicken, home-prepared",6172,"Peppers, jalapeno, raw",0.171
-"Soup, stock, chicken, home-prepared",6172,"Spices, pepper, black",0.166
-"Soup, stock, chicken, home-prepared",6172,"Spices, marjoram, dried",0.161
-"Soup, stock, chicken, home-prepared",6172,"Garlic, raw",0.01
-"Soup, stock, chicken, home-prepared",6172,"Chicken, broiler, rotisserie, BBQ, breast, meat only",0.001
 "Snacks, bagel chips, plain",25046,"Corn flour, masa, unenriched, white",45.865
 "Snacks, bagel chips, plain",25046,"Wheat flour, white, all-purpose, enriched, bleached",45.865
 "Snacks, bagel chips, plain",25046,"Oil, soybean, salad or cooking",6.47
@@ -7060,7 +6915,6 @@ Dulce de Leche,1225,"Vinegar, distilled",1.816
 "Luncheon meat, pork with ham, minced, canned, includes SPAM (Hormel)",7908,"Celery, raw",0.072
 "Luncheon meat, pork with ham, minced, canned, includes SPAM (Hormel)",7908,"Egg, white, raw, fresh",0.072
 "Luncheon meat, pork with ham, minced, canned, includes SPAM (Hormel)",7908,"Seaweed, wakame, raw",0.071
-"Luncheon meat, pork with ham, minced, canned, includes SPAM (Hormel)",7908,"Spices, pepper, black",0.011
 "Luncheon meat, pork with ham, minced, canned, includes SPAM (Hormel)",7908,"Spices, ginger, ground",0.01
 "Luncheon meat, pork with ham, minced, canned, includes SPAM (Hormel)",7908,"Peppers, jalapeno, raw",0.01
 "Luncheon meat, pork with ham, minced, canned, includes SPAM (Hormel)",7908,"Coriander (cilantro) leaves, raw",0.01
@@ -7197,7 +7051,6 @@ Dulce de Leche,1225,"Vinegar, distilled",1.816
 "Fast foods, taco with beef, cheese and lettuce, hard shell",21082,"Oil, cottonseed, salad or cooking",0.232
 "Fast foods, taco with beef, cheese and lettuce, hard shell",21082,"Oil, corn, industrial and retail, all purpose salad or cooking",0.152
 "Fast foods, taco with beef, cheese and lettuce, hard shell",21082,"Peppers, jalapeno, raw",0.138
-"Fast foods, taco with beef, cheese and lettuce, hard shell",21082,"Spices, pepper, black",0.134
 "Fast foods, taco with beef, cheese and lettuce, hard shell",21082,"Spices, marjoram, dried",0.13
 "Fast foods, taco with beef, cheese and lettuce, hard shell",21082,"Oil, canola",0.123
 "Fast foods, taco with beef, cheese and lettuce, hard shell",21082,"Garlic, raw",0.008
@@ -7310,7 +7163,6 @@ Dulce de Leche,1225,"Vinegar, distilled",1.816
 "Fast foods, vanilla, light, soft-serve ice cream, with cone",21028,"Blueberries, raw",0.002
 "Fast foods, vanilla, light, soft-serve ice cream, with cone",21028,"Strawberries, raw",0.002
 "Fast foods, vanilla, light, soft-serve ice cream, with cone",21028,"Bananas, raw",0.002
-"Fast foods, vanilla, light, soft-serve ice cream, with cone",21028,"Spices, pepper, black",0.001
 "Mayonnaise, reduced fat, with olive oil",4708,"Oil, soybean, salad or cooking",31.906
 "Mayonnaise, reduced fat, with olive oil",4708,"Vinegar, distilled",3.331
 "Mayonnaise, reduced fat, with olive oil",4708,"Egg, white, raw, fresh",3.031
@@ -7319,7 +7171,6 @@ Dulce de Leche,1225,"Vinegar, distilled",1.816
 "Mayonnaise, reduced fat, with olive oil",4708,"Lemon juice, raw",1.5
 "Mayonnaise, reduced fat, with olive oil",4708,"Sugars, granulated",1.334
 "Mayonnaise, reduced fat, with olive oil",4708,"Oil, cottonseed, salad or cooking",1.329
-"Mayonnaise, reduced fat, with olive oil",4708,"Spices, pepper, black",0.242
 "Mayonnaise, reduced fat, with olive oil",4708,"Cassava, raw",0.038
 "Mayonnaise, reduced fat, with olive oil",4708,Potato flour,0.038
 "Mayonnaise, reduced fat, with olive oil",4708,"Rice flour, white, unenriched",0.038
@@ -7346,22 +7197,6 @@ Dulce de Leche,1225,"Vinegar, distilled",1.816
 "Soup, wonton, Chinese restaurant",27002,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.001
 "Soup, wonton, Chinese restaurant",27002,"Oil, sunflower, linoleic, (approx. 65%)",0.001
 "Soup, wonton, Chinese restaurant",27002,"Chicken, broiler, rotisserie, BBQ, breast, meat only",0.001
-"Soup, vegetable with beef broth, canned, prepared with equal volume water",6472,"Beverages, water, tap, drinking",48.57
-"Soup, vegetable with beef broth, canned, prepared with equal volume water",6472,"Carrots, raw",5.36
-"Soup, vegetable with beef broth, canned, prepared with equal volume water",6472,"Potatoes, boiled, cooked without skin, flesh, without salt",5.33
-"Soup, vegetable with beef broth, canned, prepared with equal volume water",6472,"Tomatoes, red, ripe, raw, year round average",4.82
-"Soup, vegetable with beef broth, canned, prepared with equal volume water",6472,"Ground beef, cooked, averaged",4.321
-"Soup, vegetable with beef broth, canned, prepared with equal volume water",6472,"Barley, pearled, raw",2.325
-"Soup, vegetable with beef broth, canned, prepared with equal volume water",6472,"Peas, green, frozen, cooked, boiled, drained, without salt",0.86
-"Soup, vegetable with beef broth, canned, prepared with equal volume water",6472,Potato flour,0.859
-"Soup, vegetable with beef broth, canned, prepared with equal volume water",6472,"Beef, retail cuts, separable fat, cooked",0.714
-"Soup, vegetable with beef broth, canned, prepared with equal volume water",6472,"Celery, raw",0.26
-"Soup, vegetable with beef broth, canned, prepared with equal volume water",6472,"Beans, snap, green, frozen, cooked, boiled, drained without salt",0.26
-"Soup, vegetable with beef broth, canned, prepared with equal volume water",6472,"Ground beef, cooked, averaged",0.26
-"Soup, vegetable with beef broth, canned, prepared with equal volume water",6472,"Spices, onion powder",0.103
-"Soup, vegetable with beef broth, canned, prepared with equal volume water",6472,"Milk, averaged fat, with added vitamin A and D",0.103
-"Soup, vegetable with beef broth, canned, prepared with equal volume water",6472,"Sugars, granulated",0.058
-"Soup, vegetable with beef broth, canned, prepared with equal volume water",6472,"Sugars, granulated",0.045
 "School Lunch, pizza, pepperoni topping, thin crust, whole grain, frozen, cooked",21602,"Wheat flour, white, all-purpose, enriched, bleached",29.605
 "School Lunch, pizza, pepperoni topping, thin crust, whole grain, frozen, cooked",21602,"Tomato products, canned, puree, without salt added",12.25
 "School Lunch, pizza, pepperoni topping, thin crust, whole grain, frozen, cooked",21602,"Tomatoes, red, ripe, raw, year round average",11.2
@@ -7389,7 +7224,6 @@ Dulce de Leche,1225,"Vinegar, distilled",1.816
 "School Lunch, pizza, pepperoni topping, thin crust, whole grain, frozen, cooked",21602,"Spices, basil, dried",0.059
 "School Lunch, pizza, pepperoni topping, thin crust, whole grain, frozen, cooked",21602,"Spices, marjoram, dried",0.059
 "School Lunch, pizza, pepperoni topping, thin crust, whole grain, frozen, cooked",21602,"Spices, sage, ground",0.059
-"School Lunch, pizza, pepperoni topping, thin crust, whole grain, frozen, cooked",21602,"Spices, pepper, black",0.027
 "School Lunch, pizza, pepperoni topping, thin crust, whole grain, frozen, cooked",21602,"Oil, sunflower, linoleic, (approx. 65%)",0.013
 "School Lunch, pizza, pepperoni topping, thin crust, whole grain, frozen, cooked",21602,"Spices, onion powder",0.004
 "School Lunch, pizza, pepperoni topping, thin crust, whole grain, frozen, cooked",21602,"Celery, raw",0.004
@@ -7451,7 +7285,6 @@ Dulce de Leche,1225,"Vinegar, distilled",1.816
 "School Lunch, pizza, pepperoni topping, thick crust, whole grain, frozen, cooked",21603,"Spices, basil, dried",0.043
 "School Lunch, pizza, pepperoni topping, thick crust, whole grain, frozen, cooked",21603,"Spices, marjoram, dried",0.043
 "School Lunch, pizza, pepperoni topping, thick crust, whole grain, frozen, cooked",21603,"Spices, sage, ground",0.043
-"School Lunch, pizza, pepperoni topping, thick crust, whole grain, frozen, cooked",21603,"Spices, pepper, black",0.019
 "School Lunch, pizza, pepperoni topping, thick crust, whole grain, frozen, cooked",21603,"Oil, sunflower, linoleic, (approx. 65%)",0.016
 "School Lunch, pizza, pepperoni topping, thick crust, whole grain, frozen, cooked",21603,"Spices, onion powder",0.003
 "School Lunch, pizza, pepperoni topping, thick crust, whole grain, frozen, cooked",21603,"Celery, raw",0.003
@@ -7481,7 +7314,6 @@ Dulce de Leche,1225,"Vinegar, distilled",1.816
 "Soup, tomato rice, canned, prepared with equal volume water",6463,"Peppers, jalapeno, raw",0.259
 "Soup, tomato rice, canned, prepared with equal volume water",6463,"Parsley, fresh",0.259
 "Soup, tomato rice, canned, prepared with equal volume water",6463,"Peppers, jalapeno, raw",0.099
-"Soup, tomato rice, canned, prepared with equal volume water",6463,"Spices, pepper, black",0.096
 "Soup, tomato rice, canned, prepared with equal volume water",6463,"Spices, marjoram, dried",0.093
 "Soup, tomato rice, canned, prepared with equal volume water",6463,"Oil, cottonseed, salad or cooking",0.069
 "Soup, tomato rice, canned, prepared with equal volume water",6463,"Oil, corn, industrial and retail, all purpose salad or cooking",0.045
@@ -7678,7 +7510,6 @@ Dulce de Leche,1225,"Vinegar, distilled",1.816
 "Cake, sponge, commercially prepared",18133,"Milk, averaged fat, with added vitamin A and D",1.138
 "Cake, sponge, commercially prepared",18133,"Oil, corn, industrial and retail, all purpose salad or cooking",0.255
 "Cake, sponge, commercially prepared",18133,"Oil, canola",0.142
-"Cake, sponge, commercially prepared",18133,"Spices, pepper, black",0.121
 "Cake, sponge, commercially prepared",18133,"Oil, cottonseed, salad or cooking",0.02
 "Cake, sponge, commercially prepared",18133,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.02
 "Cake, sponge, commercially prepared",18133,"Oil, sunflower, linoleic, (approx. 65%)",0.02
@@ -7773,7 +7604,6 @@ Dulce de Leche,1225,"Vinegar, distilled",1.816
 "Restaurant, Mexican, spanish rice",36417,"Onions, raw",3.65
 "Restaurant, Mexican, spanish rice",36417,"Oil, soybean, salad or cooking",0.896
 "Restaurant, Mexican, spanish rice",36417,"Peppers, jalapeno, raw",0.387
-"Restaurant, Mexican, spanish rice",36417,"Spices, pepper, black",0.376
 "Restaurant, Mexican, spanish rice",36417,"Spices, marjoram, dried",0.364
 "Restaurant, Mexican, spanish rice",36417,"Sugars, granulated",0.274
 "Restaurant, Mexican, spanish rice",36417,"Vinegar, distilled",0.238
@@ -7874,7 +7704,6 @@ Dulce de Leche,1225,"Vinegar, distilled",1.816
 "Cake, white, prepared from recipe with coconut frosting",18102,"Beverages, water, tap, drinking",2.82
 "Cake, white, prepared from recipe with coconut frosting",18102,"Milk, averaged fat, with added vitamin A and D",1.654
 "Cake, white, prepared from recipe with coconut frosting",18102,"Syrups, corn, light",0.941
-"Cake, white, prepared from recipe with coconut frosting",18102,"Spices, pepper, black",0.513
 "Cake, white, prepared from recipe with coconut frosting",18102,"Oil, canola",0.398
 "Cake, white, prepared from recipe with coconut frosting",18102,"Milk, averaged fat, with added vitamin A and D",0.25
 "Restaurant, Latino, tamale, corn",36411,"Beverages, water, tap, drinking",28.91
@@ -7886,7 +7715,6 @@ Dulce de Leche,1225,"Vinegar, distilled",1.816
 "Restaurant, Latino, tamale, corn",36411,"Onions, raw",1.91
 "Restaurant, Latino, tamale, corn",36411,"Garlic, raw",0.142
 "Restaurant, Latino, tamale, corn",36411,"Peppers, jalapeno, raw",0.041
-"Restaurant, Latino, tamale, corn",36411,"Spices, pepper, black",0.04
 "Restaurant, Latino, tamale, corn",36411,"Spices, marjoram, dried",0.038
 "Ravioli, cheese with tomato sauce, frozen, not prepared, includes regular and light entrees",22976,"Tomato products, canned, puree, without salt added",28.5
 "Ravioli, cheese with tomato sauce, frozen, not prepared, includes regular and light entrees",22976,"Milk, averaged fat, with added vitamin A and D",16.898
@@ -8012,7 +7840,6 @@ Dulce de Leche,1225,"Vinegar, distilled",1.816
 "Restaurant, Chinese, sweet and sour chicken",36621,"Coriander (cilantro) leaves, raw",0.003
 "Restaurant, Chinese, sweet and sour chicken",36621,"Spices, coriander leaf, dried",0.003
 "Restaurant, Chinese, sweet and sour chicken",36621,"Spices, pepper, black",0.003
-"Restaurant, Chinese, sweet and sour chicken",36621,"Spices, pepper, black",0.003
 "Restaurant, Chinese, sweet and sour chicken",36621,"Oil, sunflower, linoleic, (approx. 65%)",0.002
 "Restaurant, Chinese, sweet and sour chicken",36621,"Oil, sesame, salad or cooking",0.001
 "Restaurant, Chinese, sweet and sour chicken",36621,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.001
@@ -8084,7 +7911,6 @@ Dulce de Leche,1225,"Vinegar, distilled",1.816
 "Headcheese, pork",7034,"Celery, raw",0.129
 "Headcheese, pork",7034,"Egg, white, raw, fresh",0.129
 "Headcheese, pork",7034,"Seaweed, wakame, raw",0.128
-"Headcheese, pork",7034,"Spices, pepper, black",0.019
 "Headcheese, pork",7034,"Spices, ginger, ground",0.018
 "Headcheese, pork",7034,"Peppers, jalapeno, raw",0.018
 "Headcheese, pork",7034,"Coriander (cilantro) leaves, raw",0.018
@@ -8146,7 +7972,6 @@ Dulce de Leche,1225,"Vinegar, distilled",1.816
 "Ice creams, regular, low carbohydrate, vanilla",19898,Cornstarch,2.706
 "Ice creams, regular, low carbohydrate, vanilla",19898,"Milk, averaged fat, with added vitamin A and D",1.412
 "Ice creams, regular, low carbohydrate, vanilla",19898,"Oil, cottonseed, salad or cooking",0.82
-"Ice creams, regular, low carbohydrate, vanilla",19898,"Spices, pepper, black",0.396
 "Ice creams, regular, low carbohydrate, vanilla",19898,"Oil, corn, industrial and retail, all purpose salad or cooking",0.138
 "Ice creams, regular, low carbohydrate, vanilla",19898,"Oil, canola",0.077
 "Ice creams, regular, low carbohydrate, vanilla",19898,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.011
@@ -8180,7 +8005,6 @@ Yeast extract spread,43406,"Syrups, corn, light",0.063
 Yeast extract spread,43406,"Spices, basil, dried",0.032
 Yeast extract spread,43406,"Spices, marjoram, dried",0.032
 Yeast extract spread,43406,"Spices, sage, ground",0.032
-Yeast extract spread,43406,"Spices, pepper, black",0.014
 Yeast extract spread,43406,"Oil, sunflower, linoleic, (approx. 65%)",0.012
 Yeast extract spread,43406,Cornstarch,0.003
 Yeast extract spread,43406,"Spices, onion powder",0.002
@@ -8273,7 +8097,6 @@ Yeast extract spread,43406,Honey,0.001
 "Sandwich spread, with chopped pickle, regular, unspecified oils",4030,"Spices, turmeric, ground",0.2
 "Sandwich spread, with chopped pickle, regular, unspecified oils",4030,"Peppers, jalapeno, raw",0.2
 "Sandwich spread, with chopped pickle, regular, unspecified oils",4030,"Lemon juice, raw",0.2
-"Sandwich spread, with chopped pickle, regular, unspecified oils",4030,"Spices, pepper, black",0.058
 "Sandwich spread, with chopped pickle, regular, unspecified oils",4030,"Spices, ginger, ground",0.057
 "Sandwich spread, with chopped pickle, regular, unspecified oils",4030,"Peppers, jalapeno, raw",0.057
 "Sandwich spread, with chopped pickle, regular, unspecified oils",4030,"Coriander (cilantro) leaves, raw",0.057
@@ -8328,7 +8151,6 @@ Yeast extract spread,43406,Honey,0.001
 "Fast foods, burrito, with beans, cheese, and beef",21064,"Oil, cottonseed, salad or cooking",0.111
 "Fast foods, burrito, with beans, cheese, and beef",21064,"Oil, corn, industrial and retail, all purpose salad or cooking",0.073
 "Fast foods, burrito, with beans, cheese, and beef",21064,"Peppers, jalapeno, raw",0.066
-"Fast foods, burrito, with beans, cheese, and beef",21064,"Spices, pepper, black",0.064
 "Fast foods, burrito, with beans, cheese, and beef",21064,"Spices, marjoram, dried",0.062
 "Fast foods, burrito, with beans, cheese, and beef",21064,"Oil, canola",0.059
 "Fast foods, burrito, with beans, cheese, and beef",21064,"Oil, sunflower, linoleic, (approx. 65%)",0.002
@@ -8403,7 +8225,6 @@ Yeast extract spread,43406,Honey,0.001
 "Fast foods, burrito, with beans and cheese",21061,"Oil, cottonseed, salad or cooking",0.137
 "Fast foods, burrito, with beans and cheese",21061,"Oil, corn, industrial and retail, all purpose salad or cooking",0.089
 "Fast foods, burrito, with beans and cheese",21061,"Peppers, jalapeno, raw",0.081
-"Fast foods, burrito, with beans and cheese",21061,"Spices, pepper, black",0.079
 "Fast foods, burrito, with beans and cheese",21061,"Spices, marjoram, dried",0.076
 "Fast foods, burrito, with beans and cheese",21061,"Oil, canola",0.072
 "Fast foods, burrito, with beans and cheese",21061,"Oil, sunflower, linoleic, (approx. 65%)",0.003
@@ -8508,14 +8329,11 @@ Yeast extract spread,43406,Honey,0.001
 "Soup, chunky vegetable, reduced sodium, canned, ready-to-serve",27060,"Beans, snap, green, frozen, cooked, boiled, drained without salt",0.52
 "Soup, chunky vegetable, reduced sodium, canned, ready-to-serve",27060,"Lima beans, immature seeds, frozen, fordhook, cooked, boiled, drained, without salt",0.52
 "Soup, chunky vegetable, reduced sodium, canned, ready-to-serve",27060,Potato flour,0.519
-"Soup, chunky vegetable, reduced sodium, canned, ready-to-serve",27060,"Beef, retail cuts, separable fat, cooked",0.355
 "Soup, chunky vegetable, reduced sodium, canned, ready-to-serve",27060,"Milk, averaged fat, with added vitamin A and D",0.285
 "Soup, chunky vegetable, reduced sodium, canned, ready-to-serve",27060,"Rutabagas, raw",0.28
 "Soup, chunky vegetable, reduced sodium, canned, ready-to-serve",27060,"Cabbage, raw",0.28
-"Soup, chunky vegetable, reduced sodium, canned, ready-to-serve",27060,"Ground beef, cooked, averaged",0.256
 "Soup, chunky vegetable, reduced sodium, canned, ready-to-serve",27060,"Spices, onion powder",0.254
 "Soup, chunky vegetable, reduced sodium, canned, ready-to-serve",27060,"Oil, soybean, salad or cooking",0.238
-"Soup, chunky vegetable, reduced sodium, canned, ready-to-serve",27060,"Ground beef, cooked, averaged",0.2
 "Soup, chunky vegetable, reduced sodium, canned, ready-to-serve",27060,"Sugars, granulated",0.159
 "Soup, chunky vegetable, reduced sodium, canned, ready-to-serve",27060,"Sugars, granulated",0.125
 "Soup, chunky vegetable, reduced sodium, canned, ready-to-serve",27060,"Wheat flour, white, all-purpose, enriched, bleached",0.108
@@ -8581,7 +8399,6 @@ Yeast extract spread,43406,Honey,0.001
 "Pizza, meat and vegetable topping, rising crust, frozen, cooked",21227,"Spices, basil, dried",0.047
 "Pizza, meat and vegetable topping, rising crust, frozen, cooked",21227,"Spices, marjoram, dried",0.047
 "Pizza, meat and vegetable topping, rising crust, frozen, cooked",21227,"Spices, sage, ground",0.047
-"Pizza, meat and vegetable topping, rising crust, frozen, cooked",21227,"Spices, pepper, black",0.022
 "Pizza, meat and vegetable topping, rising crust, frozen, cooked",21227,"Oil, sunflower, linoleic, (approx. 65%)",0.01
 "Pizza, meat and vegetable topping, rising crust, frozen, cooked",21227,"Spices, onion powder",0.003
 "Pizza, meat and vegetable topping, rising crust, frozen, cooked",21227,"Celery, raw",0.003
@@ -8613,7 +8430,6 @@ Yeast extract spread,43406,Honey,0.001
 "Cake, pudding-type, chocolate, dry mix",18097,"Oil, cottonseed, salad or cooking",0.519
 "Cake, pudding-type, chocolate, dry mix",18097,"Oil, canola",0.333
 "Cake, pudding-type, chocolate, dry mix",18097,"Oil, corn, industrial and retail, all purpose salad or cooking",0.264
-"Cake, pudding-type, chocolate, dry mix",18097,"Spices, pepper, black",0.126
 "Cake, pudding-type, chocolate, dry mix",18097,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.021
 "Cake, pudding-type, chocolate, dry mix",18097,"Oil, sunflower, linoleic, (approx. 65%)",0.021
 "Pizza, cheese topping, thin crust, frozen, cooked",21505,"Wheat flour, white, all-purpose, enriched, bleached",33.507
@@ -8754,7 +8570,6 @@ Yeast extract spread,43406,Honey,0.001
 "Frozen novelties, ice cream type, chocolate or caramel covered, with nuts",43506,"Sugars, granulated",5.082
 "Frozen novelties, ice cream type, chocolate or caramel covered, with nuts",43506,"Candies, chocolate, dark, NFS (45-59% cacao solids 90%; 60-69% cacao solids 5%; 70-85% cacao solids 5%)",4.564
 "Frozen novelties, ice cream type, chocolate or caramel covered, with nuts",43506,"Oil, soybean, salad or cooking",0.398
-"Frozen novelties, ice cream type, chocolate or caramel covered, with nuts",43506,"Spices, pepper, black",0.199
 "Frozen novelties, ice cream type, chocolate or caramel covered, with nuts",43506,"Oil, cottonseed, salad or cooking",0.035
 "Cereals ready-to-eat, KELLOGG, KELLOGG'S CORN POPS",8068,"Corn flour, masa, unenriched, white",56.386
 "Cereals ready-to-eat, KELLOGG, KELLOGG'S CORN POPS",8068,"Sugars, granulated",20.466
@@ -8814,7 +8629,6 @@ Yeast extract spread,43406,Honey,0.001
 "Cookies, chocolate cream covered biscuit sticks",28350,"Milk, averaged fat, with added vitamin A and D",0.97
 "Cookies, chocolate cream covered biscuit sticks",28350,"Oil, corn, industrial and retail, all purpose salad or cooking",0.069
 "Cookies, chocolate cream covered biscuit sticks",28350,"Oil, canola",0.038
-"Cookies, chocolate cream covered biscuit sticks",28350,"Spices, pepper, black",0.033
 "Cookies, chocolate cream covered biscuit sticks",28350,"Oil, cottonseed, salad or cooking",0.005
 "Cookies, chocolate cream covered biscuit sticks",28350,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.005
 "Cookies, chocolate cream covered biscuit sticks",28350,"Oil, sunflower, linoleic, (approx. 65%)",0.005
@@ -8858,7 +8672,6 @@ Yeast extract spread,43406,Honey,0.001
 "Chili con carne with beans, canned entree",22904,"Beef, retail cuts, separable fat, cooked",4.534
 "Chili con carne with beans, canned entree",22904,"Celery, raw",3.6
 "Chili con carne with beans, canned entree",22904,"Peppers, jalapeno, raw",0.118
-"Chili con carne with beans, canned entree",22904,"Spices, pepper, black",0.114
 "Chili con carne with beans, canned entree",22904,"Spices, marjoram, dried",0.111
 "Chili con carne with beans, canned entree",22904,"Garlic, raw",0.007
 "Chili con carne with beans, canned entree",22904,"Spices, pepper, black",0.001
@@ -8963,8 +8776,6 @@ Yeast extract spread,43406,Honey,0.001
 "Cookies, Marie biscuit",28351,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.047
 "Cookies, Marie biscuit",28351,"Oil, sunflower, linoleic, (approx. 65%)",0.047
 "Cereals, CREAM OF RICE, dry",8100,"Rice flour, white, unenriched",108.71
-"Soup, beef broth or bouillon canned, ready-to-serve",6008,"Ground beef, cooked, averaged",1.33
-"Soup, beef broth or bouillon canned, ready-to-serve",6008,"Beef, retail cuts, separable fat, cooked",0.219
 Rice and Wheat cereal bar,8546,"Rice, white, long-grain, regular, enriched, cooked",42.3
 Rice and Wheat cereal bar,8546,"Sugars, granulated",17.5
 Rice and Wheat cereal bar,8546,"Wheat flour, white, all-purpose, enriched, bleached",9.4
@@ -9008,7 +8819,6 @@ Rice and Wheat cereal bar,8546,"Barley, pearled, raw",0.215
 "Toaster Pastries, fruit, frosted (include apples, blueberry, cherry, strawberry)",18938,"Ginger root, raw",0.001
 "Toaster Pastries, fruit, frosted (include apples, blueberry, cherry, strawberry)",18938,"Apples, dried, sulfured, uncooked",0.001
 "Toaster Pastries, fruit, frosted (include apples, blueberry, cherry, strawberry)",18938,"Spices, cinnamon, ground",0.001
-"Toaster Pastries, fruit, frosted (include apples, blueberry, cherry, strawberry)",18938,"Spices, pepper, black",0.001
 "Snacks, granola bars, soft, almond, confectioners coating",25038,"Sugars, granulated",15.727
 "Snacks, granola bars, soft, almond, confectioners coating",25038,"Cereals, oats, regular and quick, not fortified, dry",14.493
 "Snacks, granola bars, soft, almond, confectioners coating",25038,"Oil, soybean, salad or cooking",13.405
@@ -9035,7 +8845,6 @@ Rice and Wheat cereal bar,8546,"Barley, pearled, raw",0.215
 "Cereals ready-to-eat, KELLOGG, KELLOGG'S CRACKLIN' OAT BRAN",8023,"Spices, cinnamon, ground",0.734
 "Cereals ready-to-eat, KELLOGG, KELLOGG'S CRACKLIN' OAT BRAN",8023,"Nuts, coconut meat, dried (desiccated), sweetened, flaked, packaged",0.734
 "Cereals ready-to-eat, KELLOGG, KELLOGG'S CRACKLIN' OAT BRAN",8023,"Oil, cottonseed, salad or cooking",0.614
-"Cereals ready-to-eat, KELLOGG, KELLOGG'S CRACKLIN' OAT BRAN",8023,"Spices, pepper, black",0.075
 "Candies, sweet chocolate coated fondant",19083,"Sugars, granulated",36.0
 "Candies, sweet chocolate coated fondant",19083,"Sugars, granulated",28.286
 "Candies, sweet chocolate coated fondant",19083,"Candies, chocolate, dark, NFS (45-59% cacao solids 90%; 60-69% cacao solids 5%; 70-85% cacao solids 5%)",15.12
@@ -9157,7 +8966,6 @@ Rice and Wheat cereal bar,8546,"Barley, pearled, raw",0.215
 "Cake, snack cakes, creme-filled, sponge",18128,"Milk, averaged fat, with added vitamin A and D",1.138
 "Cake, snack cakes, creme-filled, sponge",18128,"Oil, corn, industrial and retail, all purpose salad or cooking",0.255
 "Cake, snack cakes, creme-filled, sponge",18128,"Oil, canola",0.142
-"Cake, snack cakes, creme-filled, sponge",18128,"Spices, pepper, black",0.121
 "Cake, snack cakes, creme-filled, sponge",18128,"Oil, cottonseed, salad or cooking",0.02
 "Cake, snack cakes, creme-filled, sponge",18128,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.02
 "Cake, snack cakes, creme-filled, sponge",18128,"Oil, sunflower, linoleic, (approx. 65%)",0.02
@@ -9350,38 +9158,11 @@ Rice and Wheat cereal bar,8546,"Barley, pearled, raw",0.215
 "Rolls, hamburger, whole grain white, calcium-fortified",28321,"Oil, cottonseed, salad or cooking",0.189
 "Rolls, hamburger, whole grain white, calcium-fortified",28321,"Milk, averaged fat, with added vitamin A and D",0.015
 "Rolls, hamburger, whole grain white, calcium-fortified",28321,"Milk, averaged fat, with added vitamin A and D",0.008
-"Soup, chicken broth, ready-to-serve",6194,"Beverages, water, tap, drinking",86.28
-"Soup, chicken broth, ready-to-serve",6194,"Chicken, broiler, rotisserie, BBQ, breast, meat only",2.36
-"Soup, chicken broth, ready-to-serve",6194,"Fat, chicken",0.568
-"Soup, chicken broth, ready-to-serve",6194,"Chicken, broiler, rotisserie, BBQ, breast, meat only",0.001
-"Gravy, turkey, canned, ready-to-serve",6125,"Wheat flour, white, all-purpose, enriched, bleached",4.1
-"Gravy, turkey, canned, ready-to-serve",6125,"Fat, chicken",3.773
-"Gravy, turkey, canned, ready-to-serve",6125,"Turkey, Ground, cooked",1.9
-"Gravy, turkey, canned, ready-to-serve",6125,"Chicken, broiler, rotisserie, BBQ, breast, meat only",1.8
-"Gravy, turkey, canned, ready-to-serve",6125,"Milk, averaged fat, with added vitamin A and D",0.744
-"Gravy, turkey, canned, ready-to-serve",6125,"Chicken, broiler, rotisserie, BBQ, breast, meat only",0.696
-"Gravy, turkey, canned, ready-to-serve",6125,"Fat, turkey",0.54
-"Gravy, turkey, canned, ready-to-serve",6125,"Spices, onion powder",0.493
-"Gravy, turkey, canned, ready-to-serve",6125,"Oil, soybean, salad or cooking",0.48
-"Gravy, turkey, canned, ready-to-serve",6125,"Chicken, broilers or fryers, skin only, raw",0.436
-"Gravy, turkey, canned, ready-to-serve",6125,"Sugars, granulated",0.29
-"Gravy, turkey, canned, ready-to-serve",6125,"Turkey, all classes, light meat, cooked, roasted",0.23
-"Gravy, turkey, canned, ready-to-serve",6125,"Sugars, granulated",0.217
-"Gravy, turkey, canned, ready-to-serve",6125,"Spices, turmeric, ground",0.077
-"Gravy, turkey, canned, ready-to-serve",6125,"Oil, corn, industrial and retail, all purpose salad or cooking",0.057
-"Gravy, turkey, canned, ready-to-serve",6125,"Oil, cottonseed, salad or cooking",0.042
-"Gravy, turkey, canned, ready-to-serve",6125,"Syrups, corn, light",0.04
-"Gravy, turkey, canned, ready-to-serve",6125,"Oil, canola",0.024
-"Gravy, turkey, canned, ready-to-serve",6125,"Milk, averaged fat, with added vitamin A and D",0.024
-"Gravy, turkey, canned, ready-to-serve",6125,"Milk, averaged fat, with added vitamin A and D",0.006
-"Gravy, turkey, canned, ready-to-serve",6125,"Oil, sunflower, linoleic, (approx. 65%)",0.002
-"Gravy, turkey, canned, ready-to-serve",6125,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.001
 "Fruit butters, apple",19294,"Applesauce, canned, unsweetened, without added ascorbic acid (Includes foods for USDA's Food Distribution Program)",85.62
 "Fruit butters, apple",19294,"Sugars, granulated",8.05
 "Fruit butters, apple",19294,"Sugars, granulated",6.325
 "Fruit butters, apple",19294,"Ginger root, raw",0.001
 "Fruit butters, apple",19294,"Spices, cinnamon, ground",0.001
-"Fruit butters, apple",19294,"Spices, pepper, black",0.001
 "Candies, caramels",19074,"Syrups, corn, light",54.332
 "Candies, caramels",19074,"Sugars, granulated",22.96
 "Candies, caramels",19074,"Sugars, granulated",18.04
@@ -9416,7 +9197,6 @@ Rice and Wheat cereal bar,8546,"Barley, pearled, raw",0.215
 "Fast Food, Pizza Chain, 14"" pizza, sausage topping, regular crust",21484,"Spices, basil, dried",0.059
 "Fast Food, Pizza Chain, 14"" pizza, sausage topping, regular crust",21484,"Spices, marjoram, dried",0.059
 "Fast Food, Pizza Chain, 14"" pizza, sausage topping, regular crust",21484,"Spices, sage, ground",0.059
-"Fast Food, Pizza Chain, 14"" pizza, sausage topping, regular crust",21484,"Spices, pepper, black",0.027
 "Fast Food, Pizza Chain, 14"" pizza, sausage topping, regular crust",21484,"Oil, sunflower, linoleic, (approx. 65%)",0.013
 "Fast Food, Pizza Chain, 14"" pizza, sausage topping, regular crust",21484,"Spices, onion powder",0.004
 "Fast Food, Pizza Chain, 14"" pizza, sausage topping, regular crust",21484,"Celery, raw",0.004
@@ -9489,7 +9269,6 @@ Rice and Wheat cereal bar,8546,"Barley, pearled, raw",0.215
 "Fast foods, bagel, with breakfast steak, egg, cheese, and condiments",21411,"Ginger root, raw",0.001
 "Fast foods, bagel, with breakfast steak, egg, cheese, and condiments",21411,"Spices, onion powder",0.001
 "Fast foods, bagel, with breakfast steak, egg, cheese, and condiments",21411,"Spices, cinnamon, ground",0.001
-"Fast foods, bagel, with breakfast steak, egg, cheese, and condiments",21411,"Spices, pepper, black",0.001
 "Fast foods, bagel, with breakfast steak, egg, cheese, and condiments",21411,"Seeds, sesame seeds, whole, dried",0.001
 "Cereals ready-to-eat, KELLOGG, KELLOGG'S MUESLIX",8286,"Wheat flour, white, all-purpose, enriched, bleached",23.176
 "Cereals ready-to-eat, KELLOGG, KELLOGG'S MUESLIX",8286,"Cereals, oats, regular and quick, not fortified, dry",19.997
@@ -9574,28 +9353,6 @@ Rice and Wheat cereal bar,8546,"Barley, pearled, raw",0.215
 "Candies, REESE's Fast Break, milk chocolate, peanut butter, soft nougats, candy bar",19896,"Milk, averaged fat, with added vitamin A and D",5.36
 "Candies, REESE's Fast Break, milk chocolate, peanut butter, soft nougats, candy bar",19896,"Milk, averaged fat, with added vitamin A and D",1.934
 "Candies, REESE's Fast Break, milk chocolate, peanut butter, soft nougats, candy bar",19896,"Milk, averaged fat, with added vitamin A and D",0.515
-"Gravy, chicken, canned or bottled, ready-to-serve",6119,"Wheat flour, white, all-purpose, enriched, bleached",4.1
-"Gravy, chicken, canned or bottled, ready-to-serve",6119,"Fat, chicken",3.773
-"Gravy, chicken, canned or bottled, ready-to-serve",6119,"Turkey, Ground, cooked",1.9
-"Gravy, chicken, canned or bottled, ready-to-serve",6119,"Chicken, broiler, rotisserie, BBQ, breast, meat only",1.8
-"Gravy, chicken, canned or bottled, ready-to-serve",6119,"Milk, averaged fat, with added vitamin A and D",0.744
-"Gravy, chicken, canned or bottled, ready-to-serve",6119,"Chicken, broiler, rotisserie, BBQ, breast, meat only",0.696
-"Gravy, chicken, canned or bottled, ready-to-serve",6119,"Fat, turkey",0.54
-"Gravy, chicken, canned or bottled, ready-to-serve",6119,"Spices, onion powder",0.493
-"Gravy, chicken, canned or bottled, ready-to-serve",6119,"Oil, soybean, salad or cooking",0.48
-"Gravy, chicken, canned or bottled, ready-to-serve",6119,"Chicken, broilers or fryers, skin only, raw",0.436
-"Gravy, chicken, canned or bottled, ready-to-serve",6119,"Sugars, granulated",0.29
-"Gravy, chicken, canned or bottled, ready-to-serve",6119,"Turkey, all classes, light meat, cooked, roasted",0.23
-"Gravy, chicken, canned or bottled, ready-to-serve",6119,"Sugars, granulated",0.217
-"Gravy, chicken, canned or bottled, ready-to-serve",6119,"Spices, turmeric, ground",0.077
-"Gravy, chicken, canned or bottled, ready-to-serve",6119,"Oil, corn, industrial and retail, all purpose salad or cooking",0.057
-"Gravy, chicken, canned or bottled, ready-to-serve",6119,"Oil, cottonseed, salad or cooking",0.042
-"Gravy, chicken, canned or bottled, ready-to-serve",6119,"Syrups, corn, light",0.04
-"Gravy, chicken, canned or bottled, ready-to-serve",6119,"Oil, canola",0.024
-"Gravy, chicken, canned or bottled, ready-to-serve",6119,"Milk, averaged fat, with added vitamin A and D",0.024
-"Gravy, chicken, canned or bottled, ready-to-serve",6119,"Milk, averaged fat, with added vitamin A and D",0.006
-"Gravy, chicken, canned or bottled, ready-to-serve",6119,"Oil, sunflower, linoleic, (approx. 65%)",0.002
-"Gravy, chicken, canned or bottled, ready-to-serve",6119,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.001
 "Bread sticks, plain",18080,"Wheat flour, white, all-purpose, enriched, bleached",77.868
 "Bread sticks, plain",18080,"Oil, soybean, salad or cooking",6.694
 "Bread sticks, plain",18080,"Oil, cottonseed, salad or cooking",0.582
@@ -9628,7 +9385,6 @@ Rice and Wheat cereal bar,8546,"Barley, pearled, raw",0.215
 "Fast Food, Pizza Chain, 14"" pizza, sausage topping, thick crust",21482,"Spices, basil, dried",0.059
 "Fast Food, Pizza Chain, 14"" pizza, sausage topping, thick crust",21482,"Spices, marjoram, dried",0.059
 "Fast Food, Pizza Chain, 14"" pizza, sausage topping, thick crust",21482,"Spices, sage, ground",0.059
-"Fast Food, Pizza Chain, 14"" pizza, sausage topping, thick crust",21482,"Spices, pepper, black",0.027
 "Fast Food, Pizza Chain, 14"" pizza, sausage topping, thick crust",21482,"Oil, sunflower, linoleic, (approx. 65%)",0.013
 "Fast Food, Pizza Chain, 14"" pizza, sausage topping, thick crust",21482,"Spices, onion powder",0.004
 "Fast Food, Pizza Chain, 14"" pizza, sausage topping, thick crust",21482,"Celery, raw",0.004
@@ -9680,20 +9436,6 @@ Rice and Wheat cereal bar,8546,"Barley, pearled, raw",0.215
 "Fast Foods, crispy chicken filet sandwich, with lettuce and mayonnaise",21230,"Milk, averaged fat, with added vitamin A and D",0.003
 "Fast Foods, crispy chicken filet sandwich, with lettuce and mayonnaise",21230,"Oil, sesame, salad or cooking",0.001
 "Fast Foods, crispy chicken filet sandwich, with lettuce and mayonnaise",21230,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.001
-"Gravy, beef, canned, ready-to-serve",6116,"Wheat flour, white, all-purpose, enriched, bleached",5.259
-"Gravy, beef, canned, ready-to-serve",6116,"Ground beef, cooked, averaged",4.785
-"Gravy, beef, canned, ready-to-serve",6116,"Pork, cured, ham -- water added, whole, boneless, separable lean only, heated, roasted",3.62
-"Gravy, beef, canned, ready-to-serve",6116,"Beef, retail cuts, separable fat, cooked",1.319
-"Gravy, beef, canned, ready-to-serve",6116,Lard,1.015
-"Gravy, beef, canned, ready-to-serve",6116,"Pork, fresh, variety meats and by-products, feet, cooked, simmered",0.839
-"Gravy, beef, canned, ready-to-serve",6116,"Ground beef, cooked, averaged",0.54
-"Gravy, beef, canned, ready-to-serve",6116,"Spices, onion powder",0.1
-"Gravy, beef, canned, ready-to-serve",6116,"Milk, averaged fat, with added vitamin A and D",0.1
-"Gravy, beef, canned, ready-to-serve",6116,"Lamb, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/4"" fat, choice, cooked",0.084
-"Gravy, beef, canned, ready-to-serve",6116,"Syrups, corn, light",0.075
-"Gravy, beef, canned, ready-to-serve",6116,"Sugars, granulated",0.056
-"Gravy, beef, canned, ready-to-serve",6116,"Sugars, granulated",0.044
-"Gravy, beef, canned, ready-to-serve",6116,"Lamb, ground, raw",0.02
 "Cereals ready-to-eat, KELLOGG, KELLOGG'S FROOT LOOPS",8030,"Sugars, granulated",27.025
 "Cereals ready-to-eat, KELLOGG, KELLOGG'S FROOT LOOPS",8030,"Sugars, granulated",21.234
 "Cereals ready-to-eat, KELLOGG, KELLOGG'S FROOT LOOPS",8030,"Corn flour, masa, unenriched, white",17.681
@@ -9728,7 +9470,6 @@ Rice and Wheat cereal bar,8546,"Barley, pearled, raw",0.215
 "Fast Food, Pizza Chain, 14"" pizza, sausage topping, thin crust",21483,"Spices, basil, dried",0.059
 "Fast Food, Pizza Chain, 14"" pizza, sausage topping, thin crust",21483,"Spices, marjoram, dried",0.059
 "Fast Food, Pizza Chain, 14"" pizza, sausage topping, thin crust",21483,"Spices, sage, ground",0.059
-"Fast Food, Pizza Chain, 14"" pizza, sausage topping, thin crust",21483,"Spices, pepper, black",0.027
 "Fast Food, Pizza Chain, 14"" pizza, sausage topping, thin crust",21483,"Oil, sunflower, linoleic, (approx. 65%)",0.013
 "Fast Food, Pizza Chain, 14"" pizza, sausage topping, thin crust",21483,"Spices, onion powder",0.004
 "Fast Food, Pizza Chain, 14"" pizza, sausage topping, thin crust",21483,"Celery, raw",0.004
@@ -9791,7 +9532,6 @@ Rice and Wheat cereal bar,8546,"Barley, pearled, raw",0.215
 "REDUCED SODIUM: Pepperoni, beef and pork, sliced",907057,"Coriander (cilantro) leaves, raw",0.003
 "REDUCED SODIUM: Pepperoni, beef and pork, sliced",907057,"Spices, coriander leaf, dried",0.003
 "REDUCED SODIUM: Pepperoni, beef and pork, sliced",907057,"Spices, pepper, black",0.003
-"REDUCED SODIUM: Pepperoni, beef and pork, sliced",907057,"Spices, pepper, black",0.003
 "Fast foods, strawberry banana smoothie made with ice and low-fat yogurt",21521,"Milk, averaged fat, with added vitamin A and D",20.805
 "Fast foods, strawberry banana smoothie made with ice and low-fat yogurt",21521,"Bananas, raw",19.68
 "Fast foods, strawberry banana smoothie made with ice and low-fat yogurt",21521,"Strawberries, raw",17.69
@@ -9802,7 +9542,6 @@ Rice and Wheat cereal bar,8546,"Barley, pearled, raw",0.215
 "Fast foods, strawberry banana smoothie made with ice and low-fat yogurt",21521,"Milk, averaged fat, with added vitamin A and D",3.676
 "Fast foods, strawberry banana smoothie made with ice and low-fat yogurt",21521,"Sugars, granulated",2.995
 "Fast foods, strawberry banana smoothie made with ice and low-fat yogurt",21521,"Milk, averaged fat, with added vitamin A and D",1.501
-"Fast foods, strawberry banana smoothie made with ice and low-fat yogurt",21521,"Spices, pepper, black",0.021
 "Fast foods, strawberry banana smoothie made with ice and low-fat yogurt",21521,"Lemons, raw, without peel",0.001
 "Fast foods, strawberry banana smoothie made with ice and low-fat yogurt",21521,"Cherries, sweet, raw",0.001
 "Fast foods, strawberry banana smoothie made with ice and low-fat yogurt",21521,"Peaches, yellow, raw",0.001
@@ -9818,7 +9557,6 @@ Rice and Wheat cereal bar,8546,"Barley, pearled, raw",0.215
 "Frostings, vanilla, creamy, ready-to-eat",19230,"Milk, averaged fat, with added vitamin A and D",0.875
 "Frostings, vanilla, creamy, ready-to-eat",19230,"Oil, corn, industrial and retail, all purpose salad or cooking",0.756
 "Frostings, vanilla, creamy, ready-to-eat",19230,"Oil, canola",0.422
-"Frostings, vanilla, creamy, ready-to-eat",19230,"Spices, pepper, black",0.359
 "Frostings, vanilla, creamy, ready-to-eat",19230,"Oil, cottonseed, salad or cooking",0.059
 "Frostings, vanilla, creamy, ready-to-eat",19230,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.059
 "Frostings, vanilla, creamy, ready-to-eat",19230,"Oil, sunflower, linoleic, (approx. 65%)",0.059
@@ -9839,7 +9577,6 @@ Rice and Wheat cereal bar,8546,"Barley, pearled, raw",0.215
 "Shake, fast food, vanilla",14347,"Oil, cottonseed, salad or cooking",0.234
 "Shake, fast food, vanilla",14347,Cornstarch,0.113
 "Shake, fast food, vanilla",14347,"Milk, averaged fat, with added vitamin A and D",0.075
-"Shake, fast food, vanilla",14347,"Spices, pepper, black",0.005
 "Shake, fast food, vanilla",14347,"Cassava, raw",0.001
 "Shake, fast food, vanilla",14347,Potato flour,0.001
 "Shake, fast food, vanilla",14347,"Rice flour, white, unenriched",0.001
@@ -9991,7 +9728,6 @@ Rice and Wheat cereal bar,8546,"Barley, pearled, raw",0.215
 "Puddings, vanilla, ready-to-eat, fat free",19233,"Rice flour, white, unenriched",0.045
 "Puddings, vanilla, ready-to-eat, fat free",19233,"Wheat flour, white, all-purpose, enriched, bleached",0.045
 "Puddings, vanilla, ready-to-eat, fat free",19233,"Milk, averaged fat, with added vitamin A and D",0.04
-"Puddings, vanilla, ready-to-eat, fat free",19233,"Spices, pepper, black",0.001
 "Cereals ready-to-eat, GENERAL MILLS, BOO BERRY",8273,"Cereals, oats, regular and quick, not fortified, dry",50.579
 "Cereals ready-to-eat, GENERAL MILLS, BOO BERRY",8273,"Sugars, granulated",14.451
 "Cereals ready-to-eat, GENERAL MILLS, BOO BERRY",8273,"Syrups, corn, light",14.03
@@ -10061,7 +9797,6 @@ Rice and Wheat cereal bar,8546,"Barley, pearled, raw",0.215
 "Corn dogs, frozen, prepared",22973,"Celery, raw",0.045
 "Corn dogs, frozen, prepared",22973,"Egg, white, raw, fresh",0.045
 "Corn dogs, frozen, prepared",22973,"Seaweed, wakame, raw",0.045
-"Corn dogs, frozen, prepared",22973,"Spices, pepper, black",0.007
 "Corn dogs, frozen, prepared",22973,"Spices, ginger, ground",0.006
 "Corn dogs, frozen, prepared",22973,"Peppers, jalapeno, raw",0.006
 "Corn dogs, frozen, prepared",22973,"Coriander (cilantro) leaves, raw",0.006
@@ -10185,7 +9920,6 @@ Rice and Wheat cereal bar,8546,"Barley, pearled, raw",0.215
 "Ice cream bar, stick or nugget, with crunch coating",1264,"Sugars, granulated",7.056
 "Ice cream bar, stick or nugget, with crunch coating",1264,"Sugars, granulated",5.544
 "Ice cream bar, stick or nugget, with crunch coating",1264,"Candies, chocolate, dark, NFS (45-59% cacao solids 90%; 60-69% cacao solids 5%; 70-85% cacao solids 5%)",2.97
-"Ice cream bar, stick or nugget, with crunch coating",1264,"Spices, pepper, black",0.158
 "Ice cream bar, stick or nugget, with crunch coating",1264,Molasses,0.001
 "Ice cream bar, stick or nugget, with crunch coating",1264,"Oil, soybean, salad or cooking",0.001
 "Ice cream bar, stick or nugget, with crunch coating",1264,"Soy flour, defatted",0.001
@@ -10355,7 +10089,6 @@ Rice and Wheat cereal bar,8546,"Barley, pearled, raw",0.215
 "Pie, chocolate creme, commercially prepared",18310,"Beverages, water, tap, drinking",3.53
 "Pie, chocolate creme, commercially prepared",18310,"Milk, averaged fat, with added vitamin A and D",1.127
 "Pie, chocolate creme, commercially prepared",18310,"Oil, cottonseed, salad or cooking",0.577
-"Pie, chocolate creme, commercially prepared",18310,"Spices, pepper, black",0.231
 "Frozen yogurts, vanilla, soft-serve",19293,"Milk, averaged fat, with added vitamin A and D",74.01
 "Frozen yogurts, vanilla, soft-serve",19293,"Milk, averaged fat, with added vitamin A and D",11.645
 "Frozen yogurts, vanilla, soft-serve",19293,"Sugars, granulated",7.28
@@ -10415,7 +10148,6 @@ Rice and Wheat cereal bar,8546,"Barley, pearled, raw",0.215
 "Fast foods, nachos, with cheese, beans, ground beef, and tomatoes",21080,"Oil, cottonseed, salad or cooking",0.247
 "Fast foods, nachos, with cheese, beans, ground beef, and tomatoes",21080,"Peppers, jalapeno, raw",0.139
 "Fast foods, nachos, with cheese, beans, ground beef, and tomatoes",21080,"Oil, canola",0.138
-"Fast foods, nachos, with cheese, beans, ground beef, and tomatoes",21080,"Spices, pepper, black",0.135
 "Fast foods, nachos, with cheese, beans, ground beef, and tomatoes",21080,"Spices, marjoram, dried",0.131
 "Fast foods, nachos, with cheese, beans, ground beef, and tomatoes",21080,"Oil, sunflower, linoleic, (approx. 65%)",0.011
 "Fast foods, nachos, with cheese, beans, ground beef, and tomatoes",21080,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.001
@@ -10479,7 +10211,6 @@ Rice and Wheat cereal bar,8546,"Barley, pearled, raw",0.215
 "Puddings, vanilla, dry mix, instant",19202,"Rice flour, white, unenriched",0.045
 "Puddings, vanilla, dry mix, instant",19202,"Wheat flour, white, all-purpose, enriched, bleached",0.045
 "Puddings, vanilla, dry mix, instant",19202,"Milk, averaged fat, with added vitamin A and D",0.04
-"Puddings, vanilla, dry mix, instant",19202,"Spices, pepper, black",0.001
 "Danish pastry, cinnamon, enriched",18244,"Wheat flour, white, all-purpose, enriched, bleached",41.629
 "Danish pastry, cinnamon, enriched",18244,"Oil, soybean, salad or cooking",19.328
 "Danish pastry, cinnamon, enriched",18244,"Sugars, granulated",6.914
@@ -10491,7 +10222,6 @@ Rice and Wheat cereal bar,8546,"Barley, pearled, raw",0.215
 "Danish pastry, cinnamon, enriched",18244,"Milk, averaged fat, with added vitamin A and D",0.066
 "Danish pastry, cinnamon, enriched",18244,"Milk, averaged fat, with added vitamin A and D",0.017
 "Danish pastry, cinnamon, enriched",18244,"Spices, cinnamon, ground",0.002
-"Danish pastry, cinnamon, enriched",18244,"Spices, pepper, black",0.002
 "Danish pastry, cinnamon, enriched",18244,"Ginger root, raw",0.001
 "Danish pastry, cinnamon, enriched",18244,"Apples, raw, without skin",0.001
 "Danish pastry, cinnamon, enriched",18244,"Nuts, pecans",0.001
@@ -10502,7 +10232,6 @@ Rice and Wheat cereal bar,8546,"Barley, pearled, raw",0.215
 "Cake, snack cakes, creme-filled, chocolate with frosting",18127,"Sugars, granulated",12.995
 "Cake, snack cakes, creme-filled, chocolate with frosting",18127,"Milk, averaged fat, with added vitamin A and D",12.564
 "Cake, snack cakes, creme-filled, chocolate with frosting",18127,"Milk, averaged fat, with added vitamin A and D",1.859
-"Cake, snack cakes, creme-filled, chocolate with frosting",18127,"Spices, pepper, black",0.303
 "Soup, bean with pork, canned, condensed",6004,"Beverages, water, tap, drinking",46.91
 "Soup, bean with pork, canned, condensed",6004,"Beans, white, mature seeds, cooked, boiled, without salt",21.595
 "Soup, bean with pork, canned, condensed",6004,"Tomatoes, red, ripe, raw, year round average",2.84
@@ -10777,7 +10506,6 @@ Fish broth,6963,"Fish, tuna, light, canned in water, drained solids",4.67
 "Cereals, oats, regular and quick, not fortified, dry",8120,"Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program)",2.168
 "Cereals, oats, regular and quick, not fortified, dry",8120,"Spices, cinnamon, ground",0.071
 "Cereals, oats, regular and quick, not fortified, dry",8120,"Ginger root, raw",0.028
-"Cereals, oats, regular and quick, not fortified, dry",8120,"Spices, pepper, black",0.028
 "Cereals, oats, regular and quick, not fortified, dry",8120,"Oil, soybean, salad or cooking",0.024
 "Cereals, oats, regular and quick, not fortified, dry",8120,"Oil, cottonseed, salad or cooking",0.002
 "Cereals ready-to-eat, GENERAL MILLS, CHEERIOS, Chocolate",8593,"Cereals, oats, regular and quick, not fortified, dry",34.366
@@ -10893,7 +10621,6 @@ Fish broth,6963,"Fish, tuna, light, canned in water, drained solids",4.67
 "Fast foods, nachos, with cheese",21078,"Oil, cottonseed, salad or cooking",0.704
 "Fast foods, nachos, with cheese",21078,"Peppers, jalapeno, raw",0.393
 "Fast foods, nachos, with cheese",21078,"Oil, canola",0.392
-"Fast foods, nachos, with cheese",21078,"Spices, pepper, black",0.381
 "Fast foods, nachos, with cheese",21078,"Spices, marjoram, dried",0.369
 "Fast foods, nachos, with cheese",21078,"Oil, sunflower, linoleic, (approx. 65%)",0.03
 "Fast foods, nachos, with cheese",21078,"Garlic, raw",0.024
@@ -10919,7 +10646,6 @@ Fish broth,6963,"Fish, tuna, light, canned in water, drained solids",4.67
 "Sauce, tomato chili sauce, bottled, with salt",6972,"Peppers, jalapeno, raw",5.701
 "Sauce, tomato chili sauce, bottled, with salt",6972,"Peppers, jalapeno, raw",1.261
 "Sauce, tomato chili sauce, bottled, with salt",6972,"Onions, raw",0.93
-"Sauce, tomato chili sauce, bottled, with salt",6972,"Spices, pepper, black",0.388
 "Sauce, tomato chili sauce, bottled, with salt",6972,"Spices, marjoram, dried",0.376
 "Sauce, tomato chili sauce, bottled, with salt",6972,"Garlic, raw",0.024
 "Pizza rolls, frozen, unprepared",32012,"Wheat flour, white, all-purpose, enriched, bleached",34.576
@@ -10957,7 +10683,6 @@ Fish broth,6963,"Fish, tuna, light, canned in water, drained solids",4.67
 "Pizza rolls, frozen, unprepared",32012,"Coriander (cilantro) leaves, raw",0.001
 "Pizza rolls, frozen, unprepared",32012,"Spices, coriander leaf, dried",0.001
 "Pizza rolls, frozen, unprepared",32012,"Spices, pepper, black",0.001
-"Pizza rolls, frozen, unprepared",32012,"Spices, pepper, black",0.001
 "Pizza rolls, frozen, unprepared",32012,"Oil, sesame, salad or cooking",0.001
 "Pizza rolls, frozen, unprepared",32012,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.001
 "Soup, vegetable beef, canned, condensed",6071,"Beverages, water, tap, drinking",48.57
@@ -10976,10 +10701,6 @@ Fish broth,6963,"Fish, tuna, light, canned in water, drained solids",4.67
 "Soup, vegetable beef, canned, condensed",6071,"Milk, averaged fat, with added vitamin A and D",0.103
 "Soup, vegetable beef, canned, condensed",6071,"Sugars, granulated",0.058
 "Soup, vegetable beef, canned, condensed",6071,"Sugars, granulated",0.045
-"Soup, chicken broth, canned, condensed",6013,"Beverages, water, tap, drinking",86.28
-"Soup, chicken broth, canned, condensed",6013,"Chicken, broiler, rotisserie, BBQ, breast, meat only",2.36
-"Soup, chicken broth, canned, condensed",6013,"Fat, chicken",0.568
-"Soup, chicken broth, canned, condensed",6013,"Chicken, broiler, rotisserie, BBQ, breast, meat only",0.001
 "Candies, HERSHEY, REESESTICKS crispy wafers, peanut butter, milk chocolate",19249,"Peanut butter, smooth style, with salt (Includes foods for USDA's Food Distribution Program)",20.713
 "Candies, HERSHEY, REESESTICKS crispy wafers, peanut butter, milk chocolate",19249,"Sugars, granulated",20.023
 "Candies, HERSHEY, REESESTICKS crispy wafers, peanut butter, milk chocolate",19249,"Sugars, granulated",18.757
@@ -11002,7 +10723,6 @@ Fish broth,6963,"Fish, tuna, light, canned in water, drained solids",4.67
 "Frostings, chocolate, creamy, ready-to-eat",19226,"Milk, averaged fat, with added vitamin A and D",0.933
 "Frostings, chocolate, creamy, ready-to-eat",19226,"Oil, corn, industrial and retail, all purpose salad or cooking",0.711
 "Frostings, chocolate, creamy, ready-to-eat",19226,"Oil, canola",0.397
-"Frostings, chocolate, creamy, ready-to-eat",19226,"Spices, pepper, black",0.338
 "Frostings, chocolate, creamy, ready-to-eat",19226,"Oil, cottonseed, salad or cooking",0.056
 "Frostings, chocolate, creamy, ready-to-eat",19226,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.056
 "Frostings, chocolate, creamy, ready-to-eat",19226,"Oil, sunflower, linoleic, (approx. 65%)",0.056
@@ -11021,7 +10741,6 @@ Fish broth,6963,"Fish, tuna, light, canned in water, drained solids",4.67
 "Cake, chocolate, commercially prepared with chocolate frosting, in-store bakery",18096,"Milk, averaged fat, with added vitamin A and D",0.407
 "Cake, chocolate, commercially prepared with chocolate frosting, in-store bakery",18096,"Oil, corn, industrial and retail, all purpose salad or cooking",0.31
 "Cake, chocolate, commercially prepared with chocolate frosting, in-store bakery",18096,"Oil, canola",0.173
-"Cake, chocolate, commercially prepared with chocolate frosting, in-store bakery",18096,"Spices, pepper, black",0.147
 "Cake, chocolate, commercially prepared with chocolate frosting, in-store bakery",18096,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.024
 "Cake, chocolate, commercially prepared with chocolate frosting, in-store bakery",18096,"Oil, sunflower, linoleic, (approx. 65%)",0.024
 "Soup, chicken noodle, canned, condensed",6019,"Carrots, raw",4.97
@@ -11218,7 +10937,6 @@ Cheesecake commercially prepared,18147,"Oil, canola",0.356
 Cheesecake commercially prepared,18147,"Oil, cottonseed, salad or cooking",0.089
 Cheesecake commercially prepared,18147,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.046
 Cheesecake commercially prepared,18147,"Oil, sunflower, linoleic, (approx. 65%)",0.046
-Cheesecake commercially prepared,18147,"Spices, pepper, black",0.029
 "Cake, pound, commercially prepared, fat-free",18451,"Egg, white, raw, fresh",30.012
 "Cake, pound, commercially prepared, fat-free",18451,"Milk, averaged fat, with added vitamin A and D",26.884
 "Cake, pound, commercially prepared, fat-free",18451,"Wheat flour, white, all-purpose, enriched, bleached",25.067
@@ -11239,14 +10957,11 @@ Cheesecake commercially prepared,18147,"Spices, pepper, black",0.029
 "Soup, vegetable with beef broth, canned, condensed",6072,"Beans, snap, green, frozen, cooked, boiled, drained without salt",0.52
 "Soup, vegetable with beef broth, canned, condensed",6072,"Lima beans, immature seeds, frozen, fordhook, cooked, boiled, drained, without salt",0.52
 "Soup, vegetable with beef broth, canned, condensed",6072,Potato flour,0.519
-"Soup, vegetable with beef broth, canned, condensed",6072,"Beef, retail cuts, separable fat, cooked",0.355
 "Soup, vegetable with beef broth, canned, condensed",6072,"Milk, averaged fat, with added vitamin A and D",0.285
 "Soup, vegetable with beef broth, canned, condensed",6072,"Rutabagas, raw",0.28
 "Soup, vegetable with beef broth, canned, condensed",6072,"Cabbage, raw",0.28
-"Soup, vegetable with beef broth, canned, condensed",6072,"Ground beef, cooked, averaged",0.256
 "Soup, vegetable with beef broth, canned, condensed",6072,"Spices, onion powder",0.254
 "Soup, vegetable with beef broth, canned, condensed",6072,"Oil, soybean, salad or cooking",0.238
-"Soup, vegetable with beef broth, canned, condensed",6072,"Ground beef, cooked, averaged",0.2
 "Soup, vegetable with beef broth, canned, condensed",6072,"Sugars, granulated",0.159
 "Soup, vegetable with beef broth, canned, condensed",6072,"Sugars, granulated",0.125
 "Soup, vegetable with beef broth, canned, condensed",6072,"Wheat flour, white, all-purpose, enriched, bleached",0.108
@@ -11276,7 +10991,6 @@ Cheesecake commercially prepared,18147,"Spices, pepper, black",0.029
 "Sweet rolls, cinnamon, commercially prepared with raisins",18356,Molasses,0.323
 "Sweet rolls, cinnamon, commercially prepared with raisins",18356,"Oil, corn, industrial and retail, all purpose salad or cooking",0.162
 "Sweet rolls, cinnamon, commercially prepared with raisins",18356,"Oil, canola",0.09
-"Sweet rolls, cinnamon, commercially prepared with raisins",18356,"Spices, pepper, black",0.077
 "Sweet rolls, cinnamon, commercially prepared with raisins",18356,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.013
 "Sweet rolls, cinnamon, commercially prepared with raisins",18356,"Oil, sunflower, linoleic, (approx. 65%)",0.013
 "Restaurant, Chinese, sesame chicken",36633,"Beverages, water, tap, drinking",28.7
@@ -11480,7 +11194,6 @@ Cheesecake commercially prepared,18147,"Spices, pepper, black",0.029
 "Muffin, blueberry, commercially prepared, low-fat",18940,"Soy flour, defatted",0.1
 "Muffin, blueberry, commercially prepared, low-fat",18940,"Milk, averaged fat, with added vitamin A and D",0.017
 "Muffin, blueberry, commercially prepared, low-fat",18940,"Ginger root, raw",0.001
-"Muffin, blueberry, commercially prepared, low-fat",18940,"Spices, pepper, black",0.001
 "School Lunch, pizza, cheese topping, thin crust, whole grain, frozen, cooked",21600,"Wheat flour, white, all-purpose, enriched, bleached",33.507
 "School Lunch, pizza, cheese topping, thin crust, whole grain, frozen, cooked",21600,"Tomato products, canned, puree, without salt added",14.12
 "School Lunch, pizza, cheese topping, thin crust, whole grain, frozen, cooked",21600,"Tomatoes, red, ripe, raw, year round average",12.95
@@ -11742,7 +11455,6 @@ Cheesecake commercially prepared,18147,"Spices, pepper, black",0.029
 "Cookies, animal, with frosting or icing",28291,"Candies, chocolate, dark, NFS (45-59% cacao solids 90%; 60-69% cacao solids 5%; 70-85% cacao solids 5%)",0.75
 "Cookies, animal, with frosting or icing",28291,"Oil, corn, industrial and retail, all purpose salad or cooking",0.556
 "Cookies, animal, with frosting or icing",28291,"Oil, canola",0.31
-"Cookies, animal, with frosting or icing",28291,"Spices, pepper, black",0.124
 "Cookies, animal, with frosting or icing",28291,"Oil, cottonseed, salad or cooking",0.043
 "Cookies, animal, with frosting or icing",28291,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.043
 "Cookies, animal, with frosting or icing",28291,"Oil, sunflower, linoleic, (approx. 65%)",0.043
@@ -11861,7 +11573,6 @@ Papad,42200,"Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",106.36
 "Beef stew, canned entree",22905,"Beef, retail cuts, separable fat, cooked",5.1
 "Beef stew, canned entree",22905,"Wheat flour, white, all-purpose, enriched, bleached",2.698
 "Beef stew, canned entree",22905,"Peppers, jalapeno, raw",0.856
-"Beef stew, canned entree",22905,"Spices, pepper, black",0.83
 "Beef stew, canned entree",22905,Lard,0.825
 "Beef stew, canned entree",22905,"Spices, marjoram, dried",0.804
 "Beef stew, canned entree",22905,"Oil, soybean, salad or cooking",0.607
@@ -11928,7 +11639,6 @@ Papad,42200,"Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",106.36
 "Pie, mince, prepared from recipe",18322,"Oil, cottonseed, salad or cooking",0.835
 "Pie, mince, prepared from recipe",18322,"Spices, cinnamon, ground",0.151
 "Pie, mince, prepared from recipe",18322,"Spices, ginger, ground",0.032
-"Pie, mince, prepared from recipe",18322,"Spices, pepper, black",0.032
 "Bread, white, commercially prepared (includes soft bread crumbs)",18069,"Wheat flour, white, all-purpose, enriched, bleached",61.742
 "Bread, white, commercially prepared (includes soft bread crumbs)",18069,"Syrups, corn, light",6.904
 "Bread, white, commercially prepared (includes soft bread crumbs)",18069,"Oil, soybean, salad or cooking",2.087
@@ -11946,7 +11656,6 @@ Papad,42200,"Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",106.36
 "Cereals ready-to-eat, NATURE'S PATH, Organic FLAX PLUS, Pumpkin Granola",8571,"Nuts, coconut meat, dried (desiccated), sweetened, flaked, packaged",3.554
 "Cereals ready-to-eat, NATURE'S PATH, Organic FLAX PLUS, Pumpkin Granola",8571,"Sugars, granulated",1.997
 "Cereals ready-to-eat, NATURE'S PATH, Organic FLAX PLUS, Pumpkin Granola",8571,"Sugars, granulated",1.569
-"Cereals ready-to-eat, NATURE'S PATH, Organic FLAX PLUS, Pumpkin Granola",8571,"Spices, pepper, black",0.446
 "Snacks, soy chips or crisps, salted",25025,"Soy flour, defatted",55.221
 "Snacks, soy chips or crisps, salted",25025,"Rice, brown, long-grain, cooked (Includes foods for USDA's Food Distribution Program)",26.26
 "Snacks, soy chips or crisps, salted",25025,"Oil, sunflower, linoleic, (approx. 65%)",18.519
@@ -11963,7 +11672,6 @@ Papad,42200,"Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",106.36
 "Cake, yellow, commercially prepared, with chocolate frosting, in-store bakery",18140,"Oil, cottonseed, salad or cooking",0.382
 "Cake, yellow, commercially prepared, with chocolate frosting, in-store bakery",18140,"Oil, corn, industrial and retail, all purpose salad or cooking",0.304
 "Cake, yellow, commercially prepared, with chocolate frosting, in-store bakery",18140,"Oil, canola",0.17
-"Cake, yellow, commercially prepared, with chocolate frosting, in-store bakery",18140,"Spices, pepper, black",0.144
 "Cake, yellow, commercially prepared, with chocolate frosting, in-store bakery",18140,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.024
 "Cake, yellow, commercially prepared, with chocolate frosting, in-store bakery",18140,"Oil, sunflower, linoleic, (approx. 65%)",0.024
 "Cake, yellow, commercially prepared, with vanilla frosting",18141,"Sugars, granulated",27.087
@@ -11979,7 +11687,6 @@ Papad,42200,"Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",106.36
 "Cake, yellow, commercially prepared, with vanilla frosting",18141,"Oil, cottonseed, salad or cooking",0.382
 "Cake, yellow, commercially prepared, with vanilla frosting",18141,"Oil, corn, industrial and retail, all purpose salad or cooking",0.304
 "Cake, yellow, commercially prepared, with vanilla frosting",18141,"Oil, canola",0.17
-"Cake, yellow, commercially prepared, with vanilla frosting",18141,"Spices, pepper, black",0.144
 "Cake, yellow, commercially prepared, with vanilla frosting",18141,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.024
 "Cake, yellow, commercially prepared, with vanilla frosting",18141,"Oil, sunflower, linoleic, (approx. 65%)",0.024
 "School Lunch, pizza, sausage topping, thick crust, whole grain, frozen, cooked",21605,"Wheat flour, white, all-purpose, enriched, bleached",42.545
@@ -12008,7 +11715,6 @@ Papad,42200,"Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",106.36
 "School Lunch, pizza, sausage topping, thick crust, whole grain, frozen, cooked",21605,"Spices, basil, dried",0.043
 "School Lunch, pizza, sausage topping, thick crust, whole grain, frozen, cooked",21605,"Spices, marjoram, dried",0.043
 "School Lunch, pizza, sausage topping, thick crust, whole grain, frozen, cooked",21605,"Spices, sage, ground",0.043
-"School Lunch, pizza, sausage topping, thick crust, whole grain, frozen, cooked",21605,"Spices, pepper, black",0.019
 "School Lunch, pizza, sausage topping, thick crust, whole grain, frozen, cooked",21605,"Oil, sunflower, linoleic, (approx. 65%)",0.016
 "School Lunch, pizza, sausage topping, thick crust, whole grain, frozen, cooked",21605,"Spices, onion powder",0.003
 "School Lunch, pizza, sausage topping, thick crust, whole grain, frozen, cooked",21605,"Celery, raw",0.003
@@ -12069,7 +11775,6 @@ Papad,42200,"Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",106.36
 "School Lunch, pizza, sausage topping, thin crust, whole grain, frozen, cooked",21604,"Spices, basil, dried",0.043
 "School Lunch, pizza, sausage topping, thin crust, whole grain, frozen, cooked",21604,"Spices, marjoram, dried",0.043
 "School Lunch, pizza, sausage topping, thin crust, whole grain, frozen, cooked",21604,"Spices, sage, ground",0.043
-"School Lunch, pizza, sausage topping, thin crust, whole grain, frozen, cooked",21604,"Spices, pepper, black",0.019
 "School Lunch, pizza, sausage topping, thin crust, whole grain, frozen, cooked",21604,"Oil, sunflower, linoleic, (approx. 65%)",0.016
 "School Lunch, pizza, sausage topping, thin crust, whole grain, frozen, cooked",21604,"Spices, onion powder",0.003
 "School Lunch, pizza, sausage topping, thin crust, whole grain, frozen, cooked",21604,"Celery, raw",0.003
@@ -12261,7 +11966,6 @@ Papad,42200,"Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",106.36
 "Turkey, stuffing, mashed potatoes w/gravy, assorted vegetables, frozen, microwaved",22957,"Spices, marjoram, dried",0.001
 "Turkey, stuffing, mashed potatoes w/gravy, assorted vegetables, frozen, microwaved",22957,"Spices, cinnamon, ground",0.001
 "Turkey, stuffing, mashed potatoes w/gravy, assorted vegetables, frozen, microwaved",22957,"Spices, pepper, black",0.001
-"Turkey, stuffing, mashed potatoes w/gravy, assorted vegetables, frozen, microwaved",22957,"Spices, pepper, black",0.001
 "Turkey, stuffing, mashed potatoes w/gravy, assorted vegetables, frozen, microwaved",22957,"Chicken, broiler, rotisserie, BBQ, breast, meat only",0.001
 "Dessert topping, semi solid, frozen",1073,"Syrups, corn, light",26.507
 "Dessert topping, semi solid, frozen",1073,"Oil, coconut",25.295
@@ -12408,7 +12112,6 @@ Papad,42200,"Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",106.36
 "Cookies, sugar, commercially prepared, regular (includes vanilla)",18204,"Oil, cottonseed, salad or cooking",0.664
 "Cookies, sugar, commercially prepared, regular (includes vanilla)",18204,"Oil, corn, industrial and retail, all purpose salad or cooking",0.397
 "Cookies, sugar, commercially prepared, regular (includes vanilla)",18204,"Oil, canola",0.344
-"Cookies, sugar, commercially prepared, regular (includes vanilla)",18204,"Spices, pepper, black",0.264
 "Cookies, sugar, commercially prepared, regular (includes vanilla)",18204,"Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",0.031
 "Cookies, sugar, commercially prepared, regular (includes vanilla)",18204,"Oil, sunflower, linoleic, (approx. 65%)",0.031
 "Bread, naan, whole wheat, commercially prepared, refrigerated",28287,"Wheat flour, white, all-purpose, enriched, bleached",51.467
@@ -12416,7 +12119,6 @@ Papad,42200,"Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",106.36
 "Bread, naan, whole wheat, commercially prepared, refrigerated",28287,"Milk, averaged fat, with added vitamin A and D",9.768
 "Bread, naan, whole wheat, commercially prepared, refrigerated",28287,"Milk, averaged fat, with added vitamin A and D",3.155
 "Bread, naan, whole wheat, commercially prepared, refrigerated",28287,"Beverages, water, tap, drinking",1.855
-"Bread, naan, whole wheat, commercially prepared, refrigerated",28287,"Spices, pepper, black",0.564
 "Fast foods, cheeseburger; single, regular patty, with condiments",21090,"Wheat flour, white, all-purpose, enriched, bleached",21.099
 "Fast foods, cheeseburger; single, regular patty, with condiments",21090,"Ground beef, cooked, averaged",19.167
 "Fast foods, cheeseburger; single, regular patty, with condiments",21090,"Tomatoes, red, ripe, raw, year round average",13.06
@@ -12481,7 +12183,6 @@ Papad,42200,"Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",106.36
 "Restaurant, family style, chili with meat and beans",36037,"Beef, retail cuts, separable fat, cooked",4.534
 "Restaurant, family style, chili with meat and beans",36037,"Celery, raw",3.6
 "Restaurant, family style, chili with meat and beans",36037,"Peppers, jalapeno, raw",0.118
-"Restaurant, family style, chili with meat and beans",36037,"Spices, pepper, black",0.114
 "Restaurant, family style, chili with meat and beans",36037,"Spices, marjoram, dried",0.111
 "Restaurant, family style, chili with meat and beans",36037,"Garlic, raw",0.007
 "Restaurant, family style, chili with meat and beans",36037,"Spices, pepper, black",0.001
@@ -12562,7 +12263,6 @@ Jellies,19300,"Apple juice, canned or bottled, unsweetened, without added ascorb
 "Bagels, plain, enriched, with calcium propionate (includes onion, poppy, sesame)",18001,"Ginger root, raw",0.001
 "Bagels, plain, enriched, with calcium propionate (includes onion, poppy, sesame)",18001,"Spices, onion powder",0.001
 "Bagels, plain, enriched, with calcium propionate (includes onion, poppy, sesame)",18001,"Spices, cinnamon, ground",0.001
-"Bagels, plain, enriched, with calcium propionate (includes onion, poppy, sesame)",18001,"Spices, pepper, black",0.001
 "Bagels, plain, enriched, with calcium propionate (includes onion, poppy, sesame)",18001,"Seeds, sesame seeds, whole, dried",0.001
 "Restaurant, family style, macaroni & cheese, from kids' menu",36017,"Milk, averaged fat, with added vitamin A and D",35.173
 "Restaurant, family style, macaroni & cheese, from kids' menu",36017,"Beverages, water, tap, drinking",25.27
@@ -12674,3 +12374,13 @@ Jellies,19300,"Apple juice, canned or bottled, unsweetened, without added ascorb
 "Fish, sardine, Pacific, canned in tomato sauce, drained solids with bone",15089,"Fish, tuna, light, canned in water, drained solids",77.33
 "Fish, sardine, Pacific, canned in tomato sauce, drained solids with bone",15089,"Tomato products, canned, puree, without salt added",21.75
 "Fish, sardine, Pacific, canned in tomato sauce, drained solids with bone",15089,"Oil, soybean, salad or cooking",0.132
+"Chili with beans, canned",16059,"Tomatoes, red, ripe, raw, year round average",34.302
+"Chili with beans, canned",16059,"Beans, kidney, red, mature seeds, raw",20.491
+"Chili with beans, canned",16059,"Tomato products, canned, puree, without salt added",15.7
+"Chili with beans, canned",16059,"Onions, raw",8.855
+"Chili with beans, canned",16059,"Celery, raw",4.1
+"Chili with beans, canned",16059,"Peppers, jalapeno, raw",0.518
+"Chili with beans, canned",16059,"Oil, soybean, salad or cooking",0.3
+"Chili with beans, canned",16059,"Spices, marjoram, dried",0.111
+"Chili with beans, canned",16059,"Garlic, raw",0.022
+"Chili with beans, canned",16059,"Spices, pepper, black",0.011

@@ -1,9 +1,19 @@
 # Import packages
 import pandas as pd
+import requests
 
-# Load data
-fndds_16 = pd.ExcelFile('https://www.ars.usda.gov/ARSUserFiles/80400530/apps/2015-2016%20FNDDS%20At%20A%20Glance%20-%20FNDDS%20Ingredients.xlsx').parse('FNDDS Ingredients', header = 1)
-fndds_18 = pd.ExcelFile('https://www.ars.usda.gov/ARSUserFiles/80400530/apps/2017-2018%20FNDDS%20At%20A%20Glance%20-%20FNDDS%20Ingredients.xlsx').parse('FNDDS Ingredients', header = 1)
+url16, url18 = 'https://www.ars.usda.gov/ARSUserFiles/80400530/apps/2015-2016%20FNDDS%20At%20A%20Glance%20-%20FNDDS%20Ingredients.xlsx', 'https://www.ars.usda.gov/ARSUserFiles/80400530/apps/2017-2018%20FNDDS%20At%20A%20Glance%20-%20FNDDS%20Ingredients.xlsx'
+
+header = {
+  "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36",
+  "X-Requested-With": "XMLHttpRequest"
+}
+
+r16 = requests.get(url16, headers=header)
+r18 = requests.get(url18, headers=header)
+
+fndds_16 = pd.ExcelFile(r16.content, engine='openpyxl').parse('FNDDS Ingredients', header = 1)
+fndds_18 = pd.ExcelFile(r18.content, engine='openpyxl').parse('FNDDS Ingredients', header = 1)
 
 # Replace codes
 fndds_16.replace({'Ingredient code': 11100000}, 1111, inplace=True)
@@ -143,8 +153,13 @@ fndds18_ingred_4.to_csv('../data/01/fndds_18_all_ingredients.csv', index=None)
 
 # Part 3: Consolidate ingredient codes for nutrient values data
 # Load data for FNDDS ingredient values
-nutrient_values_16 = pd.ExcelFile('https://www.ars.usda.gov/ARSUserFiles/80400530/apps/2015-2016%20FNDDS%20At%20A%20Glance%20-%20Ingredient%20Nutrient%20Values.xlsx').parse('Ingredient Nutrient Values', header = 1)
-nutrient_values_18 = pd.ExcelFile('https://www.ars.usda.gov/ARSUserFiles/80400530/apps/2017-2018%20FNDDS%20At%20A%20Glance%20-%20Ingredient%20Nutrient%20Values.xlsx').parse('Ingredient Nutrient Values', header = 1)
+url_n16, url_n18 = 'https://www.ars.usda.gov/ARSUserFiles/80400530/apps/2015-2016%20FNDDS%20At%20A%20Glance%20-%20Ingredient%20Nutrient%20Values.xlsx', 'https://www.ars.usda.gov/ARSUserFiles/80400530/apps/2017-2018%20FNDDS%20At%20A%20Glance%20-%20Ingredient%20Nutrient%20Values.xlsx'
+
+r_n16 = requests.get(url_n16, headers=header)
+r_n18 = requests.get(url_n18, headers=header)
+
+nutrient_values_16 = pd.ExcelFile(r_n16.content, engine='openpyxl').parse('Ingredient Nutrient Values', header = 1)
+nutrient_values_18 = pd.ExcelFile(r_n18.content, engine='openpyxl').parse('Ingredient Nutrient Values', header = 1)
 
 nutrient_values_16.rename(columns={'SR description': 'Ingredient description'}, inplace=True)
 nutrient_values_18.rename(columns={'SR description': 'Ingredient description'}, inplace=True)
