@@ -83,7 +83,7 @@ __Required Input Files__
 - **fcid_data.csv** - Food Commodities Ingredient Database (Calculation performed on 6/23/2023 using FCID-WWEIA data for years 2005-2010 from https://fcid.foodrisk.org/recipes/#)
 
 __Information__  
-Many of the ingredient descriptions in FNDDS are multi-ingredient, these ingredient descriptions were manually identified to undergo further ingredientization by using the Food Commodities Ingredient Database which has ingredient representation of of WWEIA data.
+Many of the ingredient descriptions in FNDDS are multi-ingredient, these ingredient descriptions were manually identified to undergo further ingredientization by using the Food Commodities Intake Database which has ingredient representation of of WWEIA data.
 
 __Output__
 - **fcid_match.csv** - Text similarity matches from FCID to FNDDS
