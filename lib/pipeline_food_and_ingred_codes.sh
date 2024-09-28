@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Initializing step 1: consolidating ingredient codes"; date
-python3 ../src/01_consolidate_codes.py
+python3 ../src/01_generate_ingredient_nutrient_db.py
 echo "Initializing step 2: calculating ingredient weights"; date
 python3 ../src/02_calculate_ingredient_weights.py
 echo "Initializing step 3: text matching discontinued codes"; date
