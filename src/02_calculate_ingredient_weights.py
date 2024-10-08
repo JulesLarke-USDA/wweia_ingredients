@@ -79,11 +79,11 @@ main()
 
 aggregated_16 = pd.read_csv('../data/02/fndds_16_ingredient_wt_corrected.csv')
 
-fndds16 = pd.read_csv('../data/01/fndds_16_consolidated_ingredient_codes.csv', usecols=['Food code', 'Main food description', 'Ingredient code', 'Ingredient description', 'Ingredient weight'])
+fndds16 = pd.read_csv('../data/01/fndds_16_ingredient_codes.csv', usecols=['Food code', 'Main food description', 'Ingredient code', 'Ingredient description', 'Ingredient weight', 'Moisture change (%)'])
 fndds16.rename(columns={'Food code': 'parent_foodcode', 'Main food description': 'parent_desc', 'Ingredient code': 'ingred_code', 'Ingredient description': 'ingred_desc', 'Ingredient weight': 'ingred_wt'}, inplace=True)
 fndds16 = fndds16[fndds16['ingred_code']<10000000]
 fndds16_combined = pd.concat([aggregated_16, fndds16], ignore_index=True).drop_duplicates(keep='first')
-fndds16_combined = fndds16_combined.groupby(['parent_foodcode', 'parent_desc', 'ingred_code', 'ingred_desc'])['ingred_wt'].agg(sum).reset_index()
+fndds16_combined = fndds16_combined.groupby(['parent_foodcode', 'parent_desc', 'ingred_code', 'ingred_desc', 'Moisture change (%)'])['ingred_wt'].agg(sum).reset_index()
 
 # -*- coding: utf-8 -*-
 """
@@ -126,11 +126,11 @@ main()
 
 aggregated_18 = pd.read_csv('../data/02/fndds_18_ingredient_wt_corrected.csv')
 
-fndds18 = pd.read_csv('../data/01/fndds_18_consolidated_ingredient_codes.csv', usecols=['Food code', 'Main food description', 'Ingredient code', 'Ingredient description', 'Ingredient weight (g)'])
+fndds18 = pd.read_csv('../data/01/fndds_18_ingredient_codes.csv', usecols=['Food code', 'Main food description', 'Ingredient code', 'Ingredient description', 'Ingredient weight (g)', 'Moisture change (%)'])
 fndds18.rename(columns={'Food code': 'parent_foodcode', 'Main food description': 'parent_desc', 'Ingredient code': 'ingred_code', 'Ingredient description': 'ingred_desc', 'Ingredient weight (g)': 'ingred_wt'}, inplace=True)
 fndds18 = fndds18[fndds18['ingred_code']<10000000]
 fndds18_combined = pd.concat([aggregated_18, fndds18], ignore_index=True).drop_duplicates(keep='first')
-fndds18_combined = fndds18_combined.groupby(['parent_foodcode', 'parent_desc', 'ingred_code', 'ingred_desc'])['ingred_wt'].agg(sum).reset_index()
+fndds18_combined = fndds18_combined.groupby(['parent_foodcode', 'parent_desc', 'ingred_code', 'ingred_desc', 'Moisture change (%)'])['ingred_wt'].agg(sum).reset_index()
 
 fndds16_diff = fndds16_combined[~fndds16_combined['parent_foodcode'].isin(fndds18_combined['parent_foodcode'])]
 
@@ -138,6 +138,16 @@ fndds18_diff = fndds18_combined[~fndds18_combined['parent_foodcode'].isin(fndds1
 
 fndds_16_18_all = pd.concat([fndds16_diff, fndds18_combined])
 
-fndds_16_18_all.loc[-1] = [83208000, 'Coleslaw dressing, light', 42230, 'Salad Dressing, coleslaw, reduced fat', 100] # code missing from data added in
+fndds_16_18_all.loc[-1] = [83208000, 'Coleslaw dressing, light', 42230, 'Salad Dressing, coleslaw, reduced fat', 0, 100] # code missing from data added in
+
+# correct ingredient weights for moisture change after cooking
+water = pd.read_csv('../data/01/fndds_all_ingredient_nutrient_values.csv', usecols=['Ingredient code', 'Ingredient description', 'Water'])
+
+water = water.rename(columns={'Ingredient code':'ingred_code'})
+fndds_16_18_all = fndds_16_18_all.merge(water, on='ingred_code')
+fndds_16_18_all['Water Change'] = fndds_16_18_all['Water'] * (fndds_16_18_all['Moisture change (%)'] / 100)
+fndds_16_18_all['Corrected Weight'] = fndds_16_18_all['ingred_wt'] + (fndds_16_18_all['ingred_wt'] * (fndds_16_18_all['Water Change']/100))
+fndds_16_18_all = fndds_16_18_all[['parent_foodcode', 'parent_desc', 'ingred_code', 'ingred_desc', 'Corrected Weight']]
+fndds_16_18_all.rename(columns={'Corrected weight':'ingred_wt'},inplace=True)
 
 fndds_16_18_all.to_csv('../data/02/fndds_16_18_all.csv', index=None)
