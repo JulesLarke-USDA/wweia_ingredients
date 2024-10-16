@@ -392,7 +392,7 @@ wweia_xwalk.drop(columns=['foodcode', 'food_description', 'DRXFCLD'],inplace=Tru
 
 wweia_xwalk.rename(columns={'DRXFDCD': 'foodcode'},inplace=True)
 
-fndds_ingredients = pd.read_csv('../data/03b/fndds_fcid_all_moisture_corrected.csv')
+fndds_ingredients = pd.read_csv('../data/03c/fndds_fcid_all_moisture_corrected.csv')
 fndds_ingredients.rename(columns={'parent_foodcode': 'foodcode', 'parent_desc': 'food_description'}, inplace=True)
 fndds_ingredients = fndds_ingredients.dropna()
 
